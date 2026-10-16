@@ -41,7 +41,11 @@ type Source struct {
 	TrackingTable string
 	FS            fs.FS
 	Dir           string
-	PreCheck      func(url string) error
+	// BaselineDir optionally names a directory in FS with one transactional migration.
+	// Its version must exist in Dir's history. RunUp uses it only before any
+	// nonzero version exists; upgrades and rollbacks retain the original history.
+	BaselineDir string
+	PreCheck    func(url string) error
 }
 
 // BuiltinSources returns the built-in migration sources in the default schemas.
@@ -114,7 +118,7 @@ func RunUpAsRole(ctx context.Context, url, role string, sources []Source) error 
 		if err := ctx.Err(); err != nil {
 			return fmt.Errorf("cancel before %s migrations: %w", src.Name, err)
 		}
-		err := withProvider(ctx, url, role, src, func(provider *goose.Provider) error {
+		err := withProvider(ctx, url, role, src, true, func(provider *goose.Provider) error {
 			_, err := provider.Up(ctx)
 			return err
 		})
@@ -212,16 +216,16 @@ func VerifyMigratedAsRole(ctx context.Context, url, role string, sources []Sourc
 
 // WithProvider runs fn while one source lock is held.
 func WithProvider(ctx context.Context, url string, src Source, fn func(*goose.Provider) error) (retErr error) {
-	return withProvider(ctx, url, "", src, fn)
+	return withProvider(ctx, url, "", src, false, fn)
 }
 
 // WithProviderAsRole runs fn while one source lock is held and every database
 // connection has assumed role.
 func WithProviderAsRole(ctx context.Context, url, role string, src Source, fn func(*goose.Provider) error) error {
-	return withProvider(ctx, url, role, src, fn)
+	return withProvider(ctx, url, role, src, false, fn)
 }
 
-func withProvider(ctx context.Context, url, role string, src Source, fn func(*goose.Provider) error) (retErr error) {
+func withProvider(ctx context.Context, url, role string, src Source, applyBaseline bool, fn func(*goose.Provider) error) (retErr error) {
 	if err := validateSources([]Source{src}); err != nil {
 		return err
 	}
@@ -282,6 +286,12 @@ func withProvider(ctx context.Context, url, role string, src Source, fn func(*go
 			retErr = errors.Join(retErr, fmt.Errorf("unlock %s migrations: %w", src.Name, err))
 		}
 	}()
+
+	if applyBaseline && src.BaselineDir != "" {
+		if err := runBaseline(ctx, db, src); err != nil {
+			return fmt.Errorf("apply %s baseline: %w", src.Name, err)
+		}
+	}
 
 	sourceFS, err := fs.Sub(src.FS, src.Dir)
 	if err != nil {
