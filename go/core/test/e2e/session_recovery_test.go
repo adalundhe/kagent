@@ -36,6 +36,13 @@ func TestSessionRevertCrashedRuntime(t *testing.T) {
 		session, err := fixture.sessions.GetSession(fixture.ctx, &apiv1.GetSessionRequest{SessionId: fixture.sessionID})
 		require.NoError(t, err)
 		namespace, name := session.Session.Agent.Namespace, substrate.ActorName(fixture.sessionID)
+		require.NoError(t, wait.PollUntilContextTimeout(fixture.ctx, 100*time.Millisecond, time.Minute, true, func(ctx context.Context) (bool, error) {
+			_, err := fixture.sessions.SuspendSession(ctx, &apiv1.SuspendSessionRequest{SessionId: fixture.sessionID})
+			if status.Code(err) == codes.FailedPrecondition {
+				return false, nil
+			}
+			return err == nil, err
+		}))
 		_, err = fixture.sessions.ResumeSession(fixture.ctx, &apiv1.ResumeSessionRequest{SessionId: fixture.sessionID})
 		require.NoError(t, err)
 		running, err := findSubstrateActor(fixture.ctx, fixture.system, namespace, name)
