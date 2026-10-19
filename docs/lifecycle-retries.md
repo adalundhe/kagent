@@ -36,6 +36,19 @@ for subsequent invocations. Omitting it generates a new ID on each invocation,
 so rerunning that command is a new creation rather than a retry. MCP callers
 should likewise retain the `request_id` passed to `create_sandbox`.
 
+## Recovering a crashed Session
+
+Call `SessionService.RevertSession` with the Session ID to restore its recorded runtime to the last external snapshot.
+The caller needs Session update access. The operation verifies Substrate's CRASHED state and the recorded Actor identity.
+Recovery fails interrupted turns and waiting tasks absent from the retained snapshot.
+It preserves durable terminal results and returns the Session to READY with its Actor suspended.
+It discards runtime changes since that snapshot and does not replay input.
+A runtime without a snapshot restarts from its initial state.
+
+Retry an interrupted revert against the same Session ID. Pending recovery retains its operation across API restarts.
+After recovery succeeds, another revert returns `FAILED_PRECONDITION` because the Actor is healthy.
+Checkpoint creation and claimed idle suspension return `ABORTED` until their operations finish.
+
 ## Errors
 
 | gRPC status | Client action |

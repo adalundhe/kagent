@@ -90,6 +90,7 @@ func TestInvalidSessionAndCheckpointIDsNeverReachHandlers(t *testing.T) {
 		&apiv1.UpdateSessionNameRequest{SessionId: "invalid"},
 		&apiv1.SuspendSessionRequest{SessionId: "invalid"},
 		&apiv1.ResumeSessionRequest{SessionId: "invalid"},
+		&apiv1.RevertSessionRequest{SessionId: "invalid"},
 		&apiv1.DeleteSessionRequest{SessionId: "invalid"},
 		&apiv1.CreateSessionShareRequest{SessionId: "invalid"},
 		&apiv1.ListSessionSharesRequest{SessionId: "invalid"},

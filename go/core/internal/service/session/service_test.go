@@ -131,6 +131,11 @@ func (w serviceTestWorkflow) Resume(_ context.Context, session *apiv1.Session) (
 	return session, w.err
 }
 
+// Revert returns the configured lifecycle outcome.
+func (w serviceTestWorkflow) Revert(_ context.Context, session *apiv1.Session) (*apiv1.Session, error) {
+	return session, w.err
+}
+
 func (w serviceTestWorkflow) Delete(_ context.Context, session *apiv1.Session) (*apiv1.Session, error) {
 	return session, w.err
 }
@@ -210,6 +215,7 @@ func TestServiceLifecycleMethodsPreserveContentionErrors(t *testing.T) {
 	}{
 		{name: "suspend", call: (*Service).Suspend},
 		{name: "resume", call: (*Service).Resume},
+		{name: "revert", call: (*Service).Revert},
 		{name: "delete", call: (*Service).Delete},
 	} {
 		t.Run(test.name, func(t *testing.T) {
@@ -564,6 +570,7 @@ func TestServiceRejectsReadOnlyShareMutationsWithoutTransport(t *testing.T) {
 	}{
 		{name: "suspend", call: func() error { _, err := service.Suspend(ctx, id); return err }},
 		{name: "resume", call: func() error { _, err := service.Resume(ctx, id); return err }},
+		{name: "revert", call: func() error { _, err := service.Revert(ctx, id); return err }},
 		{name: "delete", call: func() error { _, err := service.Delete(ctx, id); return err }},
 		{name: "rename", call: func() error { _, err := service.Rename(ctx, id, "title"); return err }},
 		{name: "share creation", call: func() error {

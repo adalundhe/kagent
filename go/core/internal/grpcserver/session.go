@@ -67,6 +67,15 @@ func (s *sessionServer) ResumeSession(ctx context.Context, request *apiv1.Resume
 	return &apiv1.ResumeSessionResponse{Session: session}, nil
 }
 
+// RevertSession restores the authorized Session through its lifecycle workflow.
+func (s *sessionServer) RevertSession(ctx context.Context, request *apiv1.RevertSessionRequest) (*apiv1.RevertSessionResponse, error) {
+	session, err := s.service.Revert(ctx, request.GetSessionId())
+	if err != nil {
+		return nil, err
+	}
+	return &apiv1.RevertSessionResponse{Session: session}, nil
+}
+
 func (s *sessionServer) DeleteSession(ctx context.Context, request *apiv1.DeleteSessionRequest) (*apiv1.DeleteSessionResponse, error) {
 	session, err := s.service.Delete(ctx, request.GetSessionId())
 	if err != nil {

@@ -567,6 +567,11 @@ func (*fakeSessionWorkflow) Resume(_ context.Context, session *apiv1.Session) (*
 	return session, nil
 }
 
+// Revert preserves the fixture Session without issuing runtime work.
+func (*fakeSessionWorkflow) Revert(_ context.Context, session *apiv1.Session) (*apiv1.Session, error) {
+	return session, nil
+}
+
 func (*fakeSessionWorkflow) Delete(_ context.Context, session *apiv1.Session) (*apiv1.Session, error) {
 	return session, nil
 }
