@@ -494,3 +494,37 @@ func TestExplicitRevertPreservesOnlyCapturedWaits(t *testing.T) {
 		}
 	}
 }
+
+// TestExplicitRevertRetainsWaitCapturedByLaterTurn keeps older continuations present in a newer snapshot.
+func TestExplicitRevertRetainsWaitCapturedByLaterTurn(t *testing.T) {
+	store, actors, session, waiting, version := crashedTurnFixture(t)
+	waiting.Status.State = a2a.TaskStateInputRequired
+	hash := sha256.Sum256([]byte("waiting"))
+	version, err := store.UpdateSessionTask(t.Context(), session.Id, version, hash[:], waiting, waiting, "")
+	require.NoError(t, err)
+	require.NoError(t, store.SettleSessionTask(t.Context(), session.Id, string(waiting.ID), version))
+	message := a2a.NewMessage(a2a.MessageRoleUser, a2a.NewTextPart("another turn"))
+	message.ContextID = session.ContextId
+	later := a2a.NewSubmittedTask(message, message)
+	later.Status.State = a2a.TaskStateCompleted
+	hash = sha256.Sum256([]byte("later completed turn"))
+	version, err = store.CreateRuntimeTask(t.Context(), session.Id, hash[:], later, "")
+	require.NoError(t, err)
+	require.NoError(t, store.SettleSessionTask(t.Context(), session.Id, string(later.ID), version))
+	work, err := store.ClaimSessionQuiescence(t.Context())
+	require.NoError(t, err)
+	require.NoError(t, store.FinishSessionQuiescence(t.Context(), work, &database.SessionTaskSnapshot{
+		Atespace: "team-a", URI: "s3://snapshots/later-turn", ContentScope: "DATA",
+	}))
+	actors.actors[actorKey("team-a", substrate.ActorName(session.Id))].Status.ExternalSnapshot = &ateapipb.ExternalSnapshot{
+		SnapshotUri: "s3://snapshots/later-turn", ContentScope: ateapipb.SnapshotContentScope_SNAPSHOT_CONTENT_SCOPE_DATA,
+	}
+	_, err = NewActorWorkflow(store, actors, make(chan struct{}, 1), time.Minute).Revert(t.Context(), session)
+	require.NoError(t, err)
+	retained, err := store.GetSettledSessionTask(t.Context(), session.Id, string(waiting.ID), nil)
+	require.NoError(t, err)
+	require.Equal(t, a2a.TaskStateInputRequired, retained.Status.State)
+	retained, err = store.GetSettledSessionTask(t.Context(), session.Id, string(later.ID), nil)
+	require.NoError(t, err)
+	require.Equal(t, a2a.TaskStateCompleted, retained.Status.State)
+}
