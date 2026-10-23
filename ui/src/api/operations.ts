@@ -290,6 +290,7 @@ export interface OperationMap {
 
   "agentInstances.suspend": { input: AgentInstanceRef; output: AgentInstance };
   "agentInstances.resume": { input: AgentInstanceRef; output: AgentInstance };
+  "agentInstances.revert": { input: AgentInstanceRef; output: AgentInstance };
 
   "harnesses.list": { input: { namespace?: string }; output: Harness[] };
   /**

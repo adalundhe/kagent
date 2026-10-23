@@ -204,6 +204,9 @@ export interface AgentInstancesApi {
   /** Resumes a suspended instance. The mirror of `suspend`, and `canResume` guards it. */
   resume(id: string): Promise<AgentInstance>;
 
+  /** Restores a crashed runtime to its last retained snapshot. */
+  revert(id: string): Promise<AgentInstance>;
+
   create(input: {
     agent: ResourceRefInput;
     /**
@@ -370,6 +373,7 @@ export function createApiClient(): KagentApiClient {
         invoke("agentInstances.get", { id }, options),
       suspend: (id) => invoke("agentInstances.suspend", { id }),
       resume: (id) => invoke("agentInstances.resume", { id }),
+      revert: (id) => invoke("agentInstances.revert", { id }),
       create: (input) => invoke("agentInstances.create", input),
       remove: (id) => invoke("agentInstances.delete", { id }),
       fork: (id, name) =>
