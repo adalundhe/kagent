@@ -18,11 +18,13 @@ import (
 	ctrlclient "sigs.k8s.io/controller-runtime/pkg/client"
 
 	apiv1 "github.com/kagent-dev/kagent/go/api/gen/kagent/api/v1"
+	configv1 "github.com/kagent-dev/kagent/go/api/gen/kagent/config/v1"
 	"github.com/kagent-dev/kagent/go/core/internal/substrate"
 )
 
 func TestSessionRevertCrashedRuntime(t *testing.T) {
 	target := interactionTarget(t)
+	setSessionPolicy(t, target, func(cfg *configv1.SessionsConfig) { cfg.AutomaticRecovery = false })
 	forEachHarness(t, func(t *testing.T, harness testHarness) {
 		fixture := newInteractionFixture(t, harness, target, startInteractionMock(t))
 		_, _, task := fixture.send(t, "What is 2+2?")
@@ -86,6 +88,10 @@ func TestSessionRevertCrashedRuntime(t *testing.T) {
 			return actor.GetStatus().GetState() == ateapipb.ActorState_ACTOR_STATE_CRASHED, err
 		})
 		require.NoError(t, err)
+		observed, err := fixture.sessions.GetSession(fixture.ctx, &apiv1.GetSessionRequest{SessionId: fixture.sessionID})
+		require.NoError(t, err)
+		require.True(t, observed.Session.GetRecovery().GetNeeded())
+		require.False(t, observed.Session.GetRecovery().GetAutomatic())
 		reverted, err := fixture.sessions.RevertSession(fixture.ctx, request)
 		require.NoError(t, err)
 		require.Equal(t, apiv1.RuntimeState_RUNTIME_STATE_READY, reverted.Session.State)
