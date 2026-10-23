@@ -75,6 +75,7 @@ func DefaultMethodPolicies() MethodPolicies {
 	policies[apiv1.SessionService_UpdateSessionName_FullMethodName] = auth.AccessUpdate
 	policies[apiv1.SessionService_SuspendSession_FullMethodName] = auth.AccessUpdate
 	policies[apiv1.SessionService_ResumeSession_FullMethodName] = auth.AccessUpdate
+	policies[apiv1.SessionService_RevertSession_FullMethodName] = auth.AccessUpdate
 	policies[apiv1.SessionService_DeleteSession_FullMethodName] = auth.AccessDelete
 	policies[apiv1.SessionService_CreateSessionShare_FullMethodName] = auth.AccessCreate
 	policies[apiv1.SessionService_ListSessionShares_FullMethodName] = auth.AccessRead
