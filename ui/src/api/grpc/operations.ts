@@ -594,6 +594,15 @@ function toAgentInstance(instance: PbSession): AgentInstance {
           message: orUndefined(instance.failure.message),
         }
       : undefined,
+    recovery: instance.recovery
+      ? {
+          needed: instance.recovery.needed,
+          failedMessages: instance.recovery.failedMessages.map((message) => ({
+            taskId: message.taskId,
+            messageId: message.messageId,
+          })),
+        }
+      : undefined,
     createdAt: isoFrom(instance.createdAt),
     updatedAt: isoFrom(instance.updatedAt),
   };
@@ -668,6 +677,7 @@ const agentInstances: Pick<
   | "agentInstances.delete"
   | "agentInstances.suspend"
   | "agentInstances.resume"
+  | "agentInstances.revert"
 > = {
   "agentInstances.list": async (input, options) => {
     const name = "SessionService/ListSessions";
@@ -967,6 +977,17 @@ const agentInstances: Pick<
       serviceClient(SessionService).resumeSession(
         { sessionId: input.id },
         call("agentInstances.resume", options),
+      ),
+    );
+    return toAgentInstance(required(response.session, name, "agent instance"));
+  },
+
+  "agentInstances.revert": async (input, options) => {
+    const name = "SessionService/RevertSession";
+    const response = await rpc(name, options.signal, () =>
+      serviceClient(SessionService).revertSession(
+        { sessionId: input.id },
+        call("agentInstances.revert", options),
       ),
     );
     return toAgentInstance(required(response.session, name, "agent instance"));
