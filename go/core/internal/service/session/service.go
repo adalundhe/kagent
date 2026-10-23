@@ -40,6 +40,7 @@ type sessionWorkflow interface {
 	Create(context.Context, *apiv1.Session) (*apiv1.Session, error)
 	Suspend(context.Context, *apiv1.Session) (*apiv1.Session, error)
 	Resume(context.Context, *apiv1.Session) (*apiv1.Session, error)
+	Revert(context.Context, *apiv1.Session) (*apiv1.Session, error)
 	Delete(context.Context, *apiv1.Session) (*apiv1.Session, error)
 }
 
@@ -315,6 +316,24 @@ func (s *Service) Resume(ctx context.Context, id string) (*apiv1.Session, error)
 	}
 	if err != nil {
 		return nil, serviceerrors.NewUnavailable("Failed to resume Session", err)
+	}
+	return session, nil
+}
+
+func (s *Service) Revert(ctx context.Context, id string) (*apiv1.Session, error) {
+	session, err := s.getAuthorized(ctx, id, auth.VerbUpdate)
+	if err != nil {
+		return nil, err
+	}
+	session, err = s.workflow.Revert(ctx, session)
+	if errors.Is(err, database.ErrFailedPrecondition) {
+		return nil, serviceerrors.NewFailedPrecondition(err.Error(), err)
+	}
+	if errors.Is(err, database.ErrConflict) {
+		return nil, serviceerrors.NewAborted(err.Error(), err)
+	}
+	if err != nil {
+		return nil, serviceerrors.NewUnavailable("Failed to revert Session", err)
 	}
 	return session, nil
 }

@@ -22,6 +22,8 @@ service SessionService {
   rpc UpdateSessionName(UpdateSessionNameRequest) returns (UpdateSessionNameResponse);
   rpc SuspendSession(SuspendSessionRequest) returns (SuspendSessionResponse);
   rpc ResumeSession(ResumeSessionRequest) returns (ResumeSessionResponse);
+  // Restores a crashed runtime to its last snapshot without replaying its turn.
+  rpc RevertSession(RevertSessionRequest) returns (RevertSessionResponse);
   rpc DeleteSession(DeleteSessionRequest) returns (DeleteSessionResponse);
   rpc CreateSessionShare(CreateSessionShareRequest) returns (CreateSessionShareResponse);
   rpc ListSessionShares(ListSessionSharesRequest) returns (ListSessionSharesResponse);
@@ -127,6 +129,14 @@ message ResumeSessionRequest {
 }
 
 message ResumeSessionResponse {
+  Session session = 1;
+}
+
+message RevertSessionRequest {
+  string session_id = 1 [(buf.validate.field).string.uuid = true];
+}
+
+message RevertSessionResponse {
   Session session = 1;
 }
 
