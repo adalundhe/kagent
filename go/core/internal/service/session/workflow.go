@@ -15,6 +15,8 @@ import (
 )
 
 type workflowStore interface {
+	ListSessionRecoveryCandidates(context.Context, string, int) ([]*apiv1.Session, error)
+	BeginCrashedSessionRecovery(context.Context, string, string, database.SessionTaskSnapshot) (*database.SessionOperation, error)
 	ClaimSessionQuiescence(context.Context) (*database.SessionQuiescence, error)
 	HasPendingSessionQuiescence(context.Context) (bool, error)
 	FinishSessionQuiescence(context.Context, *database.SessionQuiescence, *database.SessionTaskSnapshot) error
@@ -30,6 +32,7 @@ type workflowStore interface {
 
 type actorClient interface {
 	substrate.LifecycleClient
+	RevertActor(context.Context, string, string) (*ateapipb.Actor, error)
 }
 
 // ActorWorkflow runs the imperative Substrate operations behind Session
@@ -137,6 +140,9 @@ func (w *ActorWorkflow) execute(ctx context.Context, operation *database.Session
 	sessionID := operation.Instance.Id
 	if operation.Instance.Operation == apiv1.RuntimeOperation_RUNTIME_OPERATION_NONE {
 		return operationOutcome(operation)
+	}
+	if operation.Instance.State == apiv1.RuntimeState_RUNTIME_STATE_FAILED && operation.Instance.Failure.GetReason() == database.SessionRuntimeCrashed {
+		return w.recoverCrashedSession(ctx, operation)
 	}
 	kind := operation.Instance.Operation
 	session := operation.Instance
