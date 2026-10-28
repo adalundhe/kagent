@@ -1,0 +1,85 @@
+=== RUN   TestTaskStoreOutageEvidence
+    zz_taskstore_outage_evidence_test.go:98: [   100ms] scheduled run 99789799-d945-4ba5-ae7f-d6a2082e478f triggered as admin@kagent.dev; prompt "What is 2+2?"
+    zz_taskstore_outage_evidence_test.go:98: [    1.4s] the agent reached the mock model; the turn is held there
+    zz_taskstore_outage_evidence_test.go:98: [    1.4s] execution 01a183a5-275f-7e01-b7f9-b6ef53fc29a7 is RUNNING: session 01a183a5-2a57-7cc3-b851-15e72b2b200c, task 01a183a5-2bbe-74e9-b015-c04cf495901b
+    zz_taskstore_outage_evidence_test.go:98: [    2.4s] controller scaled to zero and its Pod gone after 1s; the model is released, so the agent answers and saves now
+    zz_taskstore_outage_evidence_test.go:98: [   32.4s] outage held for 30s; scaling the controller back to one replica
+    zz_taskstore_outage_evidence_test.go:98: [   34.4s] controller Ready again; it was unavailable for 33s in total
+    zz_taskstore_outage_evidence_test.go:98: [   34.4s] execution state: SCHEDULED_RUN_EXECUTION_STATE_RUNNING 
+    zz_taskstore_outage_evidence_test.go:98: [   34.4s] task state: TASK_STATE_WORKING
+    zz_taskstore_outage_evidence_test.go:98: [ 3m35.1s] after 3 minutes the execution is still SCHEDULED_RUN_EXECUTION_STATE_RUNNING and the task still TASK_STATE_WORKING
+    zz_taskstore_outage_evidence_test.go:98: [ 3m35.1s] follow-up message on the same session refused: rpc error: code = FailedPrecondition desc = resource conflict
+    zz_taskstore_outage_evidence_test.go:232: report:
+        {
+          "label": "before",
+          "runtime_image": "localhost:5001/kagent-dev/kagent/golang-adk@sha256:3508cbe94ecc67dddce2ac639bb59bb4a5d5a71e438edcedbf99f868d2b0fa40",
+          "agent": "kagent/interaction-csrc5",
+          "schedule_id": "99789799-d945-4ba5-ae7f-d6a2082e478f",
+          "execution_id": "01a183a5-275f-7e01-b7f9-b6ef53fc29a7",
+          "session_id": "01a183a5-2a57-7cc3-b851-15e72b2b200c",
+          "task_id": "01a183a5-2bbe-74e9-b015-c04cf495901b",
+          "outage": "30s",
+          "controller_down_for": "33s",
+          "final_execution_state": "SCHEDULED_RUN_EXECUTION_STATE_RUNNING",
+          "final_task_state": "TASK_STATE_WORKING",
+          "final_task_text": "",
+          "model_calls_for_turn": 1,
+          "follow_up_accepted": false,
+          "follow_up_error": "rpc error: code = FailedPrecondition desc = resource conflict",
+          "events": [
+            {
+              "at": "100ms",
+              "wall": "2026-10-28T17:53:21.253051996Z",
+              "what": "scheduled run 99789799-d945-4ba5-ae7f-d6a2082e478f triggered as admin@kagent.dev; prompt \"What is 2+2?\""
+            },
+            {
+              "at": "1.4s",
+              "wall": "2026-10-28T17:53:22.495445129Z",
+              "what": "the agent reached the mock model; the turn is held there"
+            },
+            {
+              "at": "1.4s",
+              "wall": "2026-10-28T17:53:22.496923138Z",
+              "what": "execution 01a183a5-275f-7e01-b7f9-b6ef53fc29a7 is RUNNING: session 01a183a5-2a57-7cc3-b851-15e72b2b200c, task 01a183a5-2bbe-74e9-b015-c04cf495901b"
+            },
+            {
+              "at": "2.4s",
+              "wall": "2026-10-28T17:53:23.50832862Z",
+              "what": "controller scaled to zero and its Pod gone after 1s; the model is released, so the agent answers and saves now"
+            },
+            {
+              "at": "32.4s",
+              "wall": "2026-10-28T17:53:53.537544365Z",
+              "what": "outage held for 30s; scaling the controller back to one replica"
+            },
+            {
+              "at": "34.4s",
+              "wall": "2026-10-28T17:53:55.551600659Z",
+              "what": "controller Ready again; it was unavailable for 33s in total"
+            },
+            {
+              "at": "34.4s",
+              "wall": "2026-10-28T17:53:55.559137418Z",
+              "what": "execution state: SCHEDULED_RUN_EXECUTION_STATE_RUNNING "
+            },
+            {
+              "at": "34.4s",
+              "wall": "2026-10-28T17:53:55.559163886Z",
+              "what": "task state: TASK_STATE_WORKING"
+            },
+            {
+              "at": "3m35.1s",
+              "wall": "2026-10-28T17:56:56.214844251Z",
+              "what": "after 3 minutes the execution is still SCHEDULED_RUN_EXECUTION_STATE_RUNNING and the task still TASK_STATE_WORKING"
+            },
+            {
+              "at": "3m35.1s",
+              "wall": "2026-10-28T17:56:56.220908884Z",
+              "what": "follow-up message on the same session refused: rpc error: code = FailedPrecondition desc = resource conflict"
+            }
+          ]
+        }
+    zz_taskstore_outage_evidence_test.go:236: holding up to 25m0s for screenshots; create /home/adalundhe/i556/sim/evidence/before/before.release to finish
+--- PASS: TestTaskStoreOutageEvidence (761.19s)
+PASS
+ok  	github.com/kagent-dev/kagent/go/core/test/e2e	761.226s

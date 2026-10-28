@@ -1,0 +1,86 @@
+2026-10-28T18:07:00.284523355Z {"time":"2026-10-28T18:07:00.28427493Z","level":"INFO","msg":"starting API server","component":"api_server","address":"[::]:8083"}
+2026-10-28T18:07:00.284535972Z 2026-10-28T18:07:00.284439Z	info	cluster "kagent" kube client started
+2026-10-28T18:07:00.289363586Z {"time":"2026-10-28T18:07:00.289167366Z","level":"INFO","msg":"Attempting to acquire leader lease...","logger":"leaderelection","lock":"kagent/0e9f6799.kagent.dev"}
+2026-10-28T18:07:00.295633731Z 2026-10-28T18:07:00.295523Z	info	sync complete	name=kagent/Secrets attempt=17 time=1.13106133s
+2026-10-28T18:07:00.295651865Z 2026-10-28T18:07:00.295564Z	info	krt	kagent/Secrets synced	owner=kagent/Secrets
+2026-10-28T18:07:00.295655453Z 2026-10-28T18:07:00.295571Z	info	sync complete	name=kagent/RemoteMCPServers attempt=17 time=1.131160191s
+2026-10-28T18:07:00.295658061Z 2026-10-28T18:07:00.295582Z	info	krt	kagent/RemoteMCPServers synced	owner=kagent/RemoteMCPServers
+2026-10-28T18:07:00.295660376Z 2026-10-28T18:07:00.295587Z	info	sync complete	name=kagent/Harnesses attempt=17 time=1.131184506s
+2026-10-28T18:07:00.295662758Z 2026-10-28T18:07:00.295596Z	info	krt	kagent/Harnesses synced	owner=kagent/Harnesses
+2026-10-28T18:07:00.295670233Z 2026-10-28T18:07:00.295601Z	info	sync complete	name=kagent/EgressPolicies attempt=17 time=1.131265832s
+2026-10-28T18:07:00.295673082Z 2026-10-28T18:07:00.295610Z	info	krt	kagent/EgressPolicies synced	owner=kagent/EgressPolicies
+2026-10-28T18:07:00.295675575Z 2026-10-28T18:07:00.295614Z	info	sync complete	name=kagent/ConfigMaps attempt=17 time=1.131192324s
+2026-10-28T18:07:00.295677794Z 2026-10-28T18:07:00.295622Z	info	krt	kagent/ConfigMaps synced	owner=kagent/ConfigMaps
+2026-10-28T18:07:00.295809614Z 2026-10-28T18:07:00.295749Z	info	sync complete	name=kagent/WorkerPools attempt=17 time=1.131341049s
+2026-10-28T18:07:00.295823694Z 2026-10-28T18:07:00.295775Z	info	krt	kagent/WorkerPools synced	owner=kagent/WorkerPools
+2026-10-28T18:07:00.295825188Z 2026-10-28T18:07:00.295781Z	info	sync complete	name=kagent/Agents attempt=17 time=1.131403184s
+2026-10-28T18:07:00.295826744Z 2026-10-28T18:07:00.295791Z	info	krt	kagent/Agents synced	owner=kagent/Agents
+2026-10-28T18:07:00.295849362Z 2026-10-28T18:07:00.295832Z	info	sync complete	name=kagent/AgentTemplates attempt=17 time=1.13146843s
+2026-10-28T18:07:00.295850571Z 2026-10-28T18:07:00.295841Z	info	krt	kagent/AgentTemplates synced	owner=kagent/AgentTemplates
+2026-10-28T18:07:00.295874036Z 2026-10-28T18:07:00.295846Z	info	sync complete	name=kagent/ModelConfigs attempt=17 time=1.131464175s
+2026-10-28T18:07:00.295887318Z 2026-10-28T18:07:00.295854Z	info	krt	kagent/ModelConfigs synced	owner=kagent/ModelConfigs
+2026-10-28T18:07:00.295893581Z 2026-10-28T18:07:00.295875Z	info	sync complete	name=kagent/SandboxTemplates attempt=17 time=1.131502225s
+2026-10-28T18:07:00.295896362Z 2026-10-28T18:07:00.295887Z	info	krt	kagent/SandboxTemplates synced	owner=kagent/SandboxTemplates
+2026-10-28T18:07:00.298179097Z 2026-10-28T18:07:00.298000Z	info	sync complete	name=kagent/Agents handler attempt=2 time=2.04848ms
+2026-10-28T18:07:00.298185458Z 2026-10-28T18:07:00.298012Z	info	sync complete	name=kagent/ModelConfigs handler attempt=2 time=2.139709ms
+2026-10-28T18:07:00.298188517Z 2026-10-28T18:07:00.298096Z	info	sync complete	name=kagent/SandboxTemplates handler attempt=2 time=2.183051ms
+2026-10-28T18:07:00.298189998Z 2026-10-28T18:07:00.298112Z	info	krt	kagent/SandboxReconciliations synced (uid 21)	owner=kagent/SandboxReconciliations
+2026-10-28T18:07:00.298190961Z 2026-10-28T18:07:00.298109Z	info	sync complete	name=kagent/Agents handler attempt=2 time=2.281418ms
+2026-10-28T18:07:00.298191965Z 2026-10-28T18:07:00.298117Z	info	sync complete	name=kagent/Agents handler attempt=2 time=2.188385ms
+2026-10-28T18:07:00.301008024Z 2026-10-28T18:07:00.300888Z	info	sync complete	name=kagent/Harnesses handler attempt=2 time=2.732115ms
+2026-10-28T18:07:00.301017831Z 2026-10-28T18:07:00.300894Z	info	sync complete	name=kagent/AgentTemplates handler attempt=2 time=2.798343ms
+2026-10-28T18:07:00.301024117Z 2026-10-28T18:07:00.300951Z	info	sync complete	name=kagent/Secrets handler attempt=2 time=2.844961ms
+2026-10-28T18:07:00.301113403Z 2026-10-28T18:07:00.301070Z	info	krt	kagent/ModelConfigReconciliations synced (uid 14)	owner=kagent/ModelConfigReconciliations
+2026-10-28T18:07:00.303047245Z 2026-10-28T18:07:00.302960Z	info	sync complete	name=kagent/AgentTemplates handler attempt=2 time=2.010607ms
+2026-10-28T18:07:00.303059379Z 2026-10-28T18:07:00.302998Z	info	sync complete	name=kagent/Harnesses handler attempt=2 time=2.035969ms
+2026-10-28T18:07:00.303150132Z 2026-10-28T18:07:00.303104Z	info	krt	kagent/ReferenceNamespaceDemand synced (uid 16)	owner=kagent/ReferenceNamespaceDemand
+2026-10-28T18:07:00.310714382Z 2026-10-28T18:07:00.310648Z	info	sync complete	name=kagent/WorkerPools handler attempt=2 time=2.17832ms
+2026-10-28T18:07:00.311455283Z 2026-10-28T18:07:00.311433Z	info	krt	kagent/AgentReconciliations synced (uid 17)	owner=kagent/AgentReconciliations
+2026-10-28T18:07:00.311647845Z 2026-10-28T18:07:00.311493Z	info	krt	kagent/AgentStatuses synced (uid 19)	owner=kagent/AgentStatuses
+2026-10-28T18:07:01.316126686Z {"time":"2026-10-28T18:07:01.316039531Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/grpc.health.v1.Health/Check","rpc_type":"unary","peer":"10.244.0.1:51834","grpc_code":"OK","duration_ms":0}
+2026-10-28T18:07:01.318109416Z {"time":"2026-10-28T18:07:01.318060893Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.ScheduledRunService/GetScheduledRunExecution","rpc_type":"unary","peer":"10.244.0.1:51834","grpc_code":"OK","duration_ms":1}
+2026-10-28T18:07:01.323011526Z {"time":"2026-10-28T18:07:01.322963008Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/lf.a2a.v1.A2AService/GetTask","rpc_type":"unary","peer":"10.244.0.1:51834","grpc_code":"OK","duration_ms":4}
+2026-10-28T18:07:01.420725349Z {"time":"2026-10-28T18:07:01.420649579Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/UpdateTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":13}
+2026-10-28T18:07:01.433331375Z {"time":"2026-10-28T18:07:01.433202234Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/UpdateTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":8}
+2026-10-28T18:07:01.445853914Z {"time":"2026-10-28T18:07:01.445803984Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/UpdateTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":9}
+2026-10-28T18:07:01.456443798Z {"time":"2026-10-28T18:07:01.456402825Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/SettleTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":7}
+2026-10-28T18:07:02.324789972Z {"time":"2026-10-28T18:07:02.324728798Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.ScheduledRunService/GetScheduledRunExecution","rpc_type":"unary","peer":"10.244.0.1:51834","grpc_code":"OK","duration_ms":0}
+2026-10-28T18:07:02.327017583Z {"time":"2026-10-28T18:07:02.326971728Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/lf.a2a.v1.A2AService/GetTask","rpc_type":"unary","peer":"10.244.0.1:51834","grpc_code":"OK","duration_ms":1}
+2026-10-28T18:07:02.508150265Z {"time":"2026-10-28T18:07:02.508062527Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/CreateTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":7}
+2026-10-28T18:07:02.522484646Z {"time":"2026-10-28T18:07:02.522453118Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/UpdateTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":5}
+2026-10-28T18:07:02.530421131Z {"time":"2026-10-28T18:07:02.530371718Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/UpdateTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":4}
+2026-10-28T18:07:02.546255085Z {"time":"2026-10-28T18:07:02.546100665Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/UpdateTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":6}
+2026-10-28T18:07:02.556211378Z {"time":"2026-10-28T18:07:02.556154748Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/UpdateTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":5}
+2026-10-28T18:07:02.565321387Z {"time":"2026-10-28T18:07:02.565268852Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/UpdateTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":5}
+2026-10-28T18:07:02.574628455Z {"time":"2026-10-28T18:07:02.574567183Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/GetTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":2}
+2026-10-28T18:07:02.575202828Z {"time":"2026-10-28T18:07:02.575171546Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/SettleTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":5}
+2026-10-28T18:07:02.585870614Z {"time":"2026-10-28T18:07:02.585806258Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/lf.a2a.v1.A2AService/SendMessage","rpc_type":"unary","peer":"10.244.0.1:51834","grpc_code":"OK","duration_ms":258}
+2026-10-28T18:07:16.390079065Z {"time":"2026-10-28T18:07:16.389993542Z","level":"INFO","msg":"Successfully acquired lease","logger":"leaderelection","lock":"kagent/0e9f6799.kagent.dev"}
+2026-10-28T18:07:16.390387150Z {"time":"2026-10-28T18:07:16.390344132Z","level":"INFO","msg":"Starting EventSource","controller":"remotemcpserver","controllerGroup":"api.kagent.dev","controllerKind":"RemoteMCPServer","source":"kind source: *v1.ConfigMap"}
+2026-10-28T18:07:16.390545263Z {"time":"2026-10-28T18:07:16.390492866Z","level":"INFO","msg":"Starting EventSource","controller":"remotemcpserver","controllerGroup":"api.kagent.dev","controllerKind":"RemoteMCPServer","source":"kind source: *v1alpha3.RemoteMCPServer"}
+2026-10-28T18:07:16.390559551Z {"time":"2026-10-28T18:07:16.390526379Z","level":"INFO","msg":"Starting EventSource","controller":"remotemcpserver","controllerGroup":"api.kagent.dev","controllerKind":"RemoteMCPServer","source":"kind source: *v1.Secret"}
+2026-10-28T18:07:16.390611982Z 2026-10-28T18:07:16.390580Z	info	controllers	starting	controller=sandbox-preparation
+2026-10-28T18:07:16.390639844Z 2026-10-28T18:07:16.390613Z	info	controllers	starting	controller=sandbox-status
+2026-10-28T18:07:16.392951467Z 2026-10-28T18:07:16.392825Z	info	controllers	starting	controller=agents
+2026-10-28T18:07:16.392962109Z 2026-10-28T18:07:16.392888Z	info	controllers	starting	controller=agent-status
+2026-10-28T18:07:16.392965270Z 2026-10-28T18:07:16.392895Z	info	controllers	starting	controller=model-config-status
+2026-10-28T18:07:16.593847620Z {"time":"2026-10-28T18:07:16.593509517Z","level":"INFO","msg":"Starting Controller","controller":"remotemcpserver","controllerGroup":"api.kagent.dev","controllerKind":"RemoteMCPServer"}
+2026-10-28T18:07:16.593864667Z {"time":"2026-10-28T18:07:16.593523771Z","level":"INFO","msg":"Starting workers","controller":"remotemcpserver","controllerGroup":"api.kagent.dev","controllerKind":"RemoteMCPServer","worker count":1}
+2026-10-28T18:08:22.349867983Z {"time":"2026-10-28T18:08:22.349808021Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/GetTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":3}
+2026-10-28T18:08:22.362437604Z {"time":"2026-10-28T18:08:22.362379264Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/UpdateTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":9}
+2026-10-28T18:08:22.371107898Z {"time":"2026-10-28T18:08:22.371043574Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/SettleTask","rpc_type":"unary","peer":"10.244.0.14:53898","grpc_code":"OK","duration_ms":5}
+2026-10-28T18:11:27.697634350Z {"time":"2026-10-28T18:11:27.697525664Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.SessionService/GetSession","rpc_type":"unary","peer":"10.244.0.22:47718","grpc_code":"OK","duration_ms":1}
+2026-10-28T18:11:27.699011112Z {"time":"2026-10-28T18:11:27.698831644Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.SessionService/ListSessions","rpc_type":"unary","peer":"10.244.0.22:47724","grpc_code":"OK","duration_ms":1}
+2026-10-28T18:11:28.023045677Z {"time":"2026-10-28T18:11:27.698944292Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.CheckpointService/ListCheckpoints","rpc_type":"unary","peer":"10.244.0.22:47732","grpc_code":"OK","duration_ms":0}
+2026-10-28T18:11:28.023076486Z {"time":"2026-10-28T18:11:27.759520077Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/lf.a2a.v1.A2AService/ListTasks","rpc_type":"unary","peer":"10.244.0.22:47754","grpc_code":"OK","duration_ms":5}
+2026-10-28T18:11:28.023080985Z {"time":"2026-10-28T18:11:27.783333473Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/lf.a2a.v1.A2AService/ListTasks","rpc_type":"unary","peer":"10.244.0.22:47764","grpc_code":"OK","duration_ms":2}
+2026-10-28T18:11:28.023083373Z {"time":"2026-10-28T18:11:27.855920188Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.AgentService/GetAgent","rpc_type":"unary","peer":"10.244.0.22:47748","grpc_code":"OK","duration_ms":101}
+2026-10-28T18:11:28.023085255Z {"time":"2026-10-28T18:11:27.968674871Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.AgentTemplateService/GetAgentTemplate","rpc_type":"unary","peer":"10.244.0.22:47780","grpc_code":"OK","duration_ms":100}
+2026-10-28T18:11:28.023086493Z {"time":"2026-10-28T18:11:27.96919392Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.HarnessService/ListHarnesses","rpc_type":"unary","peer":"10.244.0.22:47792","grpc_code":"OK","duration_ms":100}
+2026-10-28T18:11:31.757519381Z {"time":"2026-10-28T18:11:31.75743316Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/lf.a2a.v1.A2AService/ListTasks","rpc_type":"unary","peer":"10.244.0.22:46634","grpc_code":"OK","duration_ms":1}
+2026-10-28T18:11:35.757229004Z {"time":"2026-10-28T18:11:35.756977527Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/lf.a2a.v1.A2AService/ListTasks","rpc_type":"unary","peer":"10.244.0.22:46646","grpc_code":"OK","duration_ms":1}
+2026-10-28T18:11:37.839040279Z {"time":"2026-10-28T18:11:37.838962266Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.ScheduledRunService/GetScheduledRun","rpc_type":"unary","peer":"10.244.0.22:46656","grpc_code":"OK","duration_ms":1}
+2026-10-28T18:11:37.839604062Z {"time":"2026-10-28T18:11:37.839579974Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.ScheduledRunService/ListScheduledRunExecutions","rpc_type":"unary","peer":"10.244.0.22:46666","grpc_code":"OK","duration_ms":1}
+2026-10-28T18:11:42.841054408Z {"time":"2026-10-28T18:11:42.84093563Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.ScheduledRunService/ListScheduledRunExecutions","rpc_type":"unary","peer":"10.244.0.22:44040","grpc_code":"OK","duration_ms":0}
+2026-10-28T18:11:47.839802804Z {"time":"2026-10-28T18:11:47.839719527Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.ScheduledRunService/GetScheduledRun","rpc_type":"unary","peer":"10.244.0.22:44050","grpc_code":"OK","duration_ms":0}
+2026-10-28T18:11:47.857715407Z {"time":"2026-10-28T18:11:47.857630888Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.ScheduledRunService/ListScheduledRunExecutions","rpc_type":"unary","peer":"10.244.0.22:44062","grpc_code":"OK","duration_ms":0}

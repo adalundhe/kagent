@@ -1,0 +1,1 @@
+2026-10-28T17:56:56.220087257Z {"time":"2026-10-28T17:56:56.219876847Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/lf.a2a.v1.A2AService/SendMessage","rpc_type":"unary","peer":"10.244.0.1:58457","grpc_code":"FailedPrecondition","duration_ms":3}

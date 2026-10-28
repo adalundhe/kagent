@@ -1,0 +1,37 @@
+2026-10-28T18:06:26.657425413Z INFO loaded agent config 
+2026-10-28T18:06:26.657441663Z INFO agent configuration 
+2026-10-28T18:06:26.657449836Z INFO built app_name from runtime identity 
+2026-10-28T18:06:26.657631289Z INFO token service started 
+2026-10-28T18:06:26.665501866Z INFO using local durable-dir session store 
+2026-10-28T18:06:26.665516150Z INFO enabling token propagation plugin without STS exchange 
+2026-10-28T18:06:26.665727145Z INFO processing stdio MCP tools 
+2026-10-28T18:06:26.665739809Z INFO processing HTTP MCP tools 
+2026-10-28T18:06:26.665749706Z INFO processing SSE MCP tools 
+2026-10-28T18:06:26.666405254Z INFO initialized OpenAI model 
+2026-10-28T18:06:26.666424397Z INFO creating Google ADK LLM agent 
+2026-10-28T18:06:26.666430567Z INFO successfully created Google ADK LLM agent 
+2026-10-28T18:06:26.666444106Z INFO context compaction not configured 
+2026-10-28T18:06:26.666739671Z INFO starting Go ADK server! 
+2026-10-28T18:06:26.669017853Z INFO Restore timing breakdown 
+2026-10-28T18:06:26.696155474Z INFO Actor has an egress policy 
+2026-10-28T18:06:26.739385152Z INFO execute {"task_id": "01a183b1-2380-7933-b453-939727b27042"}
+2026-10-28T18:07:01.421666462Z INFO task store call succeeded after retries {"attempts": 25, "elapsed": 33131741804, "operation": "UpdateTask", "session_id": "01a183b1-227d-7b51-b68c-c438cf244e75", "task_id": "01a183b1-2380-7933-b453-939727b27042"}
+2026-10-28T18:07:01.521089314Z INFO Checkpoint timing breakdown 
+2026-10-28T18:07:02.460065423Z INFO loaded agent config 
+2026-10-28T18:07:02.460082983Z INFO agent configuration 
+2026-10-28T18:07:02.460091682Z INFO built app_name from runtime identity 
+2026-10-28T18:07:02.460275090Z INFO token service started 
+2026-10-28T18:07:02.465719428Z INFO using local durable-dir session store 
+2026-10-28T18:07:02.465738058Z INFO enabling token propagation plugin without STS exchange 
+2026-10-28T18:07:02.465813286Z INFO processing stdio MCP tools 
+2026-10-28T18:07:02.465823465Z INFO processing HTTP MCP tools 
+2026-10-28T18:07:02.465828080Z INFO processing SSE MCP tools 
+2026-10-28T18:07:02.466217238Z INFO initialized OpenAI model 
+2026-10-28T18:07:02.466242102Z INFO creating Google ADK LLM agent 
+2026-10-28T18:07:02.466251818Z INFO successfully created Google ADK LLM agent 
+2026-10-28T18:07:02.466262452Z INFO context compaction not configured 
+2026-10-28T18:07:02.466358661Z INFO starting Go ADK server! 
+2026-10-28T18:07:02.468566533Z INFO Restore timing breakdown 
+2026-10-28T18:07:02.488535089Z INFO Actor has an egress policy 
+2026-10-28T18:07:02.509215796Z INFO execute {"task_id": "01a183b1-af52-7309-af3d-d2c1ef518d1a"}
+2026-10-28T18:07:02.636271923Z INFO Checkpoint timing breakdown 

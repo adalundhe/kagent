@@ -1,0 +1,19 @@
+2026-10-28T17:53:22.313679550Z INFO loaded agent config 
+2026-10-28T17:53:22.313695528Z INFO agent configuration 
+2026-10-28T17:53:22.313704915Z INFO built app_name from runtime identity 
+2026-10-28T17:53:22.313818148Z INFO token service started 
+2026-10-28T17:53:22.349672756Z INFO using local durable-dir session store 
+2026-10-28T17:53:22.349692412Z INFO enabling token propagation plugin without STS exchange 
+2026-10-28T17:53:22.349696039Z INFO processing stdio MCP tools 
+2026-10-28T17:53:22.349703696Z INFO processing HTTP MCP tools 
+2026-10-28T17:53:22.349706767Z INFO processing SSE MCP tools 
+2026-10-28T17:53:22.350295223Z INFO initialized OpenAI model 
+2026-10-28T17:53:22.350306408Z INFO creating Google ADK LLM agent 
+2026-10-28T17:53:22.350315113Z INFO successfully created Google ADK LLM agent 
+2026-10-28T17:53:22.350323686Z INFO context compaction not configured 
+2026-10-28T17:53:22.350682663Z INFO starting Go ADK server! 
+2026-10-28T17:53:22.353007862Z INFO Restore timing breakdown 
+2026-10-28T17:53:22.375324326Z INFO Actor has an egress policy 
+2026-10-28T17:53:22.456316035Z INFO execute {"task_id": "01a183a5-2bbe-74e9-b015-c04cf495901b"}
+2026-10-28T17:53:35.233468436Z WARN agent execution failed {"a2a": {"cause": "processor error: failed to store failed task state: failed to save task state: previous task persistence failed: failed to save task state: rpc error: code = Unavailable desc = upstream call failed: Connect: Connection refused (os error 111)", "context_id": "01a183a5-2a57-7cc3-b851-15e72b2b200c", "message_id": "scheduled-run/01a183a5-275f-7e01-b7f9-b6ef53fc29a7", "request_id": "04cef6a2-15af-448b-a3d9-2de112ea4a4e", "task_id": ""}}
+2026-10-28T17:53:35.233480747Z WARN execution failed {"a2a": {"context_id": "01a183a5-2a57-7cc3-b851-15e72b2b200c", "error": "processor error: failed to store failed task state: failed to save task state: previous task persistence failed: failed to save task state: rpc error: code = Unavailable desc = upstream call failed: Connect: Connection refused (os error 111)", "message_id": "scheduled-run/01a183a5-275f-7e01-b7f9-b6ef53fc29a7", "request_id": "04cef6a2-15af-448b-a3d9-2de112ea4a4e", "task_id": ""}}

@@ -1,0 +1,23 @@
+2026-10-28T18:06:25.740999721Z {"time":"2026-10-28T18:06:25.740922658Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/grpc.health.v1.Health/Check","rpc_type":"unary","peer":"10.244.0.1:18986","grpc_code":"OK","duration_ms":0}
+2026-10-28T18:06:25.749300090Z {"time":"2026-10-28T18:06:25.749228884Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.ScheduledRunService/CreateScheduledRun","rpc_type":"unary","peer":"10.244.0.1:18986","grpc_code":"OK","duration_ms":7}
+2026-10-28T18:06:25.755119215Z {"time":"2026-10-28T18:06:25.755069784Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.ScheduledRunService/TriggerScheduledRun","rpc_type":"unary","peer":"10.244.0.1:18986","grpc_code":"OK","duration_ms":5}
+2026-10-28T18:06:26.737682542Z {"time":"2026-10-28T18:06:26.737643514Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/CreateTask","rpc_type":"unary","peer":"10.244.0.14:58078","grpc_code":"OK","duration_ms":9}
+2026-10-28T18:06:26.752625150Z {"time":"2026-10-28T18:06:26.752551562Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/UpdateTask","rpc_type":"unary","peer":"10.244.0.14:58078","grpc_code":"OK","duration_ms":8}
+2026-10-28T18:06:26.762411285Z {"time":"2026-10-28T18:06:26.762331174Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.runtime.v1.TaskStoreService/UpdateTask","rpc_type":"unary","peer":"10.244.0.14:58078","grpc_code":"OK","duration_ms":6}
+2026-10-28T18:06:26.772139223Z {"time":"2026-10-28T18:06:26.772091267Z","level":"INFO","msg":"rpc completed","component":"grpc","grpc_method":"/kagent.api.v1.ScheduledRunService/GetScheduledRunExecution","rpc_type":"unary","peer":"10.244.0.1:18986","grpc_code":"OK","duration_ms":0}
+2026-10-28T18:06:26.803151338Z {"time":"2026-10-28T18:06:26.803077818Z","level":"INFO","msg":"shutting down API server","component":"api_server"}
+2026-10-28T18:06:26.803325876Z {"time":"2026-10-28T18:06:26.803286197Z","level":"INFO","msg":"Stopping and waiting for non leader election runnables"}
+2026-10-28T18:06:26.803404898Z {"time":"2026-10-28T18:06:26.803373105Z","level":"INFO","msg":"Stopping and waiting for warmup runnables"}
+2026-10-28T18:06:26.803419783Z {"time":"2026-10-28T18:06:26.80340254Z","level":"INFO","msg":"Stopping and waiting for leader election runnables"}
+2026-10-28T18:06:26.803512363Z {"time":"2026-10-28T18:06:26.803475876Z","level":"INFO","msg":"Shutdown signal received, waiting for all workers to finish","controller":"remotemcpserver","controllerGroup":"api.kagent.dev","controllerKind":"RemoteMCPServer"}
+2026-10-28T18:06:26.803562949Z 2026-10-28T18:06:26.803488Z	info	controllers	stopped	controller=model-config-status
+2026-10-28T18:06:26.803574735Z 2026-10-28T18:06:26.803542Z	info	controllers	stopped	controller=agent-status
+2026-10-28T18:06:26.803587053Z 2026-10-28T18:06:26.803551Z	info	controllers	stopped	controller=agents
+2026-10-28T18:06:26.803594050Z 2026-10-28T18:06:26.803559Z	info	controllers	stopped	controller=sandbox-status
+2026-10-28T18:06:26.803599541Z 2026-10-28T18:06:26.803566Z	info	controllers	stopped	controller=sandbox-preparation
+2026-10-28T18:06:26.803600487Z {"time":"2026-10-28T18:06:26.803581709Z","level":"INFO","msg":"All workers finished","controller":"remotemcpserver","controllerGroup":"api.kagent.dev","controllerKind":"RemoteMCPServer"}
+2026-10-28T18:06:26.803605458Z {"time":"2026-10-28T18:06:26.803588613Z","level":"INFO","msg":"Stopping and waiting for caches"}
+2026-10-28T18:06:26.803764686Z {"time":"2026-10-28T18:06:26.803740954Z","level":"INFO","msg":"Stopping and waiting for webhooks"}
+2026-10-28T18:06:26.803768472Z {"time":"2026-10-28T18:06:26.803748953Z","level":"INFO","msg":"Stopping and waiting for HTTP servers"}
+2026-10-28T18:06:26.803774039Z {"time":"2026-10-28T18:06:26.803753941Z","level":"INFO","msg":"Wait completed, proceeding to shutdown the manager"}
+2026-10-28T18:06:26.803841521Z {"time":"2026-10-28T18:06:26.803800577Z","level":"ERROR","msg":"error received after stop sequence was engaged","err":"leader election lost"}

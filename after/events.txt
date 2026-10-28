@@ -1,0 +1,92 @@
+LAST SEEN   TYPE      REASON                  OBJECT                                    MESSAGE
+28m         Normal    Scheduled               pod/kagent-postgresql-8466db8889-nfw7r    Successfully assigned kagent/kagent-postgresql-8466db8889-nfw7r to issue556oss-control-plane
+23m         Normal    Scheduled               pod/kagent-ui-647cd99959-485ft            Successfully assigned kagent/kagent-ui-647cd99959-485ft to issue556oss-control-plane
+23m         Normal    Scheduled               pod/kagent-default-5cf894f566-jdhzx       Successfully assigned kagent/kagent-default-5cf894f566-jdhzx to issue556oss-control-plane
+23m         Normal    Scheduled               pod/kagent-default-5cf894f566-8snb5       Successfully assigned kagent/kagent-default-5cf894f566-8snb5 to issue556oss-control-plane
+23m         Normal    SandboxConfigSwitched   workerpool/kagent-default                 sandbox class "gvisor" uses SandboxConfig "gvisor-default"
+19m         Normal    Scheduled               pod/kagent-controller-7b8684c5c5-72254    Successfully assigned kagent/kagent-controller-7b8684c5c5-72254 to issue556oss-control-plane
+23m         Normal    Scheduled               pod/kagent-default-5cf894f566-mjtcg       Successfully assigned kagent/kagent-default-5cf894f566-mjtcg to issue556oss-control-plane
+6m28s       Normal    Scheduled               pod/kagent-controller-7b8684c5c5-rwtgt    Successfully assigned kagent/kagent-controller-7b8684c5c5-rwtgt to issue556oss-control-plane
+23m         Normal    Scheduled               pod/kagent-controller-7b8684c5c5-chmp8    Successfully assigned kagent/kagent-controller-7b8684c5c5-chmp8 to issue556oss-control-plane
+23m         Normal    Scheduled               pod/kagent-default-5cf894f566-wctdv       Successfully assigned kagent/kagent-default-5cf894f566-wctdv to issue556oss-control-plane
+28m         Normal    WaitForFirstConsumer    persistentvolumeclaim/kagent-postgresql   waiting for first consumer to be created before binding
+28m         Normal    SuccessfulCreate        replicaset/kagent-postgresql-8466db8889   Created pod: kagent-postgresql-8466db8889-nfw7r
+28m         Normal    ScalingReplicaSet       deployment/kagent-postgresql              Scaled up replica set kagent-postgresql-8466db8889 from 0 to 1
+28m         Normal    Provisioning            persistentvolumeclaim/kagent-postgresql   External provisioner is provisioning volume for claim "kagent/kagent-postgresql"
+28m         Normal    ExternalProvisioning    persistentvolumeclaim/kagent-postgresql   Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+28m         Normal    ProvisioningSucceeded   persistentvolumeclaim/kagent-postgresql   Successfully provisioned volume pvc-de4db1ea-73ef-4f96-bf64-7f068a686f1f
+28m         Warning   FailedMount             pod/kagent-postgresql-8466db8889-nfw7r    MountVolume.SetUp failed for volume "postgres-ca" : combination of signerName and labelSelector matched zero ClusterTrustBundles
+28m         Normal    Pulling                 pod/kagent-postgresql-8466db8889-nfw7r    Pulling image "postgres:18-alpine@sha256:9a8afca54e7861fd90fab5fdf4c42477a6b1cb7d293595148e674e0a3181de15"
+28m         Normal    Created                 pod/kagent-postgresql-8466db8889-nfw7r    Container created
+28m         Normal    Pulled                  pod/kagent-postgresql-8466db8889-nfw7r    Successfully pulled image "postgres:18-alpine@sha256:9a8afca54e7861fd90fab5fdf4c42477a6b1cb7d293595148e674e0a3181de15" in 5.103s (5.103s including waiting). Image size: 119995681 bytes.
+28m         Normal    Created                 pod/kagent-postgresql-8466db8889-nfw7r    Container created
+28m         Normal    Pulled                  pod/kagent-postgresql-8466db8889-nfw7r    Container image "postgres:18-alpine@sha256:9a8afca54e7861fd90fab5fdf4c42477a6b1cb7d293595148e674e0a3181de15" already present on machine and can be accessed by the pod
+28m         Normal    Started                 pod/kagent-postgresql-8466db8889-nfw7r    Container started
+28m         Normal    Started                 pod/kagent-postgresql-8466db8889-nfw7r    Container started
+23m         Normal    SuccessfulCreate        replicaset/kagent-default-5cf894f566      Created pod: kagent-default-5cf894f566-wctdv
+23m         Normal    SuccessfulCreate        replicaset/kagent-default-5cf894f566      Created pod: kagent-default-5cf894f566-mjtcg
+23m         Normal    ScalingReplicaSet       deployment/kagent-ui                      Scaled up replica set kagent-ui-647cd99959 from 0 to 1
+23m         Normal    SuccessfulCreate        replicaset/kagent-controller-7b8684c5c5   Created pod: kagent-controller-7b8684c5c5-chmp8
+23m         Normal    SuccessfulCreate        replicaset/kagent-default-5cf894f566      Created pod: kagent-default-5cf894f566-8snb5
+23m         Normal    IPAllocated             service/kagent-ui                         Assigned IP ["172.20.255.0"]
+23m         Normal    ScalingReplicaSet       deployment/kagent-default                 Scaled up replica set kagent-default-5cf894f566 from 0 to 4
+23m         Normal    SuccessfulCreate        replicaset/kagent-ui-647cd99959           Created pod: kagent-ui-647cd99959-485ft
+23m         Normal    IPAllocated             service/kagent-controller                 Assigned IP ["172.20.255.1"]
+23m         Normal    SuccessfulCreate        replicaset/kagent-default-5cf894f566      Created pod: kagent-default-5cf894f566-jdhzx
+23m         Normal    Pulling                 pod/kagent-default-5cf894f566-8snb5       Pulling image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v0.7.0-alpha1"
+23m         Normal    Pulling                 pod/kagent-ui-647cd99959-485ft            Pulling image "localhost:5001/kagent-dev/kagent/ui:v0.0.1-after"
+23m         Normal    Pulling                 pod/kagent-default-5cf894f566-wctdv       Pulling image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v0.7.0-alpha1"
+23m         Normal    Pulling                 pod/kagent-default-5cf894f566-jdhzx       Pulling image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v0.7.0-alpha1"
+23m         Normal    Pulling                 pod/kagent-default-5cf894f566-mjtcg       Pulling image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v0.7.0-alpha1"
+23m         Normal    Pulled                  pod/kagent-controller-7b8684c5c5-chmp8    Successfully pulled image "localhost:5001/kagent-dev/kagent/controller:v0.0.1-after" in 1.051s (1.052s including waiting). Image size: 87014274 bytes.
+23m         Normal    Created                 pod/kagent-ui-647cd99959-485ft            Container created
+23m         Normal    Pulled                  pod/kagent-ui-647cd99959-485ft            Successfully pulled image "localhost:5001/kagent-dev/kagent/ui:v0.0.1-after" in 1.402s (2.446s including waiting). Image size: 11732800 bytes.
+23m         Normal    Started                 pod/kagent-ui-647cd99959-485ft            Container started
+23m         Normal    nodeAssigned            service/kagent-ui                         announcing from node "issue556oss-control-plane" with protocol "layer2"
+23m         Normal    Pulled                  pod/kagent-default-5cf894f566-8snb5       Successfully pulled image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v0.7.0-alpha1" in 3.09s (5.389s including waiting). Image size: 22136707 bytes.
+23m         Normal    Created                 pod/kagent-default-5cf894f566-8snb5       Container created
+23m         Normal    Created                 pod/kagent-default-5cf894f566-wctdv       Container created
+23m         Normal    Pulled                  pod/kagent-default-5cf894f566-wctdv       Successfully pulled image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v0.7.0-alpha1" in 619ms (6s including waiting). Image size: 22136707 bytes.
+23m         Normal    Started                 pod/kagent-default-5cf894f566-wctdv       Container started
+23m         Warning   Unhealthy               pod/kagent-default-5cf894f566-wctdv       Readiness probe failed: Get "http://10.244.0.24:8080/readyz": dial tcp 10.244.0.24:8080: connect: connection refused
+23m         Normal    Started                 pod/kagent-default-5cf894f566-8snb5       Container started
+23m         Normal    Pulled                  pod/kagent-default-5cf894f566-jdhzx       Successfully pulled image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v0.7.0-alpha1" in 661ms (6.635s including waiting). Image size: 22136707 bytes.
+23m         Normal    Created                 pod/kagent-default-5cf894f566-jdhzx       Container created
+23m         Normal    Started                 pod/kagent-default-5cf894f566-jdhzx       Container started
+23m         Normal    Created                 pod/kagent-default-5cf894f566-mjtcg       Container created
+23m         Normal    Pulled                  pod/kagent-default-5cf894f566-mjtcg       Successfully pulled image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v0.7.0-alpha1" in 628ms (7.255s including waiting). Image size: 22136707 bytes.
+23m         Normal    Started                 pod/kagent-default-5cf894f566-mjtcg       Container started
+22m         Warning   BackOff                 pod/kagent-controller-7b8684c5c5-chmp8    Back-off restarting failed container controller in pod kagent-controller-7b8684c5c5-chmp8_kagent(e8d7ae27-ee63-4106-bba1-2bde88f0c473)
+22m         Normal    Pulled                  pod/kagent-controller-7b8684c5c5-chmp8    Successfully pulled image "localhost:5001/kagent-dev/kagent/controller:v0.0.1-after" in 107ms (107ms including waiting). Image size: 87014274 bytes.
+22m         Warning   Unhealthy               pod/kagent-controller-7b8684c5c5-chmp8    Startup probe failed: Get "http://10.244.0.21:8083/health": dial tcp 10.244.0.21:8083: connect: connection refused
+22m         Normal    Pulled                  pod/kagent-controller-7b8684c5c5-chmp8    Successfully pulled image "localhost:5001/kagent-dev/kagent/controller:v0.0.1-after" in 94ms (94ms including waiting). Image size: 87014274 bytes.
+21m         Normal    Pulled                  pod/kagent-controller-7b8684c5c5-chmp8    Successfully pulled image "localhost:5001/kagent-dev/kagent/controller:v0.0.1-after" in 161ms (161ms including waiting). Image size: 87014274 bytes.
+21m         Normal    Pulling                 pod/kagent-controller-7b8684c5c5-chmp8    Pulling image "localhost:5001/kagent-dev/kagent/controller:v0.0.1-after"
+21m         Normal    Created                 pod/kagent-controller-7b8684c5c5-chmp8    Container created
+21m         Normal    Started                 pod/kagent-controller-7b8684c5c5-chmp8    Container started
+21m         Normal    LeaderElection          lease/0e9f6799.kagent.dev                 kagent-controller-7b8684c5c5-chmp8_ac71db51-d2f0-44b8-85c4-4781f1e50ac1 became leader
+21m         Warning   Unhealthy               pod/kagent-default-5cf894f566-jdhzx       Readiness probe failed: HTTP probe failed with statuscode: 503
+21m         Warning   Unhealthy               pod/kagent-default-5cf894f566-wctdv       Readiness probe failed: HTTP probe failed with statuscode: 503
+21m         Warning   Unhealthy               pod/kagent-default-5cf894f566-8snb5       Readiness probe failed: HTTP probe failed with statuscode: 503
+20m         Warning   Unhealthy               pod/kagent-default-5cf894f566-mjtcg       Readiness probe failed: HTTP probe failed with statuscode: 503
+20m         Normal    SuccessfulDelete        replicaset/kagent-controller-7b8684c5c5   Deleted pod: kagent-controller-7b8684c5c5-chmp8
+20m         Normal    LeaderElection          lease/0e9f6799.kagent.dev                 kagent-controller-7b8684c5c5-chmp8_ac71db51-d2f0-44b8-85c4-4781f1e50ac1 stopped leading
+20m         Normal    Killing                 pod/kagent-controller-7b8684c5c5-chmp8    Stopping container controller
+19m         Normal    SuccessfulCreate        replicaset/kagent-controller-7b8684c5c5   Created pod: kagent-controller-7b8684c5c5-72254
+19m         Normal    Created                 pod/kagent-controller-7b8684c5c5-72254    Container created
+19m         Normal    Started                 pod/kagent-controller-7b8684c5c5-72254    Container started
+19m         Normal    Pulling                 pod/kagent-controller-7b8684c5c5-72254    Pulling image "localhost:5001/kagent-dev/kagent/controller:v0.0.1-after"
+19m         Normal    Pulled                  pod/kagent-controller-7b8684c5c5-72254    Successfully pulled image "localhost:5001/kagent-dev/kagent/controller:v0.0.1-after" in 98ms (98ms including waiting). Image size: 87014274 bytes.
+19m         Normal    LeaderElection          lease/0e9f6799.kagent.dev                 kagent-controller-7b8684c5c5-72254_c87b76a0-24de-42ca-8a2f-bb7c6b087e97 became leader
+7m1s        Normal    SuccessfulDelete        replicaset/kagent-controller-7b8684c5c5   Deleted pod: kagent-controller-7b8684c5c5-72254
+7m1s        Normal    LeaderElection          lease/0e9f6799.kagent.dev                 kagent-controller-7b8684c5c5-72254_c87b76a0-24de-42ca-8a2f-bb7c6b087e97 stopped leading
+7m1s        Normal    ScalingReplicaSet       deployment/kagent-controller              Scaled down replica set kagent-controller-7b8684c5c5 from 1 to 0
+7m1s        Normal    Killing                 pod/kagent-controller-7b8684c5c5-72254    Stopping container controller
+6m29s       Normal    Pulled                  pod/kagent-controller-7b8684c5c5-rwtgt    Successfully pulled image "localhost:5001/kagent-dev/kagent/controller:v0.0.1-after" in 106ms (106ms including waiting). Image size: 87014274 bytes.
+6m29s       Normal    Pulling                 pod/kagent-controller-7b8684c5c5-rwtgt    Pulling image "localhost:5001/kagent-dev/kagent/controller:v0.0.1-after"
+6m29s       Normal    ScalingReplicaSet       deployment/kagent-controller              Scaled up replica set kagent-controller-7b8684c5c5 from 0 to 1
+6m29s       Normal    Created                 pod/kagent-controller-7b8684c5c5-rwtgt    Container created
+6m29s       Normal    SuccessfulCreate        replicaset/kagent-controller-7b8684c5c5   Created pod: kagent-controller-7b8684c5c5-rwtgt
+6m28s       Normal    Started                 pod/kagent-controller-7b8684c5c5-rwtgt    Container started
+6m27s       Normal    nodeAssigned            service/kagent-controller                 announcing from node "issue556oss-control-plane" with protocol "layer2"
+6m11s       Normal    LeaderElection          lease/0e9f6799.kagent.dev                 kagent-controller-7b8684c5c5-rwtgt_90a2ad8b-c7b9-4cf0-984a-333bcbaa4d3e became leader

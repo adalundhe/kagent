@@ -1,0 +1,75 @@
+{
+  "label": "after",
+  "runtime_image": "localhost:5001/kagent-dev/kagent/golang-adk@sha256:18188a8d22b01fa4e10ea5634016c37581cc492ac7428be3cc3a6056acce5d3c",
+  "agent": "kagent/interaction-tnb9c",
+  "schedule_id": "3d7f5cd2-b677-45ac-b638-fe4cec2305c5",
+  "execution_id": "01a183b1-1fd7-70f8-83c2-1ff8ea354c0d",
+  "session_id": "01a183b1-227d-7b51-b68c-c438cf244e75",
+  "task_id": "01a183b1-2380-7933-b453-939727b27042",
+  "outage": "30s",
+  "controller_down_for": "35s",
+  "final_execution_state": "SCHEDULED_RUN_EXECUTION_STATE_SUCCEEDED",
+  "final_task_state": "TASK_STATE_COMPLETED",
+  "final_task_text": "The answer is 4.",
+  "model_calls_for_turn": 1,
+  "follow_up_accepted": true,
+  "follow_up_state": "TASK_STATE_COMPLETED",
+  "follow_up_text": "The answer is 4.",
+  "events": [
+    {
+      "at": "0s",
+      "wall": "2026-10-28T18:06:25.755356601Z",
+      "what": "scheduled run 3d7f5cd2-b677-45ac-b638-fe4cec2305c5 triggered as admin@kagent.dev; prompt \"What is 2+2?\""
+    },
+    {
+      "at": "1s",
+      "wall": "2026-10-28T18:06:26.771159278Z",
+      "what": "the agent reached the mock model; the turn is held there"
+    },
+    {
+      "at": "1s",
+      "wall": "2026-10-28T18:06:26.772363083Z",
+      "what": "execution 01a183b1-1fd7-70f8-83c2-1ff8ea354c0d is RUNNING: session 01a183b1-227d-7b51-b68c-c438cf244e75, task 01a183b1-2380-7933-b453-939727b27042"
+    },
+    {
+      "at": "2.5s",
+      "wall": "2026-10-28T18:06:28.286571432Z",
+      "what": "controller scaled to zero and its Pod gone after 2s; the model is released, so the agent answers and saves now"
+    },
+    {
+      "at": "32.5s",
+      "wall": "2026-10-28T18:06:58.288570144Z",
+      "what": "outage held for 30s; scaling the controller back to one replica"
+    },
+    {
+      "at": "35.6s",
+      "wall": "2026-10-28T18:07:01.315036294Z",
+      "what": "controller Ready again; it was unavailable for 35s in total"
+    },
+    {
+      "at": "35.6s",
+      "wall": "2026-10-28T18:07:01.32334574Z",
+      "what": "execution state: SCHEDULED_RUN_EXECUTION_STATE_RUNNING "
+    },
+    {
+      "at": "35.6s",
+      "wall": "2026-10-28T18:07:01.323375108Z",
+      "what": "task state: TASK_STATE_WORKING"
+    },
+    {
+      "at": "36.6s",
+      "wall": "2026-10-28T18:07:02.327219469Z",
+      "what": "execution state: SCHEDULED_RUN_EXECUTION_STATE_SUCCEEDED "
+    },
+    {
+      "at": "36.6s",
+      "wall": "2026-10-28T18:07:02.327263881Z",
+      "what": "task state: TASK_STATE_COMPLETED"
+    },
+    {
+      "at": "36.8s",
+      "wall": "2026-10-28T18:07:02.586098525Z",
+      "what": "follow-up message on the same session accepted: TASK_STATE_COMPLETED \"The answer is 4.\""
+    }
+  ]
+}
