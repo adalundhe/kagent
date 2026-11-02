@@ -1,3 +1,7 @@
+Current implementation: [WaitForReady evidence from November 2, 2026](wait-for-ready-2026-11-02/README.md), source `7f2d5f83`.
+
+The older evidence below covers the custom budget at `f2b34211`.
+
 # TaskStore saves through a controller restart: before and after kagent-dev/kagent#3391
 
 Recorded on 2026-10-28 on a local kind cluster with gVisor workers. All times are UTC.

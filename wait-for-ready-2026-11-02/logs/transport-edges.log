@@ -1,0 +1,9 @@
+=== RUN   TestEvidenceReadyChannelBackendUnavailable
+    zz_evidence_edge_test.go:120: EVIDENCE case=ready_backend_unavailable configured_error_window=2s attempts=4 ready_attempts=4 elapsed=728.646209ms final_code=Unavailable exhaustion_log={"time":"2026-11-02T10:34:28.930695-08:00","level":"ERROR","msg":"taskstore retries exhausted","attempts":4,"error":"rpc error: code = Unavailable desc = synthetic backend unavailable while channel stays ready"}
+    zz_evidence_edge_test.go:131: EVIDENCE case=ready_backend_recovered elapsed=2.002614959s version=1
+--- PASS: TestEvidenceReadyChannelBackendUnavailable (2.01s)
+=== RUN   TestEvidenceInFlightTransportLossReplaysRequest
+    zz_evidence_edge_test.go:192: EVIDENCE case=in_flight_transport_loss downtime=2.002107208s total=2.857551584s server_requests=2 identical_request=true acknowledged_version=2
+--- PASS: TestEvidenceInFlightTransportLossReplaysRequest (2.86s)
+PASS
+ok  	github.com/kagent-dev/kagent/go/adk/pkg/taskstore	6.481s

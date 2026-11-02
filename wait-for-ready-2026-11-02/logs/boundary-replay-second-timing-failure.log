@@ -1,0 +1,46 @@
+Source checkout path redacted as <source>. No other log content changed.
+
+=== RUN   TestEvidenceUnavailableTransportBoundaries
+=== RUN   TestEvidenceUnavailableTransportBoundaries/caller-cancel
+=== PAUSE TestEvidenceUnavailableTransportBoundaries/caller-cancel
+=== RUN   TestEvidenceUnavailableTransportBoundaries/caller-deadline
+=== PAUSE TestEvidenceUnavailableTransportBoundaries/caller-deadline
+=== RUN   TestEvidenceUnavailableTransportBoundaries/exhaustion
+=== PAUSE TestEvidenceUnavailableTransportBoundaries/exhaustion
+=== CONT  TestEvidenceUnavailableTransportBoundaries/caller-cancel
+=== CONT  TestEvidenceUnavailableTransportBoundaries/exhaustion
+=== CONT  TestEvidenceUnavailableTransportBoundaries/caller-deadline
+=== NAME  TestEvidenceUnavailableTransportBoundaries/exhaustion
+    zz_evidence_deadline_test.go:31: EVIDENCE configured_deadline attempt=1 remaining_seconds=29.999990
+=== NAME  TestEvidenceUnavailableTransportBoundaries/caller-cancel
+    zz_evidence_deadline_test.go:34: EVIDENCE boundary_rpc mode=caller-cancel attempt=1 elapsed_seconds=0.851041 code=Canceled
+    zz_evidence_deadline_test.go:52: EVIDENCE boundary_result mode=caller-cancel elapsed_seconds=0.851255 attempts=1 error="rpc error: code = Canceled desc = latest balancer error: connection error: desc = \"transport: Error while dialing: controller transport unavailable\""
+=== NAME  TestEvidenceUnavailableTransportBoundaries/caller-deadline
+    zz_evidence_deadline_test.go:34: EVIDENCE boundary_rpc mode=caller-deadline attempt=1 elapsed_seconds=0.850971 code=DeadlineExceeded
+    zz_evidence_deadline_test.go:52: EVIDENCE boundary_result mode=caller-deadline elapsed_seconds=0.851209 attempts=1 error="context deadline exceeded"
+    zz_evidence_deadline_test.go:59: 
+        	Error Trace:	<source>/go/adk/pkg/taskstore/zz_evidence_deadline_test.go:59
+        	Error:      	Max difference between 0.25 and 0.851209417 allowed is 0.5, but difference was -0.601209417
+        	Test:       	TestEvidenceUnavailableTransportBoundaries/caller-deadline
+=== NAME  TestEvidenceUnavailableTransportBoundaries/caller-cancel
+    zz_evidence_deadline_test.go:56: 
+        	Error Trace:	<source>/go/adk/pkg/taskstore/zz_evidence_deadline_test.go:56
+        	Error:      	Max difference between 0.25 and 0.851254958 allowed is 0.5, but difference was -0.601254958
+        	Test:       	TestEvidenceUnavailableTransportBoundaries/caller-cancel
+=== NAME  TestEvidenceUnavailableTransportBoundaries/exhaustion
+    zz_evidence_deadline_test.go:34: EVIDENCE boundary_rpc mode=exhaustion attempt=1 elapsed_seconds=30.000057 code=DeadlineExceeded
+    zz_evidence_deadline_test.go:31: EVIDENCE configured_deadline attempt=2 remaining_seconds=29.999983
+    zz_evidence_deadline_test.go:34: EVIDENCE boundary_rpc mode=exhaustion attempt=2 elapsed_seconds=30.091695 code=DeadlineExceeded
+    zz_evidence_deadline_test.go:31: EVIDENCE configured_deadline attempt=3 remaining_seconds=29.999990
+    zz_evidence_deadline_test.go:34: EVIDENCE boundary_rpc mode=exhaustion attempt=3 elapsed_seconds=30.812461 code=DeadlineExceeded
+    zz_evidence_deadline_test.go:31: EVIDENCE configured_deadline attempt=4 remaining_seconds=29.999674
+    zz_evidence_deadline_test.go:34: EVIDENCE boundary_rpc mode=exhaustion attempt=4 elapsed_seconds=30.457909 code=DeadlineExceeded
+2026/11/02 10:56:22 ERROR taskstore retries exhausted attempts=4 error="rpc error: code = DeadlineExceeded desc = latest balancer error: connection error: desc = \"transport: Error while dialing: controller transport unavailable\""
+    zz_evidence_deadline_test.go:52: EVIDENCE boundary_result mode=exhaustion elapsed_seconds=123.589689 attempts=4 error="rpc error: code = DeadlineExceeded desc = latest balancer error: connection error: desc = \"transport: Error while dialing: controller transport unavailable\""
+--- FAIL: TestEvidenceUnavailableTransportBoundaries (0.00s)
+    --- FAIL: TestEvidenceUnavailableTransportBoundaries/caller-deadline (0.86s)
+    --- FAIL: TestEvidenceUnavailableTransportBoundaries/caller-cancel (0.86s)
+    --- PASS: TestEvidenceUnavailableTransportBoundaries/exhaustion (123.60s)
+FAIL
+FAIL	github.com/kagent-dev/kagent/go/adk/pkg/taskstore	124.444s
+FAIL

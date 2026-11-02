@@ -1,0 +1,438 @@
+{
+  "head_sha": "7f2d5f835f7d2e44ebcd8efe6e11b6ac9cd851f6",
+  "workflow_run": "https://github.com/kagent-dev/kagent/actions/runs/41478342975",
+  "go_race_job": "https://github.com/kagent-dev/kagent/actions/runs/41478342975/job/125389723464",
+  "gvisor_job": "https://github.com/kagent-dev/kagent/actions/runs/41478342975/job/125389723738",
+  "artifact": "https://github.com/kagent-dev/kagent/actions/runs/41478342975/artifacts/13158438957",
+  "artifact_expires_at": "2026-11-09T16:19:31Z",
+  "span_records_total": 9001,
+  "whole_suite_taskstore_span_records": [
+    {
+      "method": "kagent.runtime.v1.TaskStoreService/CreateTask",
+      "status": "OK",
+      "count": 587
+    },
+    {
+      "method": "kagent.runtime.v1.TaskStoreService/GetTask",
+      "status": "OK",
+      "count": 535
+    },
+    {
+      "method": "kagent.runtime.v1.TaskStoreService/GetTask",
+      "status": "PERMISSION_DENIED",
+      "count": 16
+    },
+    {
+      "method": "kagent.runtime.v1.TaskStoreService/SettleTask",
+      "status": "OK",
+      "count": 589
+    },
+    {
+      "method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+      "status": "OK",
+      "count": 2894
+    }
+  ],
+  "test_log_extract": [
+    {
+      "line": 26,
+      "text": "=== RUN   TestScheduledRunControllerRestart"
+    },
+    {
+      "line": 27,
+      "text": "=== RUN   TestScheduledRunControllerRestart/kagent"
+    },
+    {
+      "line": 28,
+      "text": "=== PAUSE TestScheduledRunControllerRestart/kagent"
+    },
+    {
+      "line": 29,
+      "text": "=== RUN   TestScheduledRunControllerRestart/codex"
+    },
+    {
+      "line": 30,
+      "text": "=== PAUSE TestScheduledRunControllerRestart/codex"
+    },
+    {
+      "line": 31,
+      "text": "=== RUN   TestScheduledRunControllerRestart/claude"
+    },
+    {
+      "line": 32,
+      "text": "=== PAUSE TestScheduledRunControllerRestart/claude"
+    },
+    {
+      "line": 33,
+      "text": "=== RUN   TestScheduledRunControllerRestart/byo-adk"
+    },
+    {
+      "line": 34,
+      "text": "=== PAUSE TestScheduledRunControllerRestart/byo-adk"
+    },
+    {
+      "line": 35,
+      "text": "=== CONT  TestScheduledRunControllerRestart/kagent"
+    },
+    {
+      "line": 36,
+      "text": "=== CONT  TestScheduledRunControllerRestart/claude"
+    },
+    {
+      "line": 37,
+      "text": "=== CONT  TestScheduledRunControllerRestart/codex"
+    },
+    {
+      "line": 38,
+      "text": "=== CONT  TestScheduledRunControllerRestart/byo-adk"
+    },
+    {
+      "line": 39,
+      "text": "--- PASS: TestScheduledRunControllerRestart (18.51s)"
+    },
+    {
+      "line": 40,
+      "text": "    --- PASS: TestScheduledRunControllerRestart/byo-adk (2.90s)"
+    },
+    {
+      "line": 41,
+      "text": "    --- PASS: TestScheduledRunControllerRestart/codex (6.78s)"
+    },
+    {
+      "line": 42,
+      "text": "    --- PASS: TestScheduledRunControllerRestart/kagent (4.65s)"
+    },
+    {
+      "line": 43,
+      "text": "    --- PASS: TestScheduledRunControllerRestart/claude (7.60s)"
+    },
+    {
+      "line": 94,
+      "text": "=== RUN   TestSandboxControllerRestart"
+    },
+    {
+      "line": 95,
+      "text": "    sandbox_test.go:373: sandbox 01a19d07-b61d-7f20-bfbe-8b49d6c1cc45: RUNTIME_STATE_READY (RUNTIME_OPERATION_NONE)"
+    },
+    {
+      "line": 96,
+      "text": "--- PASS: TestSandboxControllerRestart (6.34s)"
+    }
+  ],
+  "candidate_restart_trace": [
+    {
+      "name": "kagent.runtime.v1.TaskStoreService/CreateTask",
+      "kind": "client",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "77286c40f5e186b1",
+      "parent_span_id": "aa1961049f9fe5a5",
+      "start_time": "2026-11-02T16:10:59.150393078+00:00",
+      "end_time": "2026-11-02T16:10:59.193402209+00:00",
+      "attributes": {
+        "rpc.method": "kagent.runtime.v1.TaskStoreService/CreateTask",
+        "rpc.response.status_code": "OK"
+      }
+    },
+    {
+      "name": "a2a.request",
+      "kind": "internal",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "aa1961049f9fe5a5",
+      "parent_span_id": "c915f0c817af5545",
+      "start_time": "2026-11-02T16:10:59.149605878+00:00",
+      "end_time": "2026-11-02T16:10:59.195443022+00:00",
+      "attributes": {
+        "gen_ai.conversation.id": "01a19d07-3a22-72db-adc0-47b5123d573a",
+        "a2a.task.id": "01a19d07-3acd-7986-92c0-9725238f2e01"
+      }
+    },
+    {
+      "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+      "kind": "client",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "28c38551470502e8",
+      "parent_span_id": "aa1961049f9fe5a5",
+      "start_time": "2026-11-02T16:10:59.198757475+00:00",
+      "end_time": "2026-11-02T16:10:59.212489348+00:00",
+      "attributes": {
+        "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+        "rpc.response.status_code": "OK"
+      }
+    },
+    {
+      "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+      "kind": "client",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "187130d9fa14830d",
+      "parent_span_id": "aa1961049f9fe5a5",
+      "start_time": "2026-11-02T16:10:59.213116785+00:00",
+      "end_time": "2026-11-02T16:10:59.227580223+00:00",
+      "attributes": {
+        "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+        "rpc.response.status_code": "OK"
+      }
+    },
+    {
+      "name": "lf.a2a.v1.A2AService/SendStreamingMessage",
+      "kind": "server",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "c915f0c817af5545",
+      "parent_span_id": "2f63bf97bba5edbf",
+      "start_time": "2026-11-02T16:10:59.149221550+00:00",
+      "end_time": "2026-11-02T16:10:59.243684756+00:00",
+      "attributes": {
+        "rpc.method": "lf.a2a.v1.A2AService/SendStreamingMessage",
+        "rpc.response.status_code": "CANCELLED"
+      }
+    },
+    {
+      "name": "HTTP POST",
+      "kind": "client",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "4b06920adc577cdf",
+      "parent_span_id": "7847efeb7003d109",
+      "start_time": "2026-11-02T16:10:59.212602883+00:00",
+      "end_time": "2026-11-02T16:11:15.230995297+00:00",
+      "attributes": {
+        "gen_ai.conversation.id": "01a19d07-3a22-72db-adc0-47b5123d573a",
+        "a2a.task.id": "01a19d07-3acd-7986-92c0-9725238f2e01"
+      }
+    },
+    {
+      "name": "generate_content gpt-4.1-mini",
+      "kind": "internal",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "7847efeb7003d109",
+      "parent_span_id": "7af05e7e2de2727f",
+      "start_time": "2026-11-02T16:10:59.211031198+00:00",
+      "end_time": "2026-11-02T16:11:15.231525691+00:00",
+      "attributes": {
+        "gen_ai.operation.name": "generate_content",
+        "gen_ai.conversation.id": "01a19d07-3a22-72db-adc0-47b5123d573a",
+        "a2a.task.id": "01a19d07-3acd-7986-92c0-9725238f2e01"
+      }
+    },
+    {
+      "name": "invoke_agent interaction_7xdfh",
+      "kind": "internal",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "7af05e7e2de2727f",
+      "parent_span_id": "aa1961049f9fe5a5",
+      "start_time": "2026-11-02T16:10:59.210867899+00:00",
+      "end_time": "2026-11-02T16:11:15.239431145+00:00",
+      "attributes": {
+        "gen_ai.operation.name": "invoke_agent",
+        "gen_ai.conversation.id": "01a19d07-3a22-72db-adc0-47b5123d573a",
+        "a2a.task.id": "01a19d07-3acd-7986-92c0-9725238f2e01"
+      }
+    },
+    {
+      "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+      "kind": "client",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "272d6b37a050bd32",
+      "parent_span_id": "aa1961049f9fe5a5",
+      "start_time": "2026-11-02T16:11:15.232419844+00:00",
+      "end_time": "2026-11-02T16:11:15.257403053+00:00",
+      "attributes": {
+        "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+        "rpc.response.status_code": "OK"
+      }
+    },
+    {
+      "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+      "kind": "client",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "e609a08a0ab11146",
+      "parent_span_id": "aa1961049f9fe5a5",
+      "start_time": "2026-11-02T16:11:15.262930006+00:00",
+      "end_time": "2026-11-02T16:11:15.318287651+00:00",
+      "attributes": {
+        "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+        "rpc.response.status_code": "OK"
+      }
+    },
+    {
+      "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+      "kind": "client",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "d132d0cf8b27d691",
+      "parent_span_id": "aa1961049f9fe5a5",
+      "start_time": "2026-11-02T16:11:15.318858181+00:00",
+      "end_time": "2026-11-02T16:11:15.331506462+00:00",
+      "attributes": {
+        "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+        "rpc.response.status_code": "OK"
+      }
+    },
+    {
+      "name": "kagent.runtime.v1.TaskStoreService/SettleTask",
+      "kind": "client",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "54ddf96351c7d878",
+      "parent_span_id": "aa1961049f9fe5a5",
+      "start_time": "2026-11-02T16:11:15.417124367+00:00",
+      "end_time": "2026-11-02T16:11:15.428787994+00:00",
+      "attributes": {
+        "rpc.method": "kagent.runtime.v1.TaskStoreService/SettleTask",
+        "rpc.response.status_code": "OK"
+      }
+    },
+    {
+      "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+      "kind": "server",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "492ffe8d28545251",
+      "parent_span_id": "1a94770045667d69",
+      "start_time": "2026-11-02T16:11:15.237583059+00:00",
+      "end_time": "2026-11-02T16:11:15.254193941+00:00",
+      "attributes": {
+        "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+        "rpc.response.status_code": "OK"
+      }
+    },
+    {
+      "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+      "kind": "server",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "dfc99b4c081b7558",
+      "parent_span_id": "a1473fa724c546c4",
+      "start_time": "2026-11-02T16:11:15.266308041+00:00",
+      "end_time": "2026-11-02T16:11:15.317421151+00:00",
+      "attributes": {
+        "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+        "rpc.response.status_code": "OK"
+      }
+    },
+    {
+      "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+      "kind": "server",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "1e976af2c58d57d3",
+      "parent_span_id": "c8261df3510490a5",
+      "start_time": "2026-11-02T16:11:15.322393854+00:00",
+      "end_time": "2026-11-02T16:11:15.329047959+00:00",
+      "attributes": {
+        "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+        "rpc.response.status_code": "OK"
+      }
+    },
+    {
+      "name": "kagent.runtime.v1.TaskStoreService/SettleTask",
+      "kind": "server",
+      "trace_id": "a527d7a0718c89e2f9f2f96164f768b0",
+      "span_id": "a056b246281c213f",
+      "parent_span_id": "22d734fc482d595c",
+      "start_time": "2026-11-02T16:11:15.423347516+00:00",
+      "end_time": "2026-11-02T16:11:15.427057187+00:00",
+      "attributes": {
+        "rpc.method": "kagent.runtime.v1.TaskStoreService/SettleTask",
+        "rpc.response.status_code": "OK"
+      }
+    }
+  ],
+  "worker_extract": [
+    {
+      "source": "workers.log",
+      "line": 700,
+      "time": "2026-11-02T16:10:59.050515273Z",
+      "message": "Actor restoring",
+      "actor": "session-01a19d07-3a22-72db-adc0-47b5123d573a",
+      "trace_id": "f074e2bd66296e6cbdc1bc491d310390",
+      "span_id": "113c5b46f6fe2f29"
+    },
+    {
+      "source": "workers.log",
+      "line": 791,
+      "time": "2026-11-02T16:10:59.140517194Z",
+      "message": "Actor restored",
+      "actor": "session-01a19d07-3a22-72db-adc0-47b5123d573a",
+      "trace_id": "f074e2bd66296e6cbdc1bc491d310390",
+      "span_id": "113c5b46f6fe2f29"
+    },
+    {
+      "source": "workers.log",
+      "line": 2662,
+      "time": "2026-11-02T16:11:30.742518751Z",
+      "message": "Actor restoring",
+      "actor": "session-01a19d07-b61d-7f20-bfbe-8b49d6c1cc45",
+      "trace_id": "351e3c266e3f12ccac4c353b838e3577",
+      "span_id": "4acecf7074a1fca9"
+    },
+    {
+      "source": "workers.log",
+      "line": 2740,
+      "time": "2026-11-02T16:11:30.796604218Z",
+      "message": "Actor restored",
+      "actor": "session-01a19d07-b61d-7f20-bfbe-8b49d6c1cc45",
+      "trace_id": "351e3c266e3f12ccac4c353b838e3577",
+      "span_id": "4acecf7074a1fca9"
+    }
+  ],
+  "actor_state_extract": [
+    {
+      "source": "substrate.log",
+      "line": 874,
+      "time": "2026-11-02T16:10:58.992145156Z",
+      "actor": "session-01a19d07-3a22-72db-adc0-47b5123d573a",
+      "operation": "create",
+      "state": "suspended"
+    },
+    {
+      "source": "substrate.log",
+      "line": 883,
+      "time": "2026-11-02T16:10:59.040520634Z",
+      "actor": "session-01a19d07-3a22-72db-adc0-47b5123d573a",
+      "operation": "resume",
+      "state": "resuming"
+    },
+    {
+      "source": "substrate.log",
+      "line": 902,
+      "time": "2026-11-02T16:10:59.143881893Z",
+      "actor": "session-01a19d07-3a22-72db-adc0-47b5123d573a",
+      "operation": "resume",
+      "state": "running"
+    },
+    {
+      "source": "substrate.log",
+      "line": 5948,
+      "time": "2026-11-02T16:11:15.513408539Z",
+      "actor": "session-01a19d07-3a22-72db-adc0-47b5123d573a",
+      "operation": "suspend",
+      "state": "suspending"
+    },
+    {
+      "source": "substrate.log",
+      "line": 6090,
+      "time": "2026-11-02T16:11:15.586408478Z",
+      "actor": "session-01a19d07-3a22-72db-adc0-47b5123d573a",
+      "operation": "suspend",
+      "state": "suspended"
+    },
+    {
+      "source": "substrate.log",
+      "line": 6135,
+      "time": "2026-11-02T16:11:17.306261849Z",
+      "actor": "session-01a19d07-3a22-72db-adc0-47b5123d573a",
+      "operation": "delete",
+      "state": "deleting"
+    },
+    {
+      "source": "substrate.log",
+      "line": 6142,
+      "time": "2026-11-02T16:11:17.338110274Z",
+      "actor": "session-01a19d07-3a22-72db-adc0-47b5123d573a",
+      "operation": "delete",
+      "state": "deleted"
+    }
+  ],
+  "matching_controller_log_lines": [],
+  "correlation_limits": [
+    "The test log does not print the scheduled session ID. Its association with the selected agent trace is inferred from the isolated sequential test's time window.",
+    "The worker actor name matches the selected trace's gen_ai.conversation.id; its actor lifecycle trace ID is separate from the agent invocation trace ID.",
+    "The retained controller.log starts at 16:14:34, after this 16:11 restart scenario. No matching controller-side log remains in this artifact.",
+    "The model was released only after the replacement controller was Ready. These spans do not prove final persistence during a controller outage.",
+    "Whole-suite span counts include client and server records. They are not counts of unique RPCs or recovery attempts."
+  ]
+}

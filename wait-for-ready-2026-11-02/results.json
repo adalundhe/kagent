@@ -1,0 +1,113 @@
+{
+  "head": "7f2d5f835f7d2e44ebcd8efe6e11b6ac9cd851f6",
+  "base": "12aa4d460aaeabc9ee2f923decf8d14372f1bae3",
+  "focused_race": {
+    "exit": 0,
+    "taskstore_seconds": 4.594,
+    "controllerclient_seconds": 1.796
+  },
+  "base_cold_recovery": {
+    "exit": 1,
+    "expected_failure": true,
+    "reason": "TaskStore RPC returned Unavailable before controlled transport recovery"
+  },
+  "cold_recovery_traces": {
+    "exit": 0,
+    "scope": "Controlled bufconn gRPC test service, not deployed controller/proxy",
+    "client_span_count": 6,
+    "memory_status": "UNAVAILABLE",
+    "memory_duration_seconds": 0.000139,
+    "taskstore_status": "OK",
+    "taskstore_duration_seconds_min": 0.103431,
+    "taskstore_duration_seconds_max": 0.103669
+  },
+  "boundaries": {
+    "exit": 0,
+    "caller_cancel_seconds": 0.259305,
+    "caller_deadline_seconds": 0.259759,
+    "exhaustion_seconds": 120.701851,
+    "exhaustion_attempts": 4,
+    "exhaustion_code": "DeadlineExceeded",
+    "production_error_log_observed": true
+  },
+  "controller_postgres_tests": {
+    "exit": 1,
+    "scope": "Original committed restart and ThroughGRPC tests",
+    "outcome": "Blocked before database startup by Docker Desktop required organization sign-in"
+  },
+  "controller_outage_matrix": {
+    "base_build_exit": 0,
+    "head_build_exit": 0,
+    "outcome": "Not run: Docker Desktop sign-in required",
+    "prepared_cases": [
+      "base2s",
+      "head2s",
+      "head10s",
+      "head45s",
+      "head100s"
+    ]
+  },
+  "transport_edges": {
+    "scope": "Controlled gRPC service; no PostgreSQL or deployed proxy",
+    "ready_backend_unavailable": {
+      "configured_window_seconds": 2,
+      "attempts": 4,
+      "all_attempts_channel_ready": true,
+      "exhaustion_seconds": 0.728646209,
+      "final_code": "Unavailable",
+      "backend_recovered_seconds": 2.002614959
+    },
+    "in_flight_transport_loss": {
+      "downtime_seconds": 2.002107208,
+      "acknowledgement_seconds": 2.857551584,
+      "server_requests": 2,
+      "identical_request": true,
+      "acknowledged_version": 2
+    }
+  },
+  "ci": {
+    "head_sha": "7f2d5f835f7d2e44ebcd8efe6e11b6ac9cd851f6",
+    "merge_sha": "37d673491eea6510bd89d586fd9ee018fc6c61da",
+    "base_sha": "82bddc8d718688b5532f368a41a09789560fa569",
+    "run": "https://github.com/kagent-dev/kagent/actions/runs/41478342975",
+    "status": "success",
+    "gvisor_artifact_sha256": "897da74e49897e2b448e4e6fe8c30613dc70a2c468dd9867735c5d47886c7a27"
+  },
+  "reproduction_replay_before_assertion_fix": {
+    "exit": 1,
+    "failing_case": "exhaustion",
+    "exhaustion_seconds": 124.071344,
+    "attempts": 4,
+    "attempt_codes": [
+      "DeadlineExceeded",
+      "DeadlineExceeded",
+      "DeadlineExceeded",
+      "DeadlineExceeded"
+    ],
+    "production_exhaustion_log_observed": true,
+    "failure": "Evidence driver expected120.7secondswithin2seconds; observed scheduling overshoot failed that assertion",
+    "scope": "Experimental reproduction driver; no production source changes"
+  },
+  "reproduction_replay_second_timing_failure": {
+    "exit": 1,
+    "failing_cases": [
+      "caller-cancel",
+      "caller-deadline"
+    ],
+    "caller_cancel_seconds": 0.851255,
+    "caller_deadline_seconds": 0.851209,
+    "caller_attempts_each": 1,
+    "exhaustion_seconds": 123.589689,
+    "exhaustion_attempts": 4,
+    "exhaustion_subtest_passed": true,
+    "failure": "Evidence driver expected250millisecondswithin500milliseconds; observed851milliseconds",
+    "scope": "Experimental timing assertions, not production source changes"
+  },
+  "final_reproduction_replay": {
+    "exit": 0,
+    "all_five_expected_outcomes_matched": true,
+    "baseline_expected_failure_included": true,
+    "exhaustion_seconds": 120.702011,
+    "assertions": "Configured RPC deadlines, earlier caller deadline preservation, cancellation status and attempt counts"
+  }
+}

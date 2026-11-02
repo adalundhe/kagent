@@ -1,0 +1,31 @@
+{
+  "head": "7f2d5f835f7d2e44ebcd8efe6e11b6ac9cd851f6",
+  "base": "12aa4d460aaeabc9ee2f923decf8d14372f1bae3",
+  "results": {
+    "focused-race": {
+      "exit": 0,
+      "expected_failure": false,
+      "matched_expectation": true
+    },
+    "base-cold-recovery": {
+      "exit": 1,
+      "expected_failure": true,
+      "matched_expectation": true
+    },
+    "cold-recovery-traces": {
+      "exit": 0,
+      "expected_failure": false,
+      "matched_expectation": true
+    },
+    "transport-edges": {
+      "exit": 0,
+      "expected_failure": false,
+      "matched_expectation": true
+    },
+    "boundaries": {
+      "exit": 0,
+      "expected_failure": false,
+      "matched_expectation": true
+    }
+  }
+}

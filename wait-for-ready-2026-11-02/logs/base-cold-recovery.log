@@ -1,0 +1,6 @@
+=== RUN   TestTaskStoreWaitsForTransportRecovery
+    readiness_test.go:163: TaskStore RPC returned before transport recovery: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: controller transport unavailable"
+--- FAIL: TestTaskStoreWaitsForTransportRecovery (0.00s)
+FAIL
+FAIL	github.com/kagent-dev/kagent/go/adk/pkg/taskstore	0.431s
+FAIL

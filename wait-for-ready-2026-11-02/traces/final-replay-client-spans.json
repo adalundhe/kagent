@@ -1,0 +1,607 @@
+[
+  {
+    "Name": "kagent.runtime.v1.MemoryService/List",
+    "SpanContext": {
+      "TraceID": "7a28561c943492667cf403bc5a748e7f",
+      "SpanID": "d9775e0881144255",
+      "TraceFlags": "01",
+      "TraceState": "",
+      "Remote": false
+    },
+    "Parent": {
+      "TraceID": "00000000000000000000000000000000",
+      "SpanID": "0000000000000000",
+      "TraceFlags": "00",
+      "TraceState": "",
+      "Remote": false
+    },
+    "SpanKind": 3,
+    "StartTime": "2026-11-02T10:57:24.108007-08:00",
+    "EndTime": "2026-11-02T10:57:24.108286-08:00",
+    "Attributes": [
+      {
+        "Key": "rpc.method",
+        "Value": {
+          "Type": "STRING",
+          "Value": "kagent.runtime.v1.MemoryService/List"
+        }
+      },
+      {
+        "Key": "rpc.system.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "grpc"
+        }
+      },
+      {
+        "Key": "rpc.response.status_code",
+        "Value": {
+          "Type": "STRING",
+          "Value": "UNAVAILABLE"
+        }
+      }
+    ],
+    "Events": null,
+    "Links": null,
+    "Status": {
+      "Code": "Error",
+      "Description": "connection error: desc = \"transport: Error while dialing: controller transport unavailable\""
+    },
+    "DroppedAttributes": 0,
+    "DroppedEvents": 0,
+    "DroppedLinks": 0,
+    "ChildSpanCount": 0,
+    "Resource": [
+      {
+        "Key": "service.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "unknown_service:taskstore.test"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.language",
+        "Value": {
+          "Type": "STRING",
+          "Value": "go"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "opentelemetry"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.version",
+        "Value": {
+          "Type": "STRING",
+          "Value": "1.47.0"
+        }
+      }
+    ],
+    "InstrumentationScope": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    },
+    "InstrumentationLibrary": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    }
+  },
+  {
+    "Name": "kagent.runtime.v1.TaskStoreService/SettleTask",
+    "SpanContext": {
+      "TraceID": "32fbc2c6c94c9291e4b50cefdd4920a4",
+      "SpanID": "e188a08c644807fa",
+      "TraceFlags": "01",
+      "TraceState": "",
+      "Remote": false
+    },
+    "Parent": {
+      "TraceID": "00000000000000000000000000000000",
+      "SpanID": "0000000000000000",
+      "TraceFlags": "00",
+      "TraceState": "",
+      "Remote": false
+    },
+    "SpanKind": 3,
+    "StartTime": "2026-11-02T10:57:24.109161-08:00",
+    "EndTime": "2026-11-02T10:57:24.212452208-08:00",
+    "Attributes": [
+      {
+        "Key": "rpc.method",
+        "Value": {
+          "Type": "STRING",
+          "Value": "kagent.runtime.v1.TaskStoreService/SettleTask"
+        }
+      },
+      {
+        "Key": "rpc.system.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "grpc"
+        }
+      },
+      {
+        "Key": "server.address",
+        "Value": {
+          "Type": "STRING",
+          "Value": "bufconn"
+        }
+      },
+      {
+        "Key": "rpc.response.status_code",
+        "Value": {
+          "Type": "STRING",
+          "Value": "OK"
+        }
+      }
+    ],
+    "Events": null,
+    "Links": null,
+    "Status": {
+      "Code": "Unset",
+      "Description": ""
+    },
+    "DroppedAttributes": 0,
+    "DroppedEvents": 0,
+    "DroppedLinks": 0,
+    "ChildSpanCount": 0,
+    "Resource": [
+      {
+        "Key": "service.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "unknown_service:taskstore.test"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.language",
+        "Value": {
+          "Type": "STRING",
+          "Value": "go"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "opentelemetry"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.version",
+        "Value": {
+          "Type": "STRING",
+          "Value": "1.47.0"
+        }
+      }
+    ],
+    "InstrumentationScope": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    },
+    "InstrumentationLibrary": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    }
+  },
+  {
+    "Name": "kagent.runtime.v1.TaskStoreService/GetTask",
+    "SpanContext": {
+      "TraceID": "730e746f7b4c8a7a0be34f535ae16a88",
+      "SpanID": "a55732bbd34fa3cc",
+      "TraceFlags": "01",
+      "TraceState": "",
+      "Remote": false
+    },
+    "Parent": {
+      "TraceID": "00000000000000000000000000000000",
+      "SpanID": "0000000000000000",
+      "TraceFlags": "00",
+      "TraceState": "",
+      "Remote": false
+    },
+    "SpanKind": 3,
+    "StartTime": "2026-11-02T10:57:24.108879-08:00",
+    "EndTime": "2026-11-02T10:57:24.21261625-08:00",
+    "Attributes": [
+      {
+        "Key": "rpc.method",
+        "Value": {
+          "Type": "STRING",
+          "Value": "kagent.runtime.v1.TaskStoreService/GetTask"
+        }
+      },
+      {
+        "Key": "rpc.system.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "grpc"
+        }
+      },
+      {
+        "Key": "server.address",
+        "Value": {
+          "Type": "STRING",
+          "Value": "bufconn"
+        }
+      },
+      {
+        "Key": "rpc.response.status_code",
+        "Value": {
+          "Type": "STRING",
+          "Value": "OK"
+        }
+      }
+    ],
+    "Events": null,
+    "Links": null,
+    "Status": {
+      "Code": "Unset",
+      "Description": ""
+    },
+    "DroppedAttributes": 0,
+    "DroppedEvents": 0,
+    "DroppedLinks": 0,
+    "ChildSpanCount": 0,
+    "Resource": [
+      {
+        "Key": "service.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "unknown_service:taskstore.test"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.language",
+        "Value": {
+          "Type": "STRING",
+          "Value": "go"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "opentelemetry"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.version",
+        "Value": {
+          "Type": "STRING",
+          "Value": "1.47.0"
+        }
+      }
+    ],
+    "InstrumentationScope": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    },
+    "InstrumentationLibrary": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    }
+  },
+  {
+    "Name": "kagent.runtime.v1.TaskStoreService/ListTasks",
+    "SpanContext": {
+      "TraceID": "775c3e001aad89e4b66d0b4052000f25",
+      "SpanID": "affe9a88085d9786",
+      "TraceFlags": "01",
+      "TraceState": "",
+      "Remote": false
+    },
+    "Parent": {
+      "TraceID": "00000000000000000000000000000000",
+      "SpanID": "0000000000000000",
+      "TraceFlags": "00",
+      "TraceState": "",
+      "Remote": false
+    },
+    "SpanKind": 3,
+    "StartTime": "2026-11-02T10:57:24.109077-08:00",
+    "EndTime": "2026-11-02T10:57:24.212823083-08:00",
+    "Attributes": [
+      {
+        "Key": "rpc.method",
+        "Value": {
+          "Type": "STRING",
+          "Value": "kagent.runtime.v1.TaskStoreService/ListTasks"
+        }
+      },
+      {
+        "Key": "rpc.system.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "grpc"
+        }
+      },
+      {
+        "Key": "server.address",
+        "Value": {
+          "Type": "STRING",
+          "Value": "bufconn"
+        }
+      },
+      {
+        "Key": "rpc.response.status_code",
+        "Value": {
+          "Type": "STRING",
+          "Value": "OK"
+        }
+      }
+    ],
+    "Events": null,
+    "Links": null,
+    "Status": {
+      "Code": "Unset",
+      "Description": ""
+    },
+    "DroppedAttributes": 0,
+    "DroppedEvents": 0,
+    "DroppedLinks": 0,
+    "ChildSpanCount": 0,
+    "Resource": [
+      {
+        "Key": "service.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "unknown_service:taskstore.test"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.language",
+        "Value": {
+          "Type": "STRING",
+          "Value": "go"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "opentelemetry"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.version",
+        "Value": {
+          "Type": "STRING",
+          "Value": "1.47.0"
+        }
+      }
+    ],
+    "InstrumentationScope": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    },
+    "InstrumentationLibrary": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    }
+  },
+  {
+    "Name": "kagent.runtime.v1.TaskStoreService/CreateTask",
+    "SpanContext": {
+      "TraceID": "4933c9a45967e1db965056f10ec4ae91",
+      "SpanID": "25a69e3a65d7b270",
+      "TraceFlags": "01",
+      "TraceState": "",
+      "Remote": false
+    },
+    "Parent": {
+      "TraceID": "00000000000000000000000000000000",
+      "SpanID": "0000000000000000",
+      "TraceFlags": "00",
+      "TraceState": "",
+      "Remote": false
+    },
+    "SpanKind": 3,
+    "StartTime": "2026-11-02T10:57:24.109004-08:00",
+    "EndTime": "2026-11-02T10:57:24.213021958-08:00",
+    "Attributes": [
+      {
+        "Key": "rpc.method",
+        "Value": {
+          "Type": "STRING",
+          "Value": "kagent.runtime.v1.TaskStoreService/CreateTask"
+        }
+      },
+      {
+        "Key": "rpc.system.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "grpc"
+        }
+      },
+      {
+        "Key": "server.address",
+        "Value": {
+          "Type": "STRING",
+          "Value": "bufconn"
+        }
+      },
+      {
+        "Key": "rpc.response.status_code",
+        "Value": {
+          "Type": "STRING",
+          "Value": "OK"
+        }
+      }
+    ],
+    "Events": null,
+    "Links": null,
+    "Status": {
+      "Code": "Unset",
+      "Description": ""
+    },
+    "DroppedAttributes": 0,
+    "DroppedEvents": 0,
+    "DroppedLinks": 0,
+    "ChildSpanCount": 0,
+    "Resource": [
+      {
+        "Key": "service.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "unknown_service:taskstore.test"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.language",
+        "Value": {
+          "Type": "STRING",
+          "Value": "go"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "opentelemetry"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.version",
+        "Value": {
+          "Type": "STRING",
+          "Value": "1.47.0"
+        }
+      }
+    ],
+    "InstrumentationScope": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    },
+    "InstrumentationLibrary": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    }
+  },
+  {
+    "Name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+    "SpanContext": {
+      "TraceID": "c58a2229206857b9c24ba1c03cb99149",
+      "SpanID": "8d2050788afdc267",
+      "TraceFlags": "01",
+      "TraceState": "",
+      "Remote": false
+    },
+    "Parent": {
+      "TraceID": "00000000000000000000000000000000",
+      "SpanID": "0000000000000000",
+      "TraceFlags": "00",
+      "TraceState": "",
+      "Remote": false
+    },
+    "SpanKind": 3,
+    "StartTime": "2026-11-02T10:57:24.109093-08:00",
+    "EndTime": "2026-11-02T10:57:24.213054291-08:00",
+    "Attributes": [
+      {
+        "Key": "rpc.method",
+        "Value": {
+          "Type": "STRING",
+          "Value": "kagent.runtime.v1.TaskStoreService/UpdateTask"
+        }
+      },
+      {
+        "Key": "rpc.system.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "grpc"
+        }
+      },
+      {
+        "Key": "server.address",
+        "Value": {
+          "Type": "STRING",
+          "Value": "bufconn"
+        }
+      },
+      {
+        "Key": "rpc.response.status_code",
+        "Value": {
+          "Type": "STRING",
+          "Value": "OK"
+        }
+      }
+    ],
+    "Events": null,
+    "Links": null,
+    "Status": {
+      "Code": "Unset",
+      "Description": ""
+    },
+    "DroppedAttributes": 0,
+    "DroppedEvents": 0,
+    "DroppedLinks": 0,
+    "ChildSpanCount": 0,
+    "Resource": [
+      {
+        "Key": "service.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "unknown_service:taskstore.test"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.language",
+        "Value": {
+          "Type": "STRING",
+          "Value": "go"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.name",
+        "Value": {
+          "Type": "STRING",
+          "Value": "opentelemetry"
+        }
+      },
+      {
+        "Key": "telemetry.sdk.version",
+        "Value": {
+          "Type": "STRING",
+          "Value": "1.47.0"
+        }
+      }
+    ],
+    "InstrumentationScope": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    },
+    "InstrumentationLibrary": {
+      "Name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "Version": "0.72.0",
+      "SchemaURL": "",
+      "Attributes": null
+    }
+  }
+]

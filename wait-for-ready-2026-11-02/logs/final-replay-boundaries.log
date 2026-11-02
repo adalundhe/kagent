@@ -1,0 +1,37 @@
+=== RUN   TestEvidenceUnavailableTransportBoundaries
+=== RUN   TestEvidenceUnavailableTransportBoundaries/caller-cancel
+=== PAUSE TestEvidenceUnavailableTransportBoundaries/caller-cancel
+=== RUN   TestEvidenceUnavailableTransportBoundaries/caller-deadline
+=== PAUSE TestEvidenceUnavailableTransportBoundaries/caller-deadline
+=== RUN   TestEvidenceUnavailableTransportBoundaries/exhaustion
+=== PAUSE TestEvidenceUnavailableTransportBoundaries/exhaustion
+=== CONT  TestEvidenceUnavailableTransportBoundaries/caller-cancel
+=== CONT  TestEvidenceUnavailableTransportBoundaries/caller-deadline
+=== CONT  TestEvidenceUnavailableTransportBoundaries/exhaustion
+=== NAME  TestEvidenceUnavailableTransportBoundaries/caller-deadline
+    zz_evidence_deadline_test.go:31: EVIDENCE configured_deadline mode=caller-deadline attempt=1 remaining_seconds=0.249879
+=== NAME  TestEvidenceUnavailableTransportBoundaries/exhaustion
+    zz_evidence_deadline_test.go:31: EVIDENCE configured_deadline mode=exhaustion attempt=1 remaining_seconds=29.999979
+=== NAME  TestEvidenceUnavailableTransportBoundaries/caller-deadline
+    zz_evidence_deadline_test.go:39: EVIDENCE boundary_rpc mode=caller-deadline attempt=1 elapsed_seconds=0.446581 code=DeadlineExceeded
+    zz_evidence_deadline_test.go:61: EVIDENCE boundary_result mode=caller-deadline elapsed_seconds=0.446771 attempts=1 error="context deadline exceeded"
+=== NAME  TestEvidenceUnavailableTransportBoundaries/caller-cancel
+    zz_evidence_deadline_test.go:39: EVIDENCE boundary_rpc mode=caller-cancel attempt=1 elapsed_seconds=0.446597 code=Canceled
+    zz_evidence_deadline_test.go:61: EVIDENCE boundary_result mode=caller-cancel elapsed_seconds=0.446844 attempts=1 error="rpc error: code = Canceled desc = latest balancer error: connection error: desc = \"transport: Error while dialing: controller transport unavailable\""
+    zz_evidence_deadline_test.go:67: EVIDENCE cancellation_callback_after_seconds=0.446572 return_after_callback_seconds=0.000326
+=== NAME  TestEvidenceUnavailableTransportBoundaries/exhaustion
+    zz_evidence_deadline_test.go:39: EVIDENCE boundary_rpc mode=exhaustion attempt=1 elapsed_seconds=30.000161 code=DeadlineExceeded
+    zz_evidence_deadline_test.go:31: EVIDENCE configured_deadline mode=exhaustion attempt=2 remaining_seconds=29.999986
+    zz_evidence_deadline_test.go:39: EVIDENCE boundary_rpc mode=exhaustion attempt=2 elapsed_seconds=30.000153 code=DeadlineExceeded
+    zz_evidence_deadline_test.go:31: EVIDENCE configured_deadline mode=exhaustion attempt=3 remaining_seconds=29.999979
+    zz_evidence_deadline_test.go:39: EVIDENCE boundary_rpc mode=exhaustion attempt=3 elapsed_seconds=30.000059 code=DeadlineExceeded
+    zz_evidence_deadline_test.go:31: EVIDENCE configured_deadline mode=exhaustion attempt=4 remaining_seconds=29.999987
+    zz_evidence_deadline_test.go:39: EVIDENCE boundary_rpc mode=exhaustion attempt=4 elapsed_seconds=30.000114 code=DeadlineExceeded
+2026/11/02 10:59:36 ERROR taskstore retries exhausted attempts=4 error="rpc error: code = DeadlineExceeded desc = latest balancer error: connection error: desc = \"transport: Error while dialing: controller transport unavailable\""
+    zz_evidence_deadline_test.go:61: EVIDENCE boundary_result mode=exhaustion elapsed_seconds=120.702011 attempts=4 error="rpc error: code = DeadlineExceeded desc = latest balancer error: connection error: desc = \"transport: Error while dialing: controller transport unavailable\""
+--- PASS: TestEvidenceUnavailableTransportBoundaries (0.00s)
+    --- PASS: TestEvidenceUnavailableTransportBoundaries/caller-cancel (0.45s)
+    --- PASS: TestEvidenceUnavailableTransportBoundaries/caller-deadline (0.45s)
+    --- PASS: TestEvidenceUnavailableTransportBoundaries/exhaustion (120.71s)
+PASS
+ok  	github.com/kagent-dev/kagent/go/adk/pkg/taskstore	122.169s
