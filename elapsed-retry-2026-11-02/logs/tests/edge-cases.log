@@ -1,0 +1,19 @@
+# Adversarial probes on 8f893624 (real gRPC over bufconn, -race). The fake server answers like the egress
+# proxy during a restart: Unavailable 'upstream call failed: Connect: Connection refused (os error 111)'
+# over a connection that stays READY. Probe file loaded with go test -overlay; the tree is unchanged.
+
+$ go test -race -overlay=<probe> ./adk/pkg/taskstore -run '^TestProbe' -count=1 -v -timeout 6m
+  case=ready_proxy_2s_outage err=<nil> version=2 elapsed=2.097s attempts=6 ready_attempts=6 identical_requests=true log=""
+--- PASS: TestProbeReadyProxyOutageThenRecovery (2.10s)
+  case=settle_ready_proxy_2s_outage settled=1 elapsed=2.308s attempts=6 log=""
+--- PASS: TestProbeSettlementThroughReadyProxyOutage (2.31s)
+  case=ready_proxy_permanent elapsed=2m0.002s attempts=161 err="rpc error: code = Unavailable desc = upstream call failed: Connect: Connection refused (os error 111)" code=Unavailable is_ctx_deadline=false log="time=2026-11-02T13:41:19.268-08:00 level=ERROR msg='taskstore retries exhausted' attempts=161 error='rpc er…""
+--- PASS: TestProbeReadyProxyPermanentOutage (120.01s)
+  case=caller_cancel elapsed=250ms attempts=3 err="context canceled" logged_exhausted=false log=""
+--- PASS: TestProbeCallerCancelDuringOutage (0.27s)
+  case=caller_deadline_1500ms elapsed=1.5s attempts=5 err="context deadline exceeded" logged_exhausted=false log=""
+--- PASS: TestProbeCallerDeadlineDuringOutage (1.51s)
+  case=proxy_restart_2s_then_controller_down_2s err=<nil> version=2 elapsed=4.076s attempts=5 ready_attempts=4 log=""
+--- PASS: TestProbeProxyRestartThenControllerOutage (4.08s)
+ok  	github.com/kagent-dev/kagent/go/adk/pkg/taskstore	131.817s
+exit=0

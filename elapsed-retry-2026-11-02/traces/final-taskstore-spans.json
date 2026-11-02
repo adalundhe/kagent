@@ -1,0 +1,1054 @@
+[
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/CreateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "ceaddddfd99fef0e",
+  "kind": 3,
+  "start": 1793655440.5625467,
+  "duration_ms": 240.4,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/CreateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "c57eff7744f061b4",
+  "kind": 3,
+  "start": 1793655440.8121457,
+  "duration_ms": 16.6,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "invoke_agent interaction_h7dkn",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "5d68a0acb30c96b0",
+  "kind": 1,
+  "start": 1793655440.82674,
+  "duration_ms": 2258.9,
+  "status": {},
+  "attributes": {
+   "gcp.vertex.agent.invocation_id": "e-675d5efc-63f0-4cd0-9a62-399adae58eb0",
+   "gen_ai.operation.name": "invoke_agent",
+   "gen_ai.agent.description": "Agent interaction E2E fixture",
+   "gen_ai.agent.name": "interaction_h7dkn",
+   "gen_ai.conversation.id": "01a19e32-0189-7978-a3c8-1efd5273fb46",
+   "a2a.task.id": "01a19e32-0488-7cba-b37e-4ea6dee9cb46"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "823e1c91f5fba3dd",
+  "kind": 3,
+  "start": 1793655440.8294566,
+  "duration_ms": 73.0,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "7c3bb465ee64426b",
+  "kind": 3,
+  "start": 1793655443.072,
+  "duration_ms": 19.3,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "015199c0052d3b3b",
+  "kind": 3,
+  "start": 1793655443.1712205,
+  "duration_ms": 10.6,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "e0d0beaf4ae72dc4",
+  "kind": 3,
+  "start": 1793655443.3369792,
+  "duration_ms": 4.5,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "bafa3347834d7ca4",
+  "kind": 3,
+  "start": 1793655443.550375,
+  "duration_ms": 4.3,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "c32f975357929150",
+  "kind": 3,
+  "start": 1793655444.18105,
+  "duration_ms": 7.2,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "6d05b0ff9df9fe65",
+  "kind": 3,
+  "start": 1793655444.9897285,
+  "duration_ms": 5.9,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "f72ac12f2e4751b9",
+  "kind": 3,
+  "start": 1793655445.685659,
+  "duration_ms": 3.8,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "3d828ca8f000b71f",
+  "kind": 3,
+  "start": 1793655446.376719,
+  "duration_ms": 4.3,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "7249a9c00aa1c268",
+  "kind": 3,
+  "start": 1793655447.1382656,
+  "duration_ms": 4.6,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "dc98ebe3d3f800ed",
+  "kind": 3,
+  "start": 1793655447.8054903,
+  "duration_ms": 4.1,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "16803bb09337bdc5",
+  "kind": 3,
+  "start": 1793655448.4493275,
+  "duration_ms": 3.8,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "2490a8489073affe",
+  "kind": 3,
+  "start": 1793655449.4078605,
+  "duration_ms": 9.6,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "9879215fe42c7da5",
+  "kind": 3,
+  "start": 1793655450.0105052,
+  "duration_ms": 1017.6,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "e33f6353b777290b",
+  "kind": 3,
+  "start": 1793655451.5753193,
+  "duration_ms": 11.7,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "efa0dc135241f31e",
+  "kind": 3,
+  "start": 1793655452.1828768,
+  "duration_ms": 6.9,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "8fe22f934147899c",
+  "kind": 3,
+  "start": 1793655452.753113,
+  "duration_ms": 1025.8,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "094e6f0e6a9dbaaa",
+  "kind": 3,
+  "start": 1793655454.522236,
+  "duration_ms": 6.6,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "e39eace777a6c1ad",
+  "kind": 3,
+  "start": 1793655455.1832788,
+  "duration_ms": 7.4,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "014eeb418e287686",
+  "kind": 3,
+  "start": 1793655455.7940745,
+  "duration_ms": 1057.5,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "c1b3c26b797971a7",
+  "kind": 3,
+  "start": 1793655457.5875664,
+  "duration_ms": 93.9,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "e08a8a6d8a85b2b0",
+  "kind": 3,
+  "start": 1793655458.2114577,
+  "duration_ms": 4.1,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "a7e9ccc9f7d7b839",
+  "kind": 3,
+  "start": 1793655458.7237976,
+  "duration_ms": 1010.5,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "949cfa19a889f6d1",
+  "kind": 3,
+  "start": 1793655460.6727476,
+  "duration_ms": 9.2,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "93f45bebb6c3089c",
+  "kind": 3,
+  "start": 1793655461.6058998,
+  "duration_ms": 13.9,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "44d7b240bcb245d5",
+  "kind": 3,
+  "start": 1793655462.4658263,
+  "duration_ms": 5.2,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "87d0fd8b33f0ff43",
+  "kind": 3,
+  "start": 1793655463.1383145,
+  "duration_ms": 16.8,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "ccb6f8d1a80740b4",
+  "kind": 3,
+  "start": 1793655463.7617085,
+  "duration_ms": 1026.9,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "38fe279c47bfa213",
+  "kind": 3,
+  "start": 1793655465.382287,
+  "duration_ms": 10.1,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "abafa01e31f8552f",
+  "kind": 3,
+  "start": 1793655466.312671,
+  "duration_ms": 29.3,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "8aea7a2cd2657285",
+  "kind": 3,
+  "start": 1793655467.057363,
+  "duration_ms": 1058.7,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "480e72154d4a7cd0",
+  "kind": 3,
+  "start": 1793655468.871087,
+  "duration_ms": 8.8,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "d2c0085b9d6553b6",
+  "kind": 3,
+  "start": 1793655469.782026,
+  "duration_ms": 5.2,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "f945d9692cde00c0",
+  "kind": 3,
+  "start": 1793655470.624214,
+  "duration_ms": 8.8,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "19a55a5cb36b8a01",
+  "kind": 3,
+  "start": 1793655471.546975,
+  "duration_ms": 8.0,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "10ce68e163e18e88",
+  "kind": 3,
+  "start": 1793655472.4060588,
+  "duration_ms": 48.7,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "cfc5b02ab43c6373",
+  "kind": 3,
+  "start": 1793655472.9936872,
+  "duration_ms": 1074.9,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "a8ff1f05eb80184f",
+  "kind": 3,
+  "start": 1793655474.8294945,
+  "duration_ms": 12.0,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "bbb95b59e4d09b26",
+  "kind": 3,
+  "start": 1793655475.434652,
+  "duration_ms": 5.6,
+  "status": {
+   "message": "connection refused",
+   "code": 2
+  },
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "UNAVAILABLE"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "8d59243afcecda60",
+  "kind": 3,
+  "start": 1793655476.311863,
+  "duration_ms": 13.8,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "35f4c05cf96bb5a3",
+  "kind": 3,
+  "start": 1793655476.3294137,
+  "duration_ms": 12.5,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "398c82d463a5af9d",
+  "kind": 3,
+  "start": 1793655476.342683,
+  "duration_ms": 8.4,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/SettleTask",
+  "trace_id": "ff80d22e2235866270f254c86625f8f1",
+  "span_id": "97cddb672f3a1bce",
+  "kind": 3,
+  "start": 1793655476.3573134,
+  "duration_ms": 7.0,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/SettleTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/CreateTask",
+  "trace_id": "d59c4ba380a2cd1c49bd18e1531069d9",
+  "span_id": "1d439b0c9251d8c6",
+  "kind": 3,
+  "start": 1793655478.4708874,
+  "duration_ms": 29.8,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/CreateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "d59c4ba380a2cd1c49bd18e1531069d9",
+  "span_id": "f15347e6a90e3d67",
+  "kind": 3,
+  "start": 1793655478.5060856,
+  "duration_ms": 23.6,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "d59c4ba380a2cd1c49bd18e1531069d9",
+  "span_id": "a30f749738573f8c",
+  "kind": 3,
+  "start": 1793655478.5390337,
+  "duration_ms": 9.0,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "invoke_agent interaction_h7dkn",
+  "trace_id": "d59c4ba380a2cd1c49bd18e1531069d9",
+  "span_id": "5c68a0c096d0301d",
+  "kind": 1,
+  "start": 1793655478.5390666,
+  "duration_ms": 22.4,
+  "status": {},
+  "attributes": {
+   "gcp.vertex.agent.invocation_id": "e-178361fe-ac6f-4d8d-8298-3ece3a9726ff",
+   "gen_ai.operation.name": "invoke_agent",
+   "gen_ai.agent.description": "Agent interaction E2E fixture",
+   "gen_ai.agent.name": "interaction_h7dkn",
+   "gen_ai.conversation.id": "01a19e32-0189-7978-a3c8-1efd5273fb46",
+   "a2a.task.id": "01a19e32-98c6-7013-a3b2-126ca9df80bb",
+   "enduser.id": "admin@kagent.dev"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "d59c4ba380a2cd1c49bd18e1531069d9",
+  "span_id": "642b8e01d3b4e5bf",
+  "kind": 3,
+  "start": 1793655478.559703,
+  "duration_ms": 6.1,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "d59c4ba380a2cd1c49bd18e1531069d9",
+  "span_id": "04d32d1d2cb87108",
+  "kind": 3,
+  "start": 1793655478.5664048,
+  "duration_ms": 9.0,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+  "trace_id": "d59c4ba380a2cd1c49bd18e1531069d9",
+  "span_id": "f9a4741740483b01",
+  "kind": 3,
+  "start": 1793655478.5757859,
+  "duration_ms": 5.4,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/UpdateTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/GetTask",
+  "trace_id": "d59c4ba380a2cd1c49bd18e1531069d9",
+  "span_id": "3da65455a6141f7e",
+  "kind": 3,
+  "start": 1793655478.5816295,
+  "duration_ms": 16.6,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/GetTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ },
+ {
+  "service": "interaction-h7dkn",
+  "name": "kagent.runtime.v1.TaskStoreService/SettleTask",
+  "trace_id": "d59c4ba380a2cd1c49bd18e1531069d9",
+  "span_id": "43d45aaaa79f72d8",
+  "kind": 3,
+  "start": 1793655478.585646,
+  "duration_ms": 9.9,
+  "status": {},
+  "attributes": {
+   "rpc.method": "kagent.runtime.v1.TaskStoreService/SettleTask",
+   "rpc.system.name": "grpc",
+   "server.address": "10.96.217.66",
+   "server.port": "8083",
+   "rpc.response.status_code": "OK"
+  }
+ }
+]

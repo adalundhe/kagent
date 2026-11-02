@@ -1,0 +1,925 @@
+2026-11-02T21:37:20.630078299Z ; query
+2026-11-02T21:37:20.630079882Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.630080549Z 
+2026-11-02T21:37:20.630889549Z ; query
+2026-11-02T21:37:20.630890715Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.630891382Z ; answers 0
+2026-11-02T21:37:20.630900340Z ; authorities 1
+2026-11-02T21:37:20.630901590Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.630902090Z ; additionals 0
+2026-11-02T21:37:20.630902590Z 	
+2026-11-02T21:37:20.631044299Z ; query
+2026-11-02T21:37:20.631046340Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.631047590Z 
+2026-11-02T21:37:20.631579799Z ; query
+2026-11-02T21:37:20.631580340Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.631580799Z ; answers 0
+2026-11-02T21:37:20.631581257Z ; authorities 1
+2026-11-02T21:37:20.631581674Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.631582090Z ; additionals 0
+2026-11-02T21:37:20.631582507Z 	
+2026-11-02T21:37:20.631767840Z ; query
+2026-11-02T21:37:20.631770049Z ;; api.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:37:20.631771674Z 
+2026-11-02T21:37:20.632702382Z ; query
+2026-11-02T21:37:20.632705924Z ;; api.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:37:20.632707174Z ; answers 0
+2026-11-02T21:37:20.632707674Z ; authorities 1
+2026-11-02T21:37:20.632708840Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.632712132Z ; additionals 0
+2026-11-02T21:37:20.632713382Z 	
+2026-11-02T21:37:20.632719382Z ; query
+2026-11-02T21:37:20.632719924Z ;; api.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.632720424Z 
+2026-11-02T21:37:20.633534590Z ; query
+2026-11-02T21:37:20.633535924Z ;; api.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.633536424Z ; answers 0
+2026-11-02T21:37:20.633537049Z ; authorities 1
+2026-11-02T21:37:20.633537507Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.633538049Z ; additionals 0
+2026-11-02T21:37:20.633538507Z 	
+2026-11-02T21:37:20.633569632Z ; query
+2026-11-02T21:37:20.633595215Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.633598257Z 
+2026-11-02T21:37:20.634422632Z ; query
+2026-11-02T21:37:20.634423840Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.634424382Z ; answers 2
+2026-11-02T21:37:20.634425049Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.21
+2026-11-02T21:37:20.634428007Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.20
+2026-11-02T21:37:20.634428465Z ; authorities 0
+2026-11-02T21:37:20.634428840Z ; additionals 0
+2026-11-02T21:37:20.634430049Z 	
+2026-11-02T21:37:20.634431799Z ; query
+2026-11-02T21:37:20.634432257Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.634432674Z ; answers 2
+2026-11-02T21:37:20.634433215Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.21
+2026-11-02T21:37:20.634433632Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.20
+2026-11-02T21:37:20.634434049Z ; authorities 0
+2026-11-02T21:37:20.634434465Z ; additionals 0
+2026-11-02T21:37:20.634436257Z 	
+2026-11-02T21:37:20.688476715Z ; query
+2026-11-02T21:37:20.688477674Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.688479882Z 
+2026-11-02T21:37:20.689541799Z ; query
+2026-11-02T21:37:20.689549715Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.689552340Z ; answers 0
+2026-11-02T21:37:20.689556132Z ; authorities 1
+2026-11-02T21:37:20.689559465Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.689562007Z ; additionals 0
+2026-11-02T21:37:20.689562507Z 	
+2026-11-02T21:37:20.689590465Z ; query
+2026-11-02T21:37:20.689591465Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.689593882Z 
+2026-11-02T21:37:20.690761007Z ; query
+2026-11-02T21:37:20.690764090Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.690764924Z ; answers 0
+2026-11-02T21:37:20.690765382Z ; authorities 1
+2026-11-02T21:37:20.690766007Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.690766424Z ; additionals 0
+2026-11-02T21:37:20.690766882Z 	
+2026-11-02T21:37:20.690778715Z ; query
+2026-11-02T21:37:20.690780049Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:37:20.690780507Z 
+2026-11-02T21:37:20.691859799Z ; query
+2026-11-02T21:37:20.692018299Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:37:20.692035257Z ; answers 0
+2026-11-02T21:37:20.692038799Z ; authorities 1
+2026-11-02T21:37:20.692041549Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.692042174Z ; additionals 0
+2026-11-02T21:37:20.692044965Z 	
+2026-11-02T21:37:20.692585840Z ; query
+2026-11-02T21:37:20.692586965Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.692587424Z 
+2026-11-02T21:37:20.693012215Z ; query
+2026-11-02T21:37:20.693015882Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.693030757Z ; answers 0
+2026-11-02T21:37:20.693032007Z ; authorities 1
+2026-11-02T21:37:20.693032590Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.693033049Z ; additionals 0
+2026-11-02T21:37:20.693033632Z 	
+2026-11-02T21:37:20.693224174Z ; query
+2026-11-02T21:37:20.693228090Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:37:20.693231507Z 
+2026-11-02T21:37:20.694082924Z ; query
+2026-11-02T21:37:20.694084590Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:37:20.694088257Z ; answers 0
+2026-11-02T21:37:20.694138132Z ; authorities 1
+2026-11-02T21:37:20.694146799Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.694149674Z ; additionals 0
+2026-11-02T21:37:20.694150174Z 	
+2026-11-02T21:37:20.694165007Z ; query
+2026-11-02T21:37:20.694166174Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:37:20.694168507Z 
+2026-11-02T21:37:20.695162465Z ; query
+2026-11-02T21:37:20.695163424Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:37:20.695163882Z ; answers 0
+2026-11-02T21:37:20.695166549Z ; authorities 1
+2026-11-02T21:37:20.695167132Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.695167590Z ; additionals 0
+2026-11-02T21:37:20.695168924Z 	
+2026-11-02T21:37:20.695467715Z ; query
+2026-11-02T21:37:20.695469840Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:20.695491215Z 
+2026-11-02T21:37:20.696576757Z ; query
+2026-11-02T21:37:20.696577924Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:20.696578424Z ; answers 1
+2026-11-02T21:37:20.696581132Z kagent-controller.kagent.svc.cluster.local. 30 IN A 10.96.217.66
+2026-11-02T21:37:20.696581715Z ; authorities 0
+2026-11-02T21:37:20.696582174Z ; additionals 0
+2026-11-02T21:37:20.696582674Z 	
+2026-11-02T21:37:20.696583882Z ; query
+2026-11-02T21:37:20.696584299Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:20.696584757Z ; answers 1
+2026-11-02T21:37:20.696585174Z kagent-controller.kagent.svc.cluster.local. 30 IN A 10.96.217.66
+2026-11-02T21:37:20.696585590Z ; authorities 0
+2026-11-02T21:37:20.696586049Z ; additionals 0
+2026-11-02T21:37:20.696586507Z 	
+2026-11-02T21:37:20.801906591Z 2026-11-02T21:37:20.801604Z	info	request request.id=13 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/CreateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=d2875956ef7d2ecd protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=158ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:20.828077966Z 2026-11-02T21:37:20.827885Z	info	request request.id=14 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=d6eddb442b45c1ce protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=15ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:20.891838966Z ; query
+2026-11-02T21:37:20.891840091Z ;; k8s-credential-provider.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.891840632Z 
+2026-11-02T21:37:20.892917424Z ; query
+2026-11-02T21:37:20.892923716Z ;; k8s-credential-provider.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.892926216Z ; answers 0
+2026-11-02T21:37:20.892926882Z ; authorities 1
+2026-11-02T21:37:20.892927507Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.892937841Z ; additionals 0
+2026-11-02T21:37:20.892939049Z 	
+2026-11-02T21:37:20.892986007Z ; query
+2026-11-02T21:37:20.892990091Z ;; k8s-credential-provider.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.892990757Z 
+2026-11-02T21:37:20.893794382Z ; query
+2026-11-02T21:37:20.893796466Z ;; k8s-credential-provider.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.893797257Z ; answers 0
+2026-11-02T21:37:20.893798466Z ; authorities 1
+2026-11-02T21:37:20.893800966Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.893801424Z ; additionals 0
+2026-11-02T21:37:20.893804132Z 	
+2026-11-02T21:37:20.893834966Z ; query
+2026-11-02T21:37:20.893835549Z ;; k8s-credential-provider.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:37:20.893835966Z 
+2026-11-02T21:37:20.895031091Z ; query
+2026-11-02T21:37:20.895032049Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.895032466Z 
+2026-11-02T21:37:20.895040507Z ; query
+2026-11-02T21:37:20.895041174Z ;; k8s-credential-provider.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:37:20.895041632Z ; answers 0
+2026-11-02T21:37:20.895042091Z ; authorities 1
+2026-11-02T21:37:20.895055674Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.895060757Z ; additionals 0
+2026-11-02T21:37:20.895061841Z 	
+2026-11-02T21:37:20.895224924Z ; query
+2026-11-02T21:37:20.895226716Z ;; k8s-credential-provider.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.895229799Z 
+2026-11-02T21:37:20.896173632Z ; query
+2026-11-02T21:37:20.896176174Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.896177007Z ; answers 0
+2026-11-02T21:37:20.896177799Z ; authorities 1
+2026-11-02T21:37:20.896178507Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.896179091Z ; additionals 0
+2026-11-02T21:37:20.896179549Z 	
+2026-11-02T21:37:20.896515257Z ; query
+2026-11-02T21:37:20.896517424Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.896517966Z 
+2026-11-02T21:37:20.896528424Z ; query
+2026-11-02T21:37:20.896528924Z ;; k8s-credential-provider.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.896529382Z ; answers 0
+2026-11-02T21:37:20.896530424Z ; authorities 1
+2026-11-02T21:37:20.896532132Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.896533757Z ; additionals 0
+2026-11-02T21:37:20.896534174Z 	
+2026-11-02T21:37:20.896542924Z ; query
+2026-11-02T21:37:20.896543674Z ;; k8s-credential-provider.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.896544049Z 
+2026-11-02T21:37:20.897263966Z ; query
+2026-11-02T21:37:20.897265257Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.897268507Z ; answers 0
+2026-11-02T21:37:20.897271507Z ; authorities 1
+2026-11-02T21:37:20.897272674Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.897273174Z ; additionals 0
+2026-11-02T21:37:20.897273591Z 	
+2026-11-02T21:37:20.897278382Z ; query
+2026-11-02T21:37:20.897279257Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:37:20.897279674Z 
+2026-11-02T21:37:20.897945924Z ; query
+2026-11-02T21:37:20.897948591Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:37:20.897956591Z ; answers 0
+2026-11-02T21:37:20.897957507Z ; authorities 1
+2026-11-02T21:37:20.897958007Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.897959841Z ; additionals 0
+2026-11-02T21:37:20.897962257Z 	
+2026-11-02T21:37:20.898070799Z ; query
+2026-11-02T21:37:20.898072424Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.898072966Z 
+2026-11-02T21:37:20.898074299Z ; query
+2026-11-02T21:37:20.898074757Z ;; k8s-credential-provider.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.898075341Z ; answers 1
+2026-11-02T21:37:20.898076007Z k8s-credential-provider.ate-system.svc.cluster.local. 30 IN A 10.96.229.110
+2026-11-02T21:37:20.898076507Z ; authorities 0
+2026-11-02T21:37:20.898076966Z ; additionals 0
+2026-11-02T21:37:20.898077424Z 	
+2026-11-02T21:37:20.898078966Z ; query
+2026-11-02T21:37:20.898079382Z ;; k8s-credential-provider.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.898079841Z ; answers 1
+2026-11-02T21:37:20.898080382Z k8s-credential-provider.ate-system.svc.cluster.local. 30 IN A 10.96.229.110
+2026-11-02T21:37:20.898080882Z ; authorities 0
+2026-11-02T21:37:20.898081341Z ; additionals 0
+2026-11-02T21:37:20.898081799Z 	
+2026-11-02T21:37:20.898891799Z ; query
+2026-11-02T21:37:20.898892507Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.898892966Z ; answers 0
+2026-11-02T21:37:20.898893341Z ; authorities 1
+2026-11-02T21:37:20.898893757Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.898894174Z ; additionals 0
+2026-11-02T21:37:20.898894549Z 	
+2026-11-02T21:37:20.899063216Z ; query
+2026-11-02T21:37:20.899076966Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:37:20.899282882Z 
+2026-11-02T21:37:20.901376257Z 2026-11-02T21:37:20.900940Z	info	request request.id=15 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=5e617565180eb06a protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=70ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:20.902075716Z ; query
+2026-11-02T21:37:20.902077841Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:37:20.902079966Z ; answers 0
+2026-11-02T21:37:20.902081424Z ; authorities 1
+2026-11-02T21:37:20.902082507Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.902083882Z ; additionals 0
+2026-11-02T21:37:20.902084757Z 	
+2026-11-02T21:37:20.902261882Z ; query
+2026-11-02T21:37:20.902265591Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:37:20.902268591Z 
+2026-11-02T21:37:20.903311882Z ; query
+2026-11-02T21:37:20.903312966Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:37:20.903323299Z ; answers 0
+2026-11-02T21:37:20.903324382Z ; authorities 1
+2026-11-02T21:37:20.903324924Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.903325382Z ; additionals 0
+2026-11-02T21:37:20.903325841Z 	
+2026-11-02T21:37:20.903354257Z ; query
+2026-11-02T21:37:20.903355424Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:20.903355841Z 
+2026-11-02T21:37:20.904313257Z ; query
+2026-11-02T21:37:20.904320799Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:20.904323924Z ; answers 1
+2026-11-02T21:37:20.904324882Z e2e-otlp.kagent.svc.cluster.local. 30 IN A 10.96.32.107
+2026-11-02T21:37:20.904325341Z ; authorities 0
+2026-11-02T21:37:20.904325841Z ; additionals 0
+2026-11-02T21:37:20.904326257Z 	
+2026-11-02T21:37:20.904327424Z ; query
+2026-11-02T21:37:20.904327966Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:20.904329716Z ; answers 1
+2026-11-02T21:37:20.904331716Z e2e-otlp.kagent.svc.cluster.local. 30 IN A 10.96.32.107
+2026-11-02T21:37:20.904332216Z ; authorities 0
+2026-11-02T21:37:20.904332632Z ; additionals 0
+2026-11-02T21:37:20.904333091Z 	
+2026-11-02T21:37:20.938461174Z 2026-11-02T21:37:20.938236Z	info	request request.id=17 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:39720 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=47ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:20.950545549Z 2026-11-02T21:37:20.950363Z	info	request request.id=18 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:39720 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=6ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:20.993473549Z ; query
+2026-11-02T21:37:20.993475507Z ;; host.docker.internal.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.993476341Z 
+2026-11-02T21:37:20.994381674Z ; query
+2026-11-02T21:37:20.994382299Z ;; host.docker.internal.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:20.994382841Z ; answers 0
+2026-11-02T21:37:20.994383299Z ; authorities 1
+2026-11-02T21:37:20.994383924Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.994384341Z ; additionals 0
+2026-11-02T21:37:20.994384757Z 	
+2026-11-02T21:37:20.994472716Z ; query
+2026-11-02T21:37:20.994473257Z ;; host.docker.internal.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.994473716Z 
+2026-11-02T21:37:20.995078049Z ; query
+2026-11-02T21:37:20.995080341Z ;; host.docker.internal.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.995081299Z ; answers 0
+2026-11-02T21:37:20.995082966Z ; authorities 1
+2026-11-02T21:37:20.995162424Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.995165049Z ; additionals 0
+2026-11-02T21:37:20.995166424Z 	
+2026-11-02T21:37:20.995182466Z ; query
+2026-11-02T21:37:20.995183257Z ;; host.docker.internal.svc.cluster.local. IN A
+2026-11-02T21:37:20.995183674Z 
+2026-11-02T21:37:20.995855882Z ; query
+2026-11-02T21:37:20.995858466Z ;; host.docker.internal.svc.cluster.local. IN A
+2026-11-02T21:37:20.995860757Z ; answers 0
+2026-11-02T21:37:20.995861257Z ; authorities 1
+2026-11-02T21:37:20.995861924Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.995863132Z ; additionals 0
+2026-11-02T21:37:20.995866549Z 	
+2026-11-02T21:37:20.995882674Z ; query
+2026-11-02T21:37:20.995883466Z ;; host.docker.internal.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.995883882Z 
+2026-11-02T21:37:20.997012674Z ; query
+2026-11-02T21:37:20.997014091Z ;; host.docker.internal.svc.cluster.local. IN AAAA
+2026-11-02T21:37:20.997014632Z ; answers 0
+2026-11-02T21:37:20.997015091Z ; authorities 1
+2026-11-02T21:37:20.997015841Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.997028216Z ; additionals 0
+2026-11-02T21:37:20.997029591Z 	
+2026-11-02T21:37:20.997051424Z ; query
+2026-11-02T21:37:20.997055507Z ;; host.docker.internal.cluster.local. IN A
+2026-11-02T21:37:20.997058757Z 
+2026-11-02T21:37:20.997662841Z ; query
+2026-11-02T21:37:20.997666549Z ;; host.docker.internal.cluster.local. IN A
+2026-11-02T21:37:20.997670882Z ; answers 0
+2026-11-02T21:37:20.997674341Z ; authorities 1
+2026-11-02T21:37:20.997677841Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.997681216Z ; additionals 0
+2026-11-02T21:37:20.997684216Z 	
+2026-11-02T21:37:20.997710341Z ; query
+2026-11-02T21:37:20.997713549Z ;; host.docker.internal.cluster.local. IN AAAA
+2026-11-02T21:37:20.997716507Z 
+2026-11-02T21:37:20.998304007Z ; query
+2026-11-02T21:37:20.998304882Z ;; host.docker.internal.cluster.local. IN AAAA
+2026-11-02T21:37:20.998311674Z ; answers 0
+2026-11-02T21:37:20.998312549Z ; authorities 1
+2026-11-02T21:37:20.998313216Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655188 7200 1800 86400 30
+2026-11-02T21:37:20.998313674Z ; additionals 0
+2026-11-02T21:37:20.998315966Z 	
+2026-11-02T21:37:20.998329882Z ; query
+2026-11-02T21:37:20.998334549Z ;; host.docker.internal. IN A
+2026-11-02T21:37:20.998335091Z 
+2026-11-02T21:37:21.002656216Z ; query
+2026-11-02T21:37:21.002660382Z ;; host.docker.internal. IN A
+2026-11-02T21:37:21.002663507Z ; answers 1
+2026-11-02T21:37:21.002669091Z host.docker.internal. 30 IN A 192.168.65.254
+2026-11-02T21:37:21.002672549Z ; authorities 0
+2026-11-02T21:37:21.002673841Z ; additionals 0
+2026-11-02T21:37:21.002674257Z 	
+2026-11-02T21:37:21.002675674Z ; query
+2026-11-02T21:37:21.002677549Z ;; host.docker.internal. IN A
+2026-11-02T21:37:21.002681257Z ; answers 1
+2026-11-02T21:37:21.002682174Z host.docker.internal. 30 IN A 192.168.65.254
+2026-11-02T21:37:21.002682841Z ; authorities 0
+2026-11-02T21:37:21.002683382Z ; additionals 0
+2026-11-02T21:37:21.002685466Z 	
+2026-11-02T21:37:23.053629675Z 2026-11-02T21:37:23.053500Z	info	request request.id=16 gateway=default/default listener=listener1 route=default/route0 endpoint=host.docker.internal:54757 src.addr=10.244.0.24:39720 http.method=POST http.host=host.docker.internal http.path=/v1/chat/completions http.version=HTTP/1.1 http.status=200 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=bca516fd0bf4445f protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=2164ms substrate.connect.authority="192.168.65.254:54757"
+2026-11-02T21:37:23.089777883Z 2026-11-02T21:37:23.089644Z	error	request request.id=19 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=cc0659cf32c2ddb0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=12ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:23.095976550Z 2026-11-02T21:37:23.095863Z	info	request request.id=20 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:39720 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=7ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:23.180690508Z 2026-11-02T21:37:23.180537Z	error	request request.id=21 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=756be35f81772517 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=8ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:23.340647175Z 2026-11-02T21:37:23.340520Z	error	request request.id=22 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=e9c8d73aba3f7143 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=2ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:23.554292383Z 2026-11-02T21:37:23.554185Z	error	request request.id=23 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=683d5625f320367c protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=3ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:24.187113175Z 2026-11-02T21:37:24.186955Z	error	request request.id=24 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=956b3e123e200ecb protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=5ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:24.994846593Z 2026-11-02T21:37:24.994705Z	error	request request.id=25 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=5a7f9a38196f3ae4 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=3ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:25.688987051Z 2026-11-02T21:37:25.688805Z	error	request request.id=26 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=ce62e8c93cdde8ed protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=2ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:26.380584177Z 2026-11-02T21:37:26.380478Z	error	request request.id=27 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=b3cf5af7c371ff8a protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=2ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:27.142013760Z 2026-11-02T21:37:27.141918Z	error	request request.id=28 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=529468183080fbb8 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=2ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:27.809111761Z 2026-11-02T21:37:27.809039Z	error	request request.id=29 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=616618c16be3d8c6 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=2ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:28.094527136Z 2026-11-02T21:37:28.094443Z	info	request request.id=30 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:39720 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=4ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:28.452743011Z 2026-11-02T21:37:28.452648Z	error	request request.id=31 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=5bbceb512d9d193c protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=2ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:29.415443803Z 2026-11-02T21:37:29.415052Z	error	request request.id=32 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=89d39c003225ba4e protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=5ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:31.027161345Z 2026-11-02T21:37:31.026639Z	error	request request.id=33 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=7b049e1d59c02eb6 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=1014ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:31.586080179Z 2026-11-02T21:37:31.585915Z	error	request request.id=34 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=7e280201fcc766a9 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=9ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:32.189212513Z 2026-11-02T21:37:32.189071Z	error	request request.id=35 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=065843da83e83777 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=5ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:33.092897971Z 2026-11-02T21:37:33.092817Z	info	request request.id=37 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:39720 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=4ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:33.778445680Z 2026-11-02T21:37:33.778385Z	error	request request.id=36 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=f41080f119cfce71 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=1024ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:34.527411430Z 2026-11-02T21:37:34.526623Z	error	request request.id=38 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=1f622b5ef9daec28 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=3ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:35.190308916Z 2026-11-02T21:37:35.190058Z	error	request request.id=39 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=e3978cb45f6d4990 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=5ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:36.850824209Z 2026-11-02T21:37:36.850679Z	error	request request.id=40 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=ed1610458ca57727 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=1055ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:37.662021626Z 2026-11-02T21:37:37.660739Z	error	request request.id=41 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=9cd49ecb565b95f6 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=69ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:38.095786751Z 2026-11-02T21:37:38.095364Z	info	request request.id=42 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:39720 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=4ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:38.215052710Z 2026-11-02T21:37:38.214805Z	error	request request.id=43 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=edb64a649cb0cb23 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=2ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:39.732941710Z 2026-11-02T21:37:39.732683Z	error	request request.id=44 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=78a1f4044142f3e2 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=1008ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:40.681084002Z 2026-11-02T21:37:40.680628Z	error	request request.id=45 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=5d249e298a4a125e protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=6ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:41.618741586Z 2026-11-02T21:37:41.618492Z	error	request request.id=46 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=09a9653d9e2f904d protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=11ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:42.470279462Z 2026-11-02T21:37:42.470165Z	error	request request.id=47 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=cb5de678bc92ebf4 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=3ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:43.122625420Z 2026-11-02T21:37:43.122313Z	info	request request.id=48 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:39720 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=24ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:43.154811962Z 2026-11-02T21:37:43.153863Z	error	request request.id=49 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=9a5760f9a7034603 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=13ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:44.787139671Z 2026-11-02T21:37:44.786921Z	error	request request.id=50 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=f290318c3cb13652 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=1024ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:45.391223213Z 2026-11-02T21:37:45.391048Z	error	request request.id=51 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=8b89165eeee4f41b protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=7ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:46.339735047Z 2026-11-02T21:37:46.339435Z	error	request request.id=52 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=ef12c0f5ca1cb310 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=24ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:48.108730298Z 2026-11-02T21:37:48.108614Z	info	request request.id=54 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:39720 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=10ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:48.114855839Z 2026-11-02T21:37:48.114729Z	error	request request.id=53 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=27e7bc3d25e4f308 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=1055ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:48.878591381Z 2026-11-02T21:37:48.878440Z	error	request request.id=55 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=a3ce51166cfc045f protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=5ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:49.786792132Z 2026-11-02T21:37:49.786697Z	error	request request.id=56 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=41bfa59f211c4bb9 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=3ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:50.632128590Z 2026-11-02T21:37:50.631879Z	error	request request.id=57 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=ee6d817c2c597dbb protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=6ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:50.644966549Z ; query
+2026-11-02T21:37:50.644968090Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:50.644968507Z 
+2026-11-02T21:37:50.652018424Z ; query
+2026-11-02T21:37:50.652021465Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:50.652029965Z ; answers 0
+2026-11-02T21:37:50.652032590Z ; authorities 1
+2026-11-02T21:37:50.652035174Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.652037715Z ; additionals 0
+2026-11-02T21:37:50.652039715Z 	
+2026-11-02T21:37:50.653303007Z ; query
+2026-11-02T21:37:50.653305632Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.653307799Z 
+2026-11-02T21:37:50.655090799Z ; query
+2026-11-02T21:37:50.655092632Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.655093299Z ; answers 0
+2026-11-02T21:37:50.655096674Z ; authorities 1
+2026-11-02T21:37:50.655097757Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.655098340Z ; additionals 0
+2026-11-02T21:37:50.655098924Z 	
+2026-11-02T21:37:50.655219257Z ; query
+2026-11-02T21:37:50.655222340Z ;; api.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:37:50.655222840Z 
+2026-11-02T21:37:50.656100007Z ; query
+2026-11-02T21:37:50.656448882Z ;; api.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:37:50.656467465Z ; answers 0
+2026-11-02T21:37:50.656470799Z ; authorities 1
+2026-11-02T21:37:50.656472340Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.656473465Z ; additionals 0
+2026-11-02T21:37:50.656475757Z 	
+2026-11-02T21:37:50.656740924Z ; query
+2026-11-02T21:37:50.656745799Z ;; api.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.656749340Z 
+2026-11-02T21:37:50.657253549Z ; query
+2026-11-02T21:37:50.657254382Z ;; api.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.657254882Z ; answers 0
+2026-11-02T21:37:50.657255465Z ; authorities 1
+2026-11-02T21:37:50.657256007Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.657256590Z ; additionals 0
+2026-11-02T21:37:50.657257132Z 	
+2026-11-02T21:37:50.657317757Z ; query
+2026-11-02T21:37:50.657318507Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:50.657318924Z 
+2026-11-02T21:37:50.662901257Z ; query
+2026-11-02T21:37:50.662914424Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:50.662927174Z ; answers 2
+2026-11-02T21:37:50.662930215Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.20
+2026-11-02T21:37:50.662932715Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.21
+2026-11-02T21:37:50.662935257Z ; authorities 0
+2026-11-02T21:37:50.663081340Z ; additionals 0
+2026-11-02T21:37:50.663084590Z 	
+2026-11-02T21:37:50.663086174Z ; query
+2026-11-02T21:37:50.663088049Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:50.663090049Z ; answers 2
+2026-11-02T21:37:50.663091132Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.20
+2026-11-02T21:37:50.663094049Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.21
+2026-11-02T21:37:50.663097174Z ; authorities 0
+2026-11-02T21:37:50.663097799Z ; additionals 0
+2026-11-02T21:37:50.663098215Z 	
+2026-11-02T21:37:50.701718424Z ; query
+2026-11-02T21:37:50.701721924Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:50.701795882Z 
+2026-11-02T21:37:50.704490049Z ; query
+2026-11-02T21:37:50.704493465Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:50.704496465Z ; answers 0
+2026-11-02T21:37:50.704497090Z ; authorities 1
+2026-11-02T21:37:50.704499632Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.704500590Z ; additionals 0
+2026-11-02T21:37:50.704501049Z 	
+2026-11-02T21:37:50.706548799Z ; query
+2026-11-02T21:37:50.706550715Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.706551174Z 
+2026-11-02T21:37:50.706575424Z ; query
+2026-11-02T21:37:50.706578715Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.706581090Z ; answers 0
+2026-11-02T21:37:50.706584257Z ; authorities 1
+2026-11-02T21:37:50.706588465Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.706591132Z ; additionals 0
+2026-11-02T21:37:50.706594632Z 	
+2026-11-02T21:37:50.706997882Z ; query
+2026-11-02T21:37:50.707001632Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:37:50.707004882Z 
+2026-11-02T21:37:50.707298549Z ; query
+2026-11-02T21:37:50.707299590Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:37:50.707300257Z ; answers 0
+2026-11-02T21:37:50.707300715Z ; authorities 1
+2026-11-02T21:37:50.707301257Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.707301715Z ; additionals 0
+2026-11-02T21:37:50.707302215Z 	
+2026-11-02T21:37:50.710018590Z ; query
+2026-11-02T21:37:50.710021174Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.710021757Z 
+2026-11-02T21:37:50.710206215Z ; query
+2026-11-02T21:37:50.710207299Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.710207799Z ; answers 0
+2026-11-02T21:37:50.710208340Z ; authorities 1
+2026-11-02T21:37:50.710208840Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.710209299Z ; additionals 0
+2026-11-02T21:37:50.710209757Z 	
+2026-11-02T21:37:50.710862757Z ; query
+2026-11-02T21:37:50.710864215Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:37:50.710867465Z 
+2026-11-02T21:37:50.712114757Z ; query
+2026-11-02T21:37:50.712117590Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:37:50.712118215Z ; answers 0
+2026-11-02T21:37:50.712120507Z ; authorities 1
+2026-11-02T21:37:50.712122924Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.712125674Z ; additionals 0
+2026-11-02T21:37:50.712134174Z 	
+2026-11-02T21:37:50.712144882Z ; query
+2026-11-02T21:37:50.712145632Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:37:50.712146049Z 
+2026-11-02T21:37:50.714128340Z ; query
+2026-11-02T21:37:50.714130174Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:37:50.714139257Z ; answers 0
+2026-11-02T21:37:50.714193257Z ; authorities 1
+2026-11-02T21:37:50.714196632Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.714197465Z ; additionals 0
+2026-11-02T21:37:50.714197965Z 	
+2026-11-02T21:37:50.714215174Z ; query
+2026-11-02T21:37:50.714216174Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:50.714216590Z 
+2026-11-02T21:37:50.714936257Z ; query
+2026-11-02T21:37:50.714937174Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:50.714937799Z ; answers 1
+2026-11-02T21:37:50.714938382Z kagent-controller.kagent.svc.cluster.local. 30 IN A 10.96.217.66
+2026-11-02T21:37:50.714939007Z ; authorities 0
+2026-11-02T21:37:50.714939424Z ; additionals 0
+2026-11-02T21:37:50.714939882Z 	
+2026-11-02T21:37:50.714940924Z ; query
+2026-11-02T21:37:50.714941382Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:50.714941882Z ; answers 1
+2026-11-02T21:37:50.714942299Z kagent-controller.kagent.svc.cluster.local. 30 IN A 10.96.217.66
+2026-11-02T21:37:50.714942715Z ; authorities 0
+2026-11-02T21:37:50.714943215Z ; additionals 0
+2026-11-02T21:37:50.714943632Z 	
+2026-11-02T21:37:50.906509757Z ; query
+2026-11-02T21:37:50.906510841Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:50.906511299Z 
+2026-11-02T21:37:50.906917841Z ; query
+2026-11-02T21:37:50.906921174Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:50.906921882Z ; answers 0
+2026-11-02T21:37:50.906922341Z ; authorities 1
+2026-11-02T21:37:50.906922966Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.906923424Z ; additionals 0
+2026-11-02T21:37:50.906923841Z 	
+2026-11-02T21:37:50.906942674Z ; query
+2026-11-02T21:37:50.906943299Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.906943716Z 
+2026-11-02T21:37:50.907301091Z ; query
+2026-11-02T21:37:50.907301882Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.907302382Z ; answers 0
+2026-11-02T21:37:50.907302841Z ; authorities 1
+2026-11-02T21:37:50.907303257Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.907303716Z ; additionals 0
+2026-11-02T21:37:50.907304216Z 	
+2026-11-02T21:37:50.907402257Z ; query
+2026-11-02T21:37:50.907403132Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:37:50.907403507Z 
+2026-11-02T21:37:50.907625466Z ; query
+2026-11-02T21:37:50.907626591Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:37:50.907627091Z ; answers 0
+2026-11-02T21:37:50.907627507Z ; authorities 1
+2026-11-02T21:37:50.907627966Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.907628382Z ; additionals 0
+2026-11-02T21:37:50.907628799Z 	
+2026-11-02T21:37:50.907657716Z ; query
+2026-11-02T21:37:50.907658216Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.907658632Z 
+2026-11-02T21:37:50.908011049Z ; query
+2026-11-02T21:37:50.908011674Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:37:50.908015132Z ; answers 0
+2026-11-02T21:37:50.908015632Z ; authorities 1
+2026-11-02T21:37:50.908016049Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.908016632Z ; additionals 0
+2026-11-02T21:37:50.908017049Z 	
+2026-11-02T21:37:50.908021591Z ; query
+2026-11-02T21:37:50.908022049Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:37:50.908022466Z 
+2026-11-02T21:37:50.908227049Z ; query
+2026-11-02T21:37:50.908227674Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:37:50.908228132Z ; answers 0
+2026-11-02T21:37:50.908228632Z ; authorities 1
+2026-11-02T21:37:50.908229007Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.908229424Z ; additionals 0
+2026-11-02T21:37:50.908229841Z 	
+2026-11-02T21:37:50.908236591Z ; query
+2026-11-02T21:37:50.908237049Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:37:50.908237424Z 
+2026-11-02T21:37:50.908516341Z ; query
+2026-11-02T21:37:50.908516841Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:37:50.908517257Z ; answers 0
+2026-11-02T21:37:50.908517674Z ; authorities 1
+2026-11-02T21:37:50.908518091Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655442 7200 1800 86400 30
+2026-11-02T21:37:50.908518507Z ; additionals 0
+2026-11-02T21:37:50.908518924Z 	
+2026-11-02T21:37:50.908522299Z ; query
+2026-11-02T21:37:50.908523049Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:50.908523424Z 
+2026-11-02T21:37:50.908761757Z ; query
+2026-11-02T21:37:50.908762424Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:50.908762924Z ; answers 1
+2026-11-02T21:37:50.908763466Z e2e-otlp.kagent.svc.cluster.local. 30 IN A 10.96.32.107
+2026-11-02T21:37:50.908763882Z ; authorities 0
+2026-11-02T21:37:50.908764257Z ; additionals 0
+2026-11-02T21:37:50.908764674Z 	
+2026-11-02T21:37:50.908765507Z ; query
+2026-11-02T21:37:50.908765966Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:37:50.908766341Z ; answers 1
+2026-11-02T21:37:50.908766757Z e2e-otlp.kagent.svc.cluster.local. 30 IN A 10.96.32.107
+2026-11-02T21:37:50.908767216Z ; authorities 0
+2026-11-02T21:37:50.908767632Z ; additionals 0
+2026-11-02T21:37:50.908768007Z 	
+2026-11-02T21:37:51.553799216Z 2026-11-02T21:37:51.553567Z	error	request request.id=58 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=ad85715472966d7c protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=5ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:52.451897716Z 2026-11-02T21:37:52.450898Z	error	request request.id=59 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=be82797965daf1ca protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=41ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:53.173706050Z 2026-11-02T21:37:53.173366Z	info	request request.id=61 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:39720 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=63ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:54.067533134Z 2026-11-02T21:37:54.067311Z	error	request request.id=60 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=66c2664a0e22e446 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=1068ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:54.840263509Z 2026-11-02T21:37:54.840161Z	error	request request.id=62 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=dd4c90a643e60f1f protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=7ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:55.439711926Z 2026-11-02T21:37:55.439609Z	error	request request.id=63 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=4ff45ad66448ce90 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=3ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:56.325058593Z 2026-11-02T21:37:56.324860Z	info	request request.id=64 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=6e9b167f63dc36de protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=12ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:56.341429718Z 2026-11-02T21:37:56.341329Z	info	request request.id=65 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=9c775af804855317 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=11ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:56.350608760Z 2026-11-02T21:37:56.350372Z	info	request request.id=66 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=018db6816e458e67 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=7ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:56.356192926Z 2026-11-02T21:37:56.356113Z	info	request request.id=67 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:39720 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=3ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:56.363740927Z 2026-11-02T21:37:56.363534Z	info	request request.id=68 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:39720 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/SettleTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=ff80d22e2235866270f254c86625f8f1 span.id=7acbc74126f7695e protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=5ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:56.368137677Z 2026-11-02T21:37:56.367886Z	info	request request.id=69 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:39720 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=2ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:56.382666635Z 2026-11-02T21:37:56.382262Z	warn	proxy::gateway	connect tunnel error: connection error	connection.id=2 src.addr=10.244.0.24:39720
+2026-11-02T21:37:58.499686053Z 2026-11-02T21:37:58.499600Z	info	request request.id=70 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:54574 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/CreateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=d59c4ba380a2cd1c49bd18e1531069d9 span.id=59138e24d9c45d98 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=9ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:58.518839886Z 2026-11-02T21:37:58.518372Z	info	request request.id=71 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:54574 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=d59c4ba380a2cd1c49bd18e1531069d9 span.id=b0408f2b8d544e00 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=11ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:58.547344761Z 2026-11-02T21:37:58.547204Z	info	request request.id=72 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:54574 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=d59c4ba380a2cd1c49bd18e1531069d9 span.id=2078f6746b0fc888 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=7ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:58.553651344Z ; query
+2026-11-02T21:37:58.553652136Z ;; host.docker.internal.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:58.553653469Z 
+2026-11-02T21:37:58.554119719Z ; query
+2026-11-02T21:37:58.554120428Z ;; host.docker.internal.ate-system.svc.cluster.local. IN A
+2026-11-02T21:37:58.554124136Z ; answers 0
+2026-11-02T21:37:58.554124636Z ; authorities 1
+2026-11-02T21:37:58.554125136Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:37:58.554125761Z ; additionals 0
+2026-11-02T21:37:58.554126178Z 	
+2026-11-02T21:37:58.554242094Z ; query
+2026-11-02T21:37:58.554242594Z ;; host.docker.internal.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:58.554243011Z 
+2026-11-02T21:37:58.554507303Z ; query
+2026-11-02T21:37:58.554507886Z ;; host.docker.internal.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:37:58.554508344Z ; answers 0
+2026-11-02T21:37:58.554508803Z ; authorities 1
+2026-11-02T21:37:58.554509178Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:37:58.554509594Z ; additionals 0
+2026-11-02T21:37:58.554510011Z 	
+2026-11-02T21:37:58.554544511Z ; query
+2026-11-02T21:37:58.554545511Z ;; host.docker.internal.svc.cluster.local. IN A
+2026-11-02T21:37:58.554545886Z 
+2026-11-02T21:37:58.554741886Z ; query
+2026-11-02T21:37:58.554742803Z ;; host.docker.internal.svc.cluster.local. IN A
+2026-11-02T21:37:58.554743303Z ; answers 0
+2026-11-02T21:37:58.554743678Z ; authorities 1
+2026-11-02T21:37:58.554744219Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:37:58.554744636Z ; additionals 0
+2026-11-02T21:37:58.554745053Z 	
+2026-11-02T21:37:58.554783553Z ; query
+2026-11-02T21:37:58.554784178Z ;; host.docker.internal.svc.cluster.local. IN AAAA
+2026-11-02T21:37:58.554784553Z 
+2026-11-02T21:37:58.555040594Z ; query
+2026-11-02T21:37:58.555041511Z ;; host.docker.internal.svc.cluster.local. IN AAAA
+2026-11-02T21:37:58.555041969Z ; answers 0
+2026-11-02T21:37:58.555042428Z ; authorities 1
+2026-11-02T21:37:58.555042844Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:37:58.555043303Z ; additionals 0
+2026-11-02T21:37:58.555043719Z 	
+2026-11-02T21:37:58.555096761Z ; query
+2026-11-02T21:37:58.555097344Z ;; host.docker.internal.cluster.local. IN A
+2026-11-02T21:37:58.555097719Z 
+2026-11-02T21:37:58.555327386Z ; query
+2026-11-02T21:37:58.555327886Z ;; host.docker.internal.cluster.local. IN A
+2026-11-02T21:37:58.555328428Z ; answers 0
+2026-11-02T21:37:58.555328803Z ; authorities 1
+2026-11-02T21:37:58.555329261Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:37:58.555329636Z ; additionals 0
+2026-11-02T21:37:58.555330053Z 	
+2026-11-02T21:37:58.555337094Z ; query
+2026-11-02T21:37:58.555337553Z ;; host.docker.internal.cluster.local. IN AAAA
+2026-11-02T21:37:58.555337928Z 
+2026-11-02T21:37:58.555583011Z ; query
+2026-11-02T21:37:58.555583678Z ;; host.docker.internal.cluster.local. IN AAAA
+2026-11-02T21:37:58.555584136Z ; answers 0
+2026-11-02T21:37:58.555584594Z ; authorities 1
+2026-11-02T21:37:58.555585053Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:37:58.555585469Z ; additionals 0
+2026-11-02T21:37:58.555585886Z 	
+2026-11-02T21:37:58.555590761Z ; query
+2026-11-02T21:37:58.555591719Z ;; host.docker.internal. IN A
+2026-11-02T21:37:58.555592053Z 
+2026-11-02T21:37:58.556782553Z ; query
+2026-11-02T21:37:58.556783303Z ;; host.docker.internal. IN A
+2026-11-02T21:37:58.556783761Z ; answers 1
+2026-11-02T21:37:58.556784303Z host.docker.internal. 30 IN A 192.168.65.254
+2026-11-02T21:37:58.556784719Z ; authorities 0
+2026-11-02T21:37:58.556785511Z ; additionals 0
+2026-11-02T21:37:58.556787136Z 	
+2026-11-02T21:37:58.556788053Z ; query
+2026-11-02T21:37:58.556788469Z ;; host.docker.internal. IN A
+2026-11-02T21:37:58.556788886Z ; answers 1
+2026-11-02T21:37:58.556789303Z host.docker.internal. 30 IN A 192.168.65.254
+2026-11-02T21:37:58.556791136Z ; authorities 0
+2026-11-02T21:37:58.556791719Z ; additionals 0
+2026-11-02T21:37:58.556792094Z 	
+2026-11-02T21:37:58.557876969Z 2026-11-02T21:37:58.557820Z	info	request request.id=73 gateway=default/default listener=listener1 route=default/route0 endpoint=host.docker.internal:54757 src.addr=10.244.0.24:54574 http.method=POST http.host=host.docker.internal http.path=/v1/chat/completions http.version=HTTP/1.1 http.status=200 trace.id=d59c4ba380a2cd1c49bd18e1531069d9 span.id=49e02b6247125ac0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=6ms substrate.connect.authority="192.168.65.254:54757"
+2026-11-02T21:37:58.565637969Z 2026-11-02T21:37:58.565465Z	info	request request.id=74 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:54574 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=d59c4ba380a2cd1c49bd18e1531069d9 span.id=6c7c9b5271ef2f3e protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=5ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:58.574429469Z 2026-11-02T21:37:58.574343Z	info	request request.id=76 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:54574 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=2ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:58.575122761Z 2026-11-02T21:37:58.575096Z	info	request request.id=75 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:54574 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=d59c4ba380a2cd1c49bd18e1531069d9 span.id=09b6bfd0207d323c protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=8ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:58.580686511Z 2026-11-02T21:37:58.580561Z	info	request request.id=77 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:54574 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=d59c4ba380a2cd1c49bd18e1531069d9 span.id=5c36224d47ed0146 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=4ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:58.584552636Z 2026-11-02T21:37:58.584318Z	info	request request.id=79 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:54574 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=2ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:58.594535386Z 2026-11-02T21:37:58.594449Z	info	request request.id=80 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:54574 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/SettleTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=d59c4ba380a2cd1c49bd18e1531069d9 span.id=fabe412cba0672ee protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=8ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:58.597729803Z 2026-11-02T21:37:58.597667Z	info	request request.id=78 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.24:54574 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/GetTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=d59c4ba380a2cd1c49bd18e1531069d9 span.id=b93ff887baacc318 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=15ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:37:58.598879928Z 2026-11-02T21:37:58.598750Z	info	request request.id=81 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:54574 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=2ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:58.602855594Z 2026-11-02T21:37:58.602808Z	info	request request.id=82 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.24:54574 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=2ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:37:58.605782344Z 2026-11-02T21:37:58.605664Z	warn	proxy::gateway	proxy error: connection error	src.addr=10.244.0.24:54574
+2026-11-02T21:37:58.605789303Z 2026-11-02T21:37:58.605673Z	warn	proxy::gateway	proxy error: error writing a body to connection	src.addr=10.244.0.24:54574
+2026-11-02T21:37:58.605893678Z 2026-11-02T21:37:58.605803Z	warn	proxy::gateway	proxy error: connection error	src.addr=10.244.0.24:54574
+2026-11-02T21:37:58.606013344Z 2026-11-02T21:37:58.605865Z	info	request request.id=83 gateway=default/default listener=listener1 route=default/route0 src.addr=10.244.0.24:54574 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 protocol=http ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46 ate.actor.uid=1d913248-e180-44cd-a212-254109f9a2ab ate.atespace=kagent duration=0ms
+2026-11-02T21:38:20.668401424Z ; query
+2026-11-02T21:38:20.668404924Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:38:20.668406632Z 
+2026-11-02T21:38:20.678160257Z ; query
+2026-11-02T21:38:20.678163549Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:38:20.678166174Z ; answers 0
+2026-11-02T21:38:20.678168257Z ; authorities 1
+2026-11-02T21:38:20.678170840Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.678245340Z ; additionals 0
+2026-11-02T21:38:20.678248174Z 	
+2026-11-02T21:38:20.678262715Z ; query
+2026-11-02T21:38:20.678263465Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.678265340Z 
+2026-11-02T21:38:20.681997007Z ; query
+2026-11-02T21:38:20.681999382Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.681999924Z ; answers 0
+2026-11-02T21:38:20.682000340Z ; authorities 1
+2026-11-02T21:38:20.682000882Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.682001507Z ; additionals 0
+2026-11-02T21:38:20.682001924Z 	
+2026-11-02T21:38:20.682141590Z ; query
+2026-11-02T21:38:20.682144340Z ;; api.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:38:20.682146757Z 
+2026-11-02T21:38:20.683183590Z ; query
+2026-11-02T21:38:20.683186299Z ;; api.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:38:20.683186840Z ; answers 0
+2026-11-02T21:38:20.683187299Z ; authorities 1
+2026-11-02T21:38:20.683187840Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.683188965Z ; additionals 0
+2026-11-02T21:38:20.683191049Z 	
+2026-11-02T21:38:20.683297549Z ; query
+2026-11-02T21:38:20.683302090Z ;; api.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.683303799Z 
+2026-11-02T21:38:20.683790840Z ; query
+2026-11-02T21:38:20.683791674Z ;; api.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.683792174Z ; answers 0
+2026-11-02T21:38:20.683792799Z ; authorities 1
+2026-11-02T21:38:20.683793257Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.683793715Z ; additionals 0
+2026-11-02T21:38:20.683794257Z 	
+2026-11-02T21:38:20.684689965Z ; query
+2026-11-02T21:38:20.684694590Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:38:20.684697674Z 
+2026-11-02T21:38:20.715951507Z ; query
+2026-11-02T21:38:20.715952549Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:38:20.715952965Z 
+2026-11-02T21:38:20.770631132Z ; query
+2026-11-02T21:38:20.770633007Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:38:20.770633507Z ; answers 2
+2026-11-02T21:38:20.770650257Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.21
+2026-11-02T21:38:20.770654049Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.20
+2026-11-02T21:38:20.770656674Z ; authorities 0
+2026-11-02T21:38:20.770659757Z ; additionals 0
+2026-11-02T21:38:20.770660799Z 	
+2026-11-02T21:38:20.770665465Z ; query
+2026-11-02T21:38:20.770668424Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:38:20.770671340Z ; answers 2
+2026-11-02T21:38:20.770674590Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.21
+2026-11-02T21:38:20.770677424Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.20
+2026-11-02T21:38:20.770680507Z ; authorities 0
+2026-11-02T21:38:20.770683799Z ; additionals 0
+2026-11-02T21:38:20.770686965Z 	
+2026-11-02T21:38:20.770913132Z ; query
+2026-11-02T21:38:20.770914299Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:38:20.770914757Z ; answers 0
+2026-11-02T21:38:20.770915215Z ; authorities 1
+2026-11-02T21:38:20.770915632Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.770916132Z ; additionals 0
+2026-11-02T21:38:20.770916590Z 	
+2026-11-02T21:38:20.771076882Z ; query
+2026-11-02T21:38:20.771080840Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.771081590Z 
+2026-11-02T21:38:20.776752132Z ; query
+2026-11-02T21:38:20.776753216Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.776753757Z ; answers 0
+2026-11-02T21:38:20.776754257Z ; authorities 1
+2026-11-02T21:38:20.776754674Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.776755132Z ; additionals 0
+2026-11-02T21:38:20.776755591Z 	
+2026-11-02T21:38:20.776798799Z ; query
+2026-11-02T21:38:20.776799841Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:38:20.776800299Z 
+2026-11-02T21:38:20.777924299Z ; query
+2026-11-02T21:38:20.777938799Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:38:20.777941966Z ; answers 0
+2026-11-02T21:38:20.777944174Z ; authorities 1
+2026-11-02T21:38:20.777946882Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.777947424Z ; additionals 0
+2026-11-02T21:38:20.777948049Z 	
+2026-11-02T21:38:20.777962632Z ; query
+2026-11-02T21:38:20.777964091Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.777964507Z 
+2026-11-02T21:38:20.779216632Z ; query
+2026-11-02T21:38:20.779217632Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.779218091Z ; answers 0
+2026-11-02T21:38:20.779218549Z ; authorities 1
+2026-11-02T21:38:20.779218966Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.779219424Z ; additionals 0
+2026-11-02T21:38:20.779219799Z 	
+2026-11-02T21:38:20.779328966Z ; query
+2026-11-02T21:38:20.779342257Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:38:20.779345216Z 
+2026-11-02T21:38:20.781693549Z ; query
+2026-11-02T21:38:20.781694591Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:38:20.781695091Z ; answers 0
+2026-11-02T21:38:20.781695549Z ; authorities 1
+2026-11-02T21:38:20.781696007Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.781696466Z ; additionals 0
+2026-11-02T21:38:20.781697007Z 	
+2026-11-02T21:38:20.781902549Z ; query
+2026-11-02T21:38:20.781903132Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:38:20.781903549Z 
+2026-11-02T21:38:20.782946299Z ; query
+2026-11-02T21:38:20.782947507Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:38:20.782948132Z ; answers 0
+2026-11-02T21:38:20.782948716Z ; authorities 1
+2026-11-02T21:38:20.782949757Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.782952674Z ; additionals 0
+2026-11-02T21:38:20.782955716Z 	
+2026-11-02T21:38:20.784093507Z ; query
+2026-11-02T21:38:20.784096049Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:38:20.784098049Z 
+2026-11-02T21:38:20.785760966Z ; query
+2026-11-02T21:38:20.785761841Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:38:20.785762299Z ; answers 1
+2026-11-02T21:38:20.785762966Z kagent-controller.kagent.svc.cluster.local. 30 IN A 10.96.217.66
+2026-11-02T21:38:20.785763466Z ; authorities 0
+2026-11-02T21:38:20.785763841Z ; additionals 0
+2026-11-02T21:38:20.785791091Z 	
+2026-11-02T21:38:20.785799924Z ; query
+2026-11-02T21:38:20.785802841Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:38:20.785806091Z ; answers 1
+2026-11-02T21:38:20.785807299Z kagent-controller.kagent.svc.cluster.local. 30 IN A 10.96.217.66
+2026-11-02T21:38:20.785807799Z ; authorities 0
+2026-11-02T21:38:20.785808257Z ; additionals 0
+2026-11-02T21:38:20.785808674Z 	
+2026-11-02T21:38:20.911167257Z ; query
+2026-11-02T21:38:20.911168966Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:38:20.911169549Z 
+2026-11-02T21:38:20.912873382Z ; query
+2026-11-02T21:38:20.912877007Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:38:20.912890299Z ; answers 0
+2026-11-02T21:38:20.912892174Z ; authorities 1
+2026-11-02T21:38:20.912892757Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.912893257Z ; additionals 0
+2026-11-02T21:38:20.912893674Z 	
+2026-11-02T21:38:20.913514799Z ; query
+2026-11-02T21:38:20.913516507Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.913519882Z 
+2026-11-02T21:38:20.913769882Z ; query
+2026-11-02T21:38:20.913773424Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.913776966Z ; answers 0
+2026-11-02T21:38:20.913780132Z ; authorities 1
+2026-11-02T21:38:20.913783216Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.913786382Z ; additionals 0
+2026-11-02T21:38:20.913789716Z 	
+2026-11-02T21:38:20.913795174Z ; query
+2026-11-02T21:38:20.913796257Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:38:20.913803799Z 
+2026-11-02T21:38:20.914841174Z ; query
+2026-11-02T21:38:20.914843966Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:38:20.914846132Z ; answers 0
+2026-11-02T21:38:20.914847799Z ; authorities 1
+2026-11-02T21:38:20.914849757Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.914850882Z ; additionals 0
+2026-11-02T21:38:20.914853466Z 	
+2026-11-02T21:38:20.915391132Z ; query
+2026-11-02T21:38:20.915394924Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.915398007Z 
+2026-11-02T21:38:20.915558632Z ; query
+2026-11-02T21:38:20.915563674Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:38:20.915567091Z ; answers 0
+2026-11-02T21:38:20.915569716Z ; authorities 1
+2026-11-02T21:38:20.915571674Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.915575132Z ; additionals 0
+2026-11-02T21:38:20.915578132Z 	
+2026-11-02T21:38:20.915616091Z ; query
+2026-11-02T21:38:20.915619341Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:38:20.915622507Z 
+2026-11-02T21:38:20.916814174Z ; query
+2026-11-02T21:38:20.916815341Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:38:20.916816174Z ; answers 0
+2026-11-02T21:38:20.916816841Z ; authorities 1
+2026-11-02T21:38:20.916817382Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.916817882Z ; additionals 0
+2026-11-02T21:38:20.916818299Z 	
+2026-11-02T21:38:20.916835466Z ; query
+2026-11-02T21:38:20.916836132Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:38:20.916836549Z 
+2026-11-02T21:38:20.918057216Z ; query
+2026-11-02T21:38:20.918058216Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:38:20.918058841Z ; answers 0
+2026-11-02T21:38:20.918059299Z ; authorities 1
+2026-11-02T21:38:20.918062466Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655475 7200 1800 86400 30
+2026-11-02T21:38:20.918065132Z ; additionals 0
+2026-11-02T21:38:20.918067382Z 	
+2026-11-02T21:38:20.918084382Z ; query
+2026-11-02T21:38:20.918085466Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:38:20.918085882Z 
+2026-11-02T21:38:20.918891466Z ; query
+2026-11-02T21:38:20.918892674Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:38:20.918893216Z ; answers 1
+2026-11-02T21:38:20.918894257Z e2e-otlp.kagent.svc.cluster.local. 30 IN A 10.96.32.107
+2026-11-02T21:38:20.918894674Z ; authorities 0
+2026-11-02T21:38:20.918895091Z ; additionals 0
+2026-11-02T21:38:20.918895507Z 	
+2026-11-02T21:38:20.918896424Z ; query
+2026-11-02T21:38:20.918896841Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:38:20.918897216Z ; answers 1
+2026-11-02T21:38:20.918897632Z e2e-otlp.kagent.svc.cluster.local. 30 IN A 10.96.32.107
+2026-11-02T21:38:20.918898007Z ; authorities 0
+2026-11-02T21:38:20.918898424Z ; additionals 0
+2026-11-02T21:38:20.918898799Z 	

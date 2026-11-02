@@ -1,0 +1,26 @@
+# Controller + PostgreSQL restart test on Linux (testcontainers), 8f893624, then the same test with
+# 7f2d5f83's store.go loaded through -overlay as a control. Then the package tests and lint.
+
+$ go test -race -count=1 -v ./core/internal/grpcserver -run '^TestRuntimeTaskStore'
+--- PASS: TestRuntimeTaskStoreSaveOutlastsAControllerRestart (53.62s)
+    --- PASS: TestRuntimeTaskStoreSaveOutlastsAControllerRestart/direct (2.47s)
+    --- PASS: TestRuntimeTaskStoreSaveOutlastsAControllerRestart/through_a_reachable_proxy (2.30s)
+--- PASS: TestRuntimeTaskStoreThroughGRPC (20.88s)
+ok  	github.com/kagent-dev/kagent/go/core/internal/grpcserver	75.804s
+exit=0
+
+$ go test -race -count=1 -v -overlay=<7f2d5f83 store.go> ./core/internal/grpcserver -run '^TestRuntimeTaskStoreSaveOutlastsAControllerRestart$'
+        	Messages:   	the save must stay pending while the controller is down
+--- FAIL: TestRuntimeTaskStoreSaveOutlastsAControllerRestart (68.75s)
+    --- PASS: TestRuntimeTaskStoreSaveOutlastsAControllerRestart/direct (2.80s)
+    --- FAIL: TestRuntimeTaskStoreSaveOutlastsAControllerRestart/through_a_reachable_proxy (0.76s)
+FAIL	github.com/kagent-dev/kagent/go/core/internal/grpcserver	69.069s
+exit=1
+
+$ go test -race -count=3 ./adk/pkg/taskstore ./adk/pkg/controllerclient
+ok  	github.com/kagent-dev/kagent/go/adk/pkg/taskstore	33.153s
+ok  	github.com/kagent-dev/kagent/go/adk/pkg/controllerclient	1.022s
+
+$ make lint
+0 issues.
+exit=0

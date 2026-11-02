@@ -1,0 +1,34 @@
+################ arm=head: PR head 7f2d5f83 (WaitForReady + 4 attempts)
+# runtime image golang-adk@sha256:b66034ab… session 01a19e2d-a2bb-7c17-b575-17a7110fe642 task 01a19e2d-a650-7b5b-9cec-72bc433ed077
+$ bash sim/run.sh head    # outage driver: hold the turn, stop the controller, release the turn into the outage
+[   100ms] 21:32:32.856 scheduled run 3f64f87b-936a-4b16-95e0-773b4b4dc984 triggered as admin@kagent.dev; prompt "What is 2+2?"
+[    1.8s] 21:32:34.521 the agent reached the mock model; the turn is held there
+[    1.8s] 21:32:34.524 execution 01a19e2d-a0d3-77fb-8ac3-a4833276f8b9 is RUNNING: session 01a19e2d-a2bb-7c17-b575-17a7110fe642, task 01a19e2d-a650-7b5b-9cec-72bc433ed077
+[    4.3s] 21:32:37.035 controller scaled to zero and its Pod gone after 3s; the model is released, so the agent answers and saves now
+[   34.3s] 21:33:07.038 outage held for 30s; scaling the controller back to one replica
+[   36.3s] 21:33:09.056 controller Ready again; it was unavailable for 35s in total
+[   37.4s] 21:33:10.103 execution state: SCHEDULED_RUN_EXECUTION_STATE_RUNNING 
+[   37.4s] 21:33:10.103 task state: TASK_STATE_WORKING
+[ 3m37.8s] 21:36:10.534 after 3 minutes the execution is still SCHEDULED_RUN_EXECUTION_STATE_RUNNING and the task still TASK_STATE_WORKING
+[ 3m37.8s] 21:36:10.546 follow-up message on the same session refused: rpc error: code = FailedPrecondition desc = resource conflict
+report: execution=RUNNING task=TASK_STATE_WORKING text='' follow_up_accepted=False rpc error: code = FailedPrecondition desc = resource conflict
+exit=0
+
+$ grep 'ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642' egress.log | grep TaskStoreService    # atenet-egress (agentgateway) access log
+21:32:34.425 info  conn=10.244.0.25:35066 CreateTask grpc=0   107ms
+21:32:34.451 info  conn=10.244.0.25:35066 UpdateTask grpc=0    16ms
+21:32:34.492 info  conn=10.244.0.25:35066 UpdateTask grpc=0    36ms
+21:32:37.044 error conn=10.244.0.25:35066 UpdateTask grpc=14    4ms  upstream call failed: Connect: Connection refused (os error 111)
+21:32:37.149 error conn=10.244.0.25:35066 UpdateTask grpc=14    3ms  upstream call failed: Connect: Connection refused (os error 111)
+21:32:37.355 error conn=10.244.0.25:35066 UpdateTask grpc=14    3ms  upstream call failed: Connect: Connection refused (os error 111)
+21:32:37.759 error conn=10.244.0.25:35066 UpdateTask grpc=14    2ms  upstream call failed: Connect: Connection refused (os error 111)
+
+$ jq 'select(.labels["ate.actor.container.name"]=="kagent")' workers.log    # the Go ADK runtime's own lines
+21:32:34.427 INFO  execute  01a19e2d-a650-7b5b-9cec-72bc433ed077
+21:32:37.759 ERROR taskstore retries exhausted attempts=4  rpc error: code = Unavailable desc = connection refused
+21:32:37.759 WARN  agent execution failed  processor error: failed to store failed task state: failed to save task state: previous task persistence failed: failed to save task state: rpc error: code = Unavailable desc = connection refused
+21:32:37.760 WARN  execution failed  
+
+$ grep 'TaskStoreService/' controller-restarted.log | grep 'rpc completed'    # the controller that came back
+(none: no TaskStore call reached the restarted controller)
+

@@ -1,0 +1,12 @@
+21:31:58 forwarding to kagent-controller-7c7fd66f4f-25ll7
+Forwarding from 127.0.0.1:18083 -> 8083
+Forwarding from [::1]:18083 -> 8083
+Handling connection for 18083
+Handling connection for 18083
+Handling connection for 18083
+E1102 13:33:09.085815   27815 portforward.go:424] "Unhandled Error" err="an error occurred forwarding 18083 -> 8083: error forwarding port 8083 to pod e2e0c166001b38b375429e5b21514d6dd9b93c34043495f0c8844fb6a85a5e69, uid : network namespace for sandbox \"e2e0c166001b38b375429e5b21514d6dd9b93c34043495f0c8844fb6a85a5e69\" is closed"
+error: lost connection to pod
+21:33:09 forwarding to kagent-controller-7c7fd66f4f-csklb
+Forwarding from 127.0.0.1:18083 -> 8083
+Forwarding from [::1]:18083 -> 8083
+Handling connection for 18083

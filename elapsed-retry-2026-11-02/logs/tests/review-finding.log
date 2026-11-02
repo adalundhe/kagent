@@ -1,0 +1,18 @@
+# Review finding: the budget ends while a slow proxy attempt is in flight (300 ms per attempt, 1 s budget).
+# The test fails when the caller gets the attempt's own deadline error instead of the proxy's Unavailable.
+
+$ go test -race -count=10 -overlay=<pre-fix store.go + slow-proxy test> ./adk/pkg/taskstore -run TestScratchSlowProxyBudget -v
+  10 final=rpc error: code = DeadlineExceeded desc = context deadline exceeded
+
+$ go test -race -count=10 -overlay=<slow-proxy test> ./adk/pkg/taskstore -run TestScratchSlowProxyBudget -v    # 8f893624
+  10 final=rpc error: code = Unavailable desc = upstream call failed: Connect: Connection refused (os error 111)
+
+# The committed regression test, against the pre-fix loop and against 8f893624.
+$ go test -race -count=5 -overlay=<pre-fix store.go> ./adk/pkg/taskstore -run TestTaskStoreRetryBudgetEndingMidAttemptKeepsTheCause
+   5 	Messages:   	unexpected error: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+   3 --- FAIL: TestTaskStoreRetryBudgetEndingMidAttemptKeepsTheCause (1.00s)
+   2 --- FAIL: TestTaskStoreRetryBudgetEndingMidAttemptKeepsTheCause (1.01s)
+   2 FAIL
+   1 FAIL	github.com/kagent-dev/kagent/go/adk/pkg/taskstore	5.488s
+$ go test -race -count=5 ./adk/pkg/taskstore -run TestTaskStoreRetryBudgetEndingMidAttemptKeepsTheCause    # 8f893624
+   1 ok  	github.com/kagent-dev/kagent/go/adk/pkg/taskstore	6.529s

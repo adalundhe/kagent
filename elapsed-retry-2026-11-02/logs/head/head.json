@@ -1,0 +1,69 @@
+{
+  "label": "head",
+  "runtime_image": "localhost:5009/kagent-dev/kagent/golang-adk@sha256:21de93481e737a0ae7c29b06343dd4ffb384e645a4ab02773370837669d93a8f",
+  "agent": "kagent/interaction-gvg9f",
+  "schedule_id": "3f64f87b-936a-4b16-95e0-773b4b4dc984",
+  "execution_id": "01a19e2d-a0d3-77fb-8ac3-a4833276f8b9",
+  "session_id": "01a19e2d-a2bb-7c17-b575-17a7110fe642",
+  "task_id": "01a19e2d-a650-7b5b-9cec-72bc433ed077",
+  "outage": "30s",
+  "controller_down_for": "35s",
+  "final_execution_state": "SCHEDULED_RUN_EXECUTION_STATE_RUNNING",
+  "final_task_state": "TASK_STATE_WORKING",
+  "final_task_text": "",
+  "model_calls_for_turn": 1,
+  "follow_up_accepted": false,
+  "follow_up_error": "rpc error: code = FailedPrecondition desc = resource conflict",
+  "events": [
+    {
+      "at": "100ms",
+      "wall": "2026-11-02T21:32:32.856061Z",
+      "what": "scheduled run 3f64f87b-936a-4b16-95e0-773b4b4dc984 triggered as admin@kagent.dev; prompt \"What is 2+2?\""
+    },
+    {
+      "at": "1.8s",
+      "wall": "2026-11-02T21:32:34.52167Z",
+      "what": "the agent reached the mock model; the turn is held there"
+    },
+    {
+      "at": "1.8s",
+      "wall": "2026-11-02T21:32:34.524516Z",
+      "what": "execution 01a19e2d-a0d3-77fb-8ac3-a4833276f8b9 is RUNNING: session 01a19e2d-a2bb-7c17-b575-17a7110fe642, task 01a19e2d-a650-7b5b-9cec-72bc433ed077"
+    },
+    {
+      "at": "4.3s",
+      "wall": "2026-11-02T21:32:37.035893Z",
+      "what": "controller scaled to zero and its Pod gone after 3s; the model is released, so the agent answers and saves now"
+    },
+    {
+      "at": "34.3s",
+      "wall": "2026-11-02T21:33:07.038125Z",
+      "what": "outage held for 30s; scaling the controller back to one replica"
+    },
+    {
+      "at": "36.3s",
+      "wall": "2026-11-02T21:33:09.056753Z",
+      "what": "controller Ready again; it was unavailable for 35s in total"
+    },
+    {
+      "at": "37.4s",
+      "wall": "2026-11-02T21:33:10.103017Z",
+      "what": "execution state: SCHEDULED_RUN_EXECUTION_STATE_RUNNING "
+    },
+    {
+      "at": "37.4s",
+      "wall": "2026-11-02T21:33:10.103036Z",
+      "what": "task state: TASK_STATE_WORKING"
+    },
+    {
+      "at": "3m37.8s",
+      "wall": "2026-11-02T21:36:10.534455Z",
+      "what": "after 3 minutes the execution is still SCHEDULED_RUN_EXECUTION_STATE_RUNNING and the task still TASK_STATE_WORKING"
+    },
+    {
+      "at": "3m37.8s",
+      "wall": "2026-11-02T21:36:10.54694Z",
+      "what": "follow-up message on the same session refused: rpc error: code = FailedPrecondition desc = resource conflict"
+    }
+  ]
+}

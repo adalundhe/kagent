@@ -1,0 +1,78 @@
+LAST SEEN   TYPE      REASON                  OBJECT                                    MESSAGE
+10m         Normal    SandboxConfigSwitched   workerpool/kagent-default                 sandbox class "gvisor" uses SandboxConfig "gvisor-default"
+12m         Normal    ScalingReplicaSet       deployment/e2e-otlp                       Scaled up replica set e2e-otlp-7c56cc5545 from 0 to 1
+12m         Normal    SuccessfulCreate        replicaset/e2e-otlp-7c56cc5545            Created pod: e2e-otlp-7c56cc5545-h7pb5
+12m         Normal    Scheduled               pod/e2e-otlp-7c56cc5545-h7pb5             Successfully assigned kagent/e2e-otlp-7c56cc5545-h7pb5 to i556wfr-control-plane
+12m         Normal    Pulling                 pod/e2e-otlp-7c56cc5545-h7pb5             Pulling image "otel/opentelemetry-collector-contrib:0.139.0"
+12m         Normal    Pulled                  pod/e2e-otlp-7c56cc5545-h7pb5             Successfully pulled image "otel/opentelemetry-collector-contrib:0.139.0" in 4.867s (4.867s including waiting). Image size: 82985965 bytes.
+12m         Normal    Created                 pod/e2e-otlp-7c56cc5545-h7pb5             Container created
+12m         Normal    Started                 pod/e2e-otlp-7c56cc5545-h7pb5             Container started
+12m         Normal    Pulling                 pod/e2e-otlp-7c56cc5545-h7pb5             Pulling image "busybox:1.37"
+12m         Normal    Created                 pod/e2e-otlp-7c56cc5545-h7pb5             Container created
+12m         Normal    Pulled                  pod/e2e-otlp-7c56cc5545-h7pb5             Successfully pulled image "busybox:1.37" in 2.019s (2.02s including waiting). Image size: 1911395 bytes.
+12m         Normal    Started                 pod/e2e-otlp-7c56cc5545-h7pb5             Container started
+12m         Normal    ExternalProvisioning    persistentvolumeclaim/kagent-postgresql   Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+12m         Normal    SuccessfulCreate        replicaset/kagent-postgresql-8466db8889   Created pod: kagent-postgresql-8466db8889-wtxcx
+12m         Normal    WaitForFirstConsumer    persistentvolumeclaim/kagent-postgresql   waiting for first consumer to be created before binding
+12m         Normal    ScalingReplicaSet       deployment/kagent-postgresql              Scaled up replica set kagent-postgresql-8466db8889 from 0 to 1
+12m         Normal    Provisioning            persistentvolumeclaim/kagent-postgresql   External provisioner is provisioning volume for claim "kagent/kagent-postgresql"
+12m         Normal    ProvisioningSucceeded   persistentvolumeclaim/kagent-postgresql   Successfully provisioned volume pvc-da22a4d0-4c41-459b-a8aa-4f8a1f7405f5
+12m         Normal    Scheduled               pod/kagent-postgresql-8466db8889-wtxcx    Successfully assigned kagent/kagent-postgresql-8466db8889-wtxcx to i556wfr-control-plane
+12m         Normal    Pulling                 pod/kagent-postgresql-8466db8889-wtxcx    Pulling image "postgres:18-alpine@sha256:9a8afca54e7861fd90fab5fdf4c42477a6b1cb7d293595148e674e0a3181de15"
+12m         Normal    Started                 pod/kagent-postgresql-8466db8889-wtxcx    Container started
+12m         Normal    Pulled                  pod/kagent-postgresql-8466db8889-wtxcx    Successfully pulled image "postgres:18-alpine@sha256:9a8afca54e7861fd90fab5fdf4c42477a6b1cb7d293595148e674e0a3181de15" in 5.235s (5.235s including waiting). Image size: 117826948 bytes.
+12m         Normal    Created                 pod/kagent-postgresql-8466db8889-wtxcx    Container created
+12m         Normal    Started                 pod/kagent-postgresql-8466db8889-wtxcx    Container started
+12m         Normal    Pulled                  pod/kagent-postgresql-8466db8889-wtxcx    Container image "postgres:18-alpine@sha256:9a8afca54e7861fd90fab5fdf4c42477a6b1cb7d293595148e674e0a3181de15" already present on machine and can be accessed by the pod
+12m         Normal    Created                 pod/kagent-postgresql-8466db8889-wtxcx    Container created
+10m         Normal    ScalingReplicaSet       deployment/kagent-default                 Scaled up replica set kagent-default-5ffdf9d9f7 from 0 to 2
+10m         Normal    ScalingReplicaSet       deployment/kagent-ui                      Scaled up replica set kagent-ui-5b87499f5 from 0 to 1
+10m         Normal    SuccessfulCreate        replicaset/kagent-ui-5b87499f5            Created pod: kagent-ui-5b87499f5-ts9vw
+10m         Normal    Scheduled               pod/kagent-controller-7c7fd66f4f-25ll7    Successfully assigned kagent/kagent-controller-7c7fd66f4f-25ll7 to i556wfr-control-plane
+10m         Normal    Scheduled               pod/kagent-default-5ffdf9d9f7-vqhpb       Successfully assigned kagent/kagent-default-5ffdf9d9f7-vqhpb to i556wfr-control-plane
+10m         Normal    Scheduled               pod/kagent-ui-5b87499f5-ts9vw             Successfully assigned kagent/kagent-ui-5b87499f5-ts9vw to i556wfr-control-plane
+10m         Normal    Scheduled               pod/kagent-default-5ffdf9d9f7-w955z       Successfully assigned kagent/kagent-default-5ffdf9d9f7-w955z to i556wfr-control-plane
+10m         Normal    SuccessfulCreate        replicaset/kagent-default-5ffdf9d9f7      Created pod: kagent-default-5ffdf9d9f7-w955z
+10m         Normal    SuccessfulCreate        replicaset/kagent-default-5ffdf9d9f7      Created pod: kagent-default-5ffdf9d9f7-vqhpb
+10m         Normal    SuccessfulCreate        replicaset/kagent-controller-7c7fd66f4f   Created pod: kagent-controller-7c7fd66f4f-25ll7
+10m         Normal    Pulling                 pod/kagent-ui-5b87499f5-ts9vw             Pulling image "localhost:5009/kagent-dev/kagent/ui:v0.0.1-wfr"
+10m         Normal    Pulling                 pod/kagent-default-5ffdf9d9f7-w955z       Pulling image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v1.0.0-rc1"
+10m         Normal    Pulling                 pod/kagent-controller-7c7fd66f4f-25ll7    Pulling image "localhost:5009/kagent-dev/kagent/controller:v0.0.1-wfr"
+10m         Normal    Pulling                 pod/kagent-default-5ffdf9d9f7-vqhpb       Pulling image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v1.0.0-rc1"
+10m         Normal    Created                 pod/kagent-controller-7c7fd66f4f-25ll7    Container created
+10m         Normal    Started                 pod/kagent-controller-7c7fd66f4f-25ll7    Container started
+10m         Normal    Started                 pod/kagent-ui-5b87499f5-ts9vw             Container started
+10m         Normal    Created                 pod/kagent-ui-5b87499f5-ts9vw             Container created
+10m         Normal    Pulled                  pod/kagent-ui-5b87499f5-ts9vw             Successfully pulled image "localhost:5009/kagent-dev/kagent/ui:v0.0.1-wfr" in 444ms (1.306s including waiting). Image size: 10441599 bytes.
+10m         Normal    Pulled                  pod/kagent-controller-7c7fd66f4f-25ll7    Successfully pulled image "localhost:5009/kagent-dev/kagent/controller:v0.0.1-wfr" in 868ms (868ms including waiting). Image size: 82191879 bytes.
+10m         Normal    LeaderElection          lease/0e9f6799.kagent.dev                 kagent-controller-7c7fd66f4f-25ll7_4cbe92c1-2190-4093-96b9-68728ed4f807 became leader
+10m         Normal    Created                 pod/kagent-default-5ffdf9d9f7-w955z       Container created
+10m         Normal    Pulled                  pod/kagent-default-5ffdf9d9f7-w955z       Successfully pulled image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v1.0.0-rc1" in 2.781s (4.056s including waiting). Image size: 20277513 bytes.
+10m         Normal    Started                 pod/kagent-default-5ffdf9d9f7-w955z       Container started
+10m         Normal    Pulled                  pod/kagent-default-5ffdf9d9f7-vqhpb       Successfully pulled image "ghcr.io/kagent-dev/substrate/ateworker-gvisor:v1.0.0-rc1" in 531ms (4.581s including waiting). Image size: 20277513 bytes.
+10m         Normal    Created                 pod/kagent-default-5ffdf9d9f7-vqhpb       Container created
+10m         Normal    Started                 pod/kagent-default-5ffdf9d9f7-vqhpb       Container started
+5m50s       Normal    LeaderElection          lease/0e9f6799.kagent.dev                 kagent-controller-7c7fd66f4f-25ll7_4cbe92c1-2190-4093-96b9-68728ed4f807 stopped leading
+5m50s       Normal    SuccessfulDelete        replicaset/kagent-controller-7c7fd66f4f   Deleted pod: kagent-controller-7c7fd66f4f-25ll7
+5m50s       Normal    Killing                 pod/kagent-controller-7c7fd66f4f-25ll7    Stopping container controller
+5m49s       Warning   Unhealthy               pod/kagent-controller-7c7fd66f4f-25ll7    Readiness probe failed: Get "http://10.244.0.22:8083/health": dial tcp 10.244.0.22:8083: connect: connection refused
+5m17s       Normal    Pulled                  pod/kagent-controller-7c7fd66f4f-csklb    Successfully pulled image "localhost:5009/kagent-dev/kagent/controller:v0.0.1-wfr" in 20ms (20ms including waiting). Image size: 82191879 bytes.
+5m17s       Normal    Started                 pod/kagent-controller-7c7fd66f4f-csklb    Container started
+5m17s       Normal    Created                 pod/kagent-controller-7c7fd66f4f-csklb    Container created
+5m17s       Normal    SuccessfulCreate        replicaset/kagent-controller-7c7fd66f4f   Created pod: kagent-controller-7c7fd66f4f-csklb
+5m17s       Normal    Pulling                 pod/kagent-controller-7c7fd66f4f-csklb    Pulling image "localhost:5009/kagent-dev/kagent/controller:v0.0.1-wfr"
+5m17s       Normal    Scheduled               pod/kagent-controller-7c7fd66f4f-csklb    Successfully assigned kagent/kagent-controller-7c7fd66f4f-csklb to i556wfr-control-plane
+5m1s        Normal    LeaderElection          lease/0e9f6799.kagent.dev                 kagent-controller-7c7fd66f4f-csklb_2a0a67ed-532d-4ffa-8b03-f5e787d4daab became leader
+63s         Normal    LeaderElection          lease/0e9f6799.kagent.dev                 kagent-controller-7c7fd66f4f-csklb_2a0a67ed-532d-4ffa-8b03-f5e787d4daab stopped leading
+63s         Normal    Killing                 pod/kagent-controller-7c7fd66f4f-csklb    Stopping container controller
+63s         Normal    ScalingReplicaSet       deployment/kagent-controller              Scaled down replica set kagent-controller-7c7fd66f4f from 1 to 0
+63s         Warning   Unhealthy               pod/kagent-controller-7c7fd66f4f-csklb    Readiness probe failed: Get "http://10.244.0.26:8083/health": dial tcp 10.244.0.26:8083: connect: connection refused
+63s         Normal    SuccessfulDelete        replicaset/kagent-controller-7c7fd66f4f   Deleted pod: kagent-controller-7c7fd66f4f-csklb
+31s         Normal    Pulling                 pod/kagent-controller-7c7fd66f4f-zmhlf    Pulling image "localhost:5009/kagent-dev/kagent/controller:v0.0.1-wfr"
+31s         Normal    Created                 pod/kagent-controller-7c7fd66f4f-zmhlf    Container created
+31s         Normal    Started                 pod/kagent-controller-7c7fd66f4f-zmhlf    Container started
+31s         Normal    SuccessfulCreate        replicaset/kagent-controller-7c7fd66f4f   Created pod: kagent-controller-7c7fd66f4f-zmhlf
+31s         Normal    ScalingReplicaSet       deployment/kagent-controller              Scaled up replica set kagent-controller-7c7fd66f4f from 0 to 1
+31s         Normal    Pulled                  pod/kagent-controller-7c7fd66f4f-zmhlf    Successfully pulled image "localhost:5009/kagent-dev/kagent/controller:v0.0.1-wfr" in 18ms (18ms including waiting). Image size: 82191879 bytes.
+31s         Normal    Scheduled               pod/kagent-controller-7c7fd66f4f-zmhlf    Successfully assigned kagent/kagent-controller-7c7fd66f4f-zmhlf to i556wfr-control-plane
+13s         Normal    LeaderElection          lease/0e9f6799.kagent.dev                 kagent-controller-7c7fd66f4f-zmhlf_c7adaf0c-167a-4324-aed1-d704290f38ab became leader

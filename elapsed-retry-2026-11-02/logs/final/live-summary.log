@@ -1,0 +1,90 @@
+################ arm=final: final: 2-minute elapsed-time retry with the three review fixes
+# runtime image golang-adk@sha256:9f7e4e62… session 01a19e32-0189-7978-a3c8-1efd5273fb46 task 01a19e32-0488-7cba-b37e-4ea6dee9cb46
+$ bash sim/run.sh final    # outage driver: hold the turn, stop the controller, release the turn into the outage
+[      0s] 21:37:19.718 scheduled run bbf09b5f-9869-4abf-9c11-de8b6b2675b2 triggered as admin@kagent.dev; prompt "What is 2+2?"
+[    1.3s] 21:37:21.006 the agent reached the mock model; the turn is held there
+[    1.3s] 21:37:21.014 execution 01a19e32-0162-7d43-a89b-40c7bff6e92a is RUNNING: session 01a19e32-0189-7978-a3c8-1efd5273fb46, task 01a19e32-0488-7cba-b37e-4ea6dee9cb46
+[    3.4s] 21:37:23.048 controller scaled to zero and its Pod gone after 2s; the model is released, so the agent answers and saves now
+[   33.4s] 21:37:53.049 outage held for 30s; scaling the controller back to one replica
+[   36.6s] 21:37:56.242 controller Ready again; it was unavailable for 35s in total
+[   36.6s] 21:37:56.255 execution state: SCHEDULED_RUN_EXECUTION_STATE_RUNNING 
+[   36.6s] 21:37:56.255 task state: TASK_STATE_WORKING
+[   37.6s] 21:37:57.266 task state: TASK_STATE_COMPLETED
+[   38.6s] 21:37:58.272 execution state: SCHEDULED_RUN_EXECUTION_STATE_SUCCEEDED 
+[   38.9s] 21:37:58.612 follow-up message on the same session accepted: TASK_STATE_COMPLETED "The answer is 4."
+report: execution=SUCCEEDED task=TASK_STATE_COMPLETED text='The answer is 4.' follow_up_accepted=True The answer is 4.
+exit=0
+
+$ grep 'ate.actor.name=session-01a19e32-0189-7978-a3c8-1efd5273fb46' egress.log | grep TaskStoreService    # atenet-egress (agentgateway) access log
+21:37:20.801 info  conn=10.244.0.24:39720 CreateTask grpc=0   158ms
+21:37:20.827 info  conn=10.244.0.24:39720 UpdateTask grpc=0    15ms
+21:37:20.900 info  conn=10.244.0.24:39720 UpdateTask grpc=0    70ms
+21:37:23.089 error conn=10.244.0.24:39720 UpdateTask grpc=14   12ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:23.180 error conn=10.244.0.24:39720 UpdateTask grpc=14    8ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:23.340 error conn=10.244.0.24:39720 UpdateTask grpc=14    2ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:23.554 error conn=10.244.0.24:39720 UpdateTask grpc=14    3ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:24.186 error conn=10.244.0.24:39720 UpdateTask grpc=14    5ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:24.994 error conn=10.244.0.24:39720 UpdateTask grpc=14    3ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:25.688 error conn=10.244.0.24:39720 UpdateTask grpc=14    2ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:26.380 error conn=10.244.0.24:39720 UpdateTask grpc=14    2ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:27.141 error conn=10.244.0.24:39720 UpdateTask grpc=14    2ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:27.809 error conn=10.244.0.24:39720 UpdateTask grpc=14    2ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:28.452 error conn=10.244.0.24:39720 UpdateTask grpc=14    2ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:29.415 error conn=10.244.0.24:39720 UpdateTask grpc=14    5ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:31.026 error conn=10.244.0.24:39720 UpdateTask grpc=14 1014ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:31.585 error conn=10.244.0.24:39720 UpdateTask grpc=14    9ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:32.189 error conn=10.244.0.24:39720 UpdateTask grpc=14    5ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:33.778 error conn=10.244.0.24:39720 UpdateTask grpc=14 1024ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:34.526 error conn=10.244.0.24:39720 UpdateTask grpc=14    3ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:35.190 error conn=10.244.0.24:39720 UpdateTask grpc=14    5ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:36.850 error conn=10.244.0.24:39720 UpdateTask grpc=14 1055ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:37.660 error conn=10.244.0.24:39720 UpdateTask grpc=14   69ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:38.214 error conn=10.244.0.24:39720 UpdateTask grpc=14    2ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:39.732 error conn=10.244.0.24:39720 UpdateTask grpc=14 1008ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:40.680 error conn=10.244.0.24:39720 UpdateTask grpc=14    6ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:41.618 error conn=10.244.0.24:39720 UpdateTask grpc=14   11ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:42.470 error conn=10.244.0.24:39720 UpdateTask grpc=14    3ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:43.153 error conn=10.244.0.24:39720 UpdateTask grpc=14   13ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:44.786 error conn=10.244.0.24:39720 UpdateTask grpc=14 1024ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:45.391 error conn=10.244.0.24:39720 UpdateTask grpc=14    7ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:46.339 error conn=10.244.0.24:39720 UpdateTask grpc=14   24ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:48.114 error conn=10.244.0.24:39720 UpdateTask grpc=14 1055ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:48.878 error conn=10.244.0.24:39720 UpdateTask grpc=14    5ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:49.786 error conn=10.244.0.24:39720 UpdateTask grpc=14    3ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:50.631 error conn=10.244.0.24:39720 UpdateTask grpc=14    6ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:51.553 error conn=10.244.0.24:39720 UpdateTask grpc=14    5ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:52.450 error conn=10.244.0.24:39720 UpdateTask grpc=14   41ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:54.067 error conn=10.244.0.24:39720 UpdateTask grpc=14 1068ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:54.840 error conn=10.244.0.24:39720 UpdateTask grpc=14    7ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:55.439 error conn=10.244.0.24:39720 UpdateTask grpc=14    3ms  upstream call failed: Connect: Connection refused (os error 111)
+21:37:56.324 info  conn=10.244.0.24:39720 UpdateTask grpc=0    12ms
+21:37:56.341 info  conn=10.244.0.24:39720 UpdateTask grpc=0    11ms
+21:37:56.350 info  conn=10.244.0.24:39720 UpdateTask grpc=0     7ms
+21:37:56.363 info  conn=10.244.0.24:39720 SettleTask grpc=0     5ms
+21:37:58.499 info  conn=10.244.0.24:54574 CreateTask grpc=0     9ms
+21:37:58.518 info  conn=10.244.0.24:54574 UpdateTask grpc=0    11ms
+21:37:58.547 info  conn=10.244.0.24:54574 UpdateTask grpc=0     7ms
+21:37:58.565 info  conn=10.244.0.24:54574 UpdateTask grpc=0     5ms
+21:37:58.575 info  conn=10.244.0.24:54574 UpdateTask grpc=0     8ms
+21:37:58.580 info  conn=10.244.0.24:54574 UpdateTask grpc=0     4ms
+21:37:58.594 info  conn=10.244.0.24:54574 SettleTask grpc=0     8ms
+21:37:58.597 info  conn=10.244.0.24:54574 GetTask    grpc=0    15ms
+
+$ jq 'select(.labels["ate.actor.container.name"]=="kagent")' workers.log    # the Go ADK runtime's own lines
+21:37:20.803 INFO  execute  01a19e32-0488-7cba-b37e-4ea6dee9cb46
+21:37:58.501 INFO  execute  01a19e32-98c6-7013-a3b2-126ca9df80bb
+
+$ grep 'TaskStoreService/' controller-restarted.log | grep 'rpc completed'    # the controller that came back
+21:37:56.324 UpdateTask OK 8ms peer=10.244.0.19:55364
+21:37:56.340 UpdateTask OK 6ms peer=10.244.0.19:55364
+21:37:56.349 UpdateTask OK 4ms peer=10.244.0.19:55364
+21:37:56.363 SettleTask OK 3ms peer=10.244.0.19:55364
+21:37:58.499 CreateTask OK 6ms peer=10.244.0.19:55364
+21:37:58.517 UpdateTask OK 7ms peer=10.244.0.19:55364
+21:37:58.546 UpdateTask OK 4ms peer=10.244.0.19:55364
+21:37:58.565 UpdateTask OK 3ms peer=10.244.0.19:55364
+21:37:58.574 UpdateTask OK 3ms peer=10.244.0.19:55364
+21:37:58.580 UpdateTask OK 2ms peer=10.244.0.19:55364
+21:37:58.594 SettleTask OK 6ms peer=10.244.0.19:55364
+21:37:58.597 GetTask    OK 2ms peer=10.244.0.19:55364
+

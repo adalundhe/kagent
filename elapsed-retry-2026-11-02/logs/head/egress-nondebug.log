@@ -1,0 +1,572 @@
+2026-11-02T21:32:34.303029472Z ; query
+2026-11-02T21:32:34.303032305Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.303032972Z 
+2026-11-02T21:32:34.303925180Z ; query
+2026-11-02T21:32:34.303926347Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.303927055Z ; answers 0
+2026-11-02T21:32:34.303927639Z ; authorities 1
+2026-11-02T21:32:34.303928139Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.303930097Z ; additionals 0
+2026-11-02T21:32:34.303930639Z 	
+2026-11-02T21:32:34.304025180Z ; query
+2026-11-02T21:32:34.304026180Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.304026680Z 
+2026-11-02T21:32:34.304609805Z ; query
+2026-11-02T21:32:34.304612514Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.304613764Z ; answers 0
+2026-11-02T21:32:34.304614347Z ; authorities 1
+2026-11-02T21:32:34.304614972Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.304615514Z ; additionals 0
+2026-11-02T21:32:34.304615930Z 	
+2026-11-02T21:32:34.304641222Z ; query
+2026-11-02T21:32:34.304642847Z ;; api.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:32:34.304643305Z 
+2026-11-02T21:32:34.305012639Z ; query
+2026-11-02T21:32:34.305015180Z ;; api.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:32:34.305015889Z ; answers 0
+2026-11-02T21:32:34.305016347Z ; authorities 1
+2026-11-02T21:32:34.305016847Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.305017430Z ; additionals 0
+2026-11-02T21:32:34.305017972Z 	
+2026-11-02T21:32:34.305025222Z ; query
+2026-11-02T21:32:34.305025680Z ;; api.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.305026097Z 
+2026-11-02T21:32:34.305510639Z ; query
+2026-11-02T21:32:34.305511889Z ;; api.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.305512639Z ; answers 0
+2026-11-02T21:32:34.305513139Z ; authorities 1
+2026-11-02T21:32:34.305513722Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.305514347Z ; additionals 0
+2026-11-02T21:32:34.305514805Z 	
+2026-11-02T21:32:34.305540514Z ; query
+2026-11-02T21:32:34.305541097Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.305541514Z 
+2026-11-02T21:32:34.306172597Z ; query
+2026-11-02T21:32:34.306175639Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.306176389Z ; answers 2
+2026-11-02T21:32:34.306195555Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.21
+2026-11-02T21:32:34.306199514Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.20
+2026-11-02T21:32:34.306201222Z ; authorities 0
+2026-11-02T21:32:34.306204389Z ; additionals 0
+2026-11-02T21:32:34.306207847Z 	
+2026-11-02T21:32:34.306214639Z ; query
+2026-11-02T21:32:34.306217430Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.306217889Z ; answers 2
+2026-11-02T21:32:34.306218389Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.21
+2026-11-02T21:32:34.306218847Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.20
+2026-11-02T21:32:34.306219305Z ; authorities 0
+2026-11-02T21:32:34.306219764Z ; additionals 0
+2026-11-02T21:32:34.306220180Z 	
+2026-11-02T21:32:34.400675597Z ; query
+2026-11-02T21:32:34.400678889Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.400679389Z 
+2026-11-02T21:32:34.401540889Z ; query
+2026-11-02T21:32:34.401541889Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.401542430Z ; answers 0
+2026-11-02T21:32:34.401542930Z ; authorities 1
+2026-11-02T21:32:34.401543555Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.401543972Z ; additionals 0
+2026-11-02T21:32:34.401544430Z 	
+2026-11-02T21:32:34.401549139Z ; query
+2026-11-02T21:32:34.401550139Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.401550555Z 
+2026-11-02T21:32:34.402065805Z ; query
+2026-11-02T21:32:34.402066722Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.402067222Z ; answers 0
+2026-11-02T21:32:34.402067680Z ; authorities 1
+2026-11-02T21:32:34.402068139Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.402074347Z ; additionals 0
+2026-11-02T21:32:34.402075055Z 	
+2026-11-02T21:32:34.402238514Z ; query
+2026-11-02T21:32:34.402239680Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:32:34.402240139Z 
+2026-11-02T21:32:34.402774930Z ; query
+2026-11-02T21:32:34.402775722Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:32:34.402776430Z ; answers 0
+2026-11-02T21:32:34.402776847Z ; authorities 1
+2026-11-02T21:32:34.402777305Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.402777680Z ; additionals 0
+2026-11-02T21:32:34.402778097Z 	
+2026-11-02T21:32:34.402782139Z ; query
+2026-11-02T21:32:34.402782805Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.402784555Z 
+2026-11-02T21:32:34.403118972Z ; query
+2026-11-02T21:32:34.403119639Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.403120139Z ; answers 0
+2026-11-02T21:32:34.403120597Z ; authorities 1
+2026-11-02T21:32:34.403121264Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.403121722Z ; additionals 0
+2026-11-02T21:32:34.403122222Z 	
+2026-11-02T21:32:34.403174264Z ; query
+2026-11-02T21:32:34.403174930Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:32:34.403175347Z 
+2026-11-02T21:32:34.403744347Z ; query
+2026-11-02T21:32:34.403745264Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:32:34.403745722Z ; answers 0
+2026-11-02T21:32:34.403746139Z ; authorities 1
+2026-11-02T21:32:34.403746555Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.403746930Z ; additionals 0
+2026-11-02T21:32:34.403747347Z 	
+2026-11-02T21:32:34.403755222Z ; query
+2026-11-02T21:32:34.403755680Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:32:34.403756097Z 
+2026-11-02T21:32:34.404193764Z ; query
+2026-11-02T21:32:34.404194805Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:32:34.404195305Z ; answers 0
+2026-11-02T21:32:34.404195764Z ; authorities 1
+2026-11-02T21:32:34.404196222Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.404196805Z ; additionals 0
+2026-11-02T21:32:34.404197264Z 	
+2026-11-02T21:32:34.404205472Z ; query
+2026-11-02T21:32:34.404206555Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:32:34.404207055Z 
+2026-11-02T21:32:34.404540014Z ; query
+2026-11-02T21:32:34.404540930Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:32:34.404541347Z ; answers 1
+2026-11-02T21:32:34.404541805Z kagent-controller.kagent.svc.cluster.local. 30 IN A 10.96.217.66
+2026-11-02T21:32:34.404542222Z ; authorities 0
+2026-11-02T21:32:34.404542639Z ; additionals 0
+2026-11-02T21:32:34.404543014Z 	
+2026-11-02T21:32:34.404543889Z ; query
+2026-11-02T21:32:34.404544264Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:32:34.404544680Z ; answers 1
+2026-11-02T21:32:34.404545097Z kagent-controller.kagent.svc.cluster.local. 30 IN A 10.96.217.66
+2026-11-02T21:32:34.404545472Z ; authorities 0
+2026-11-02T21:32:34.404545889Z ; additionals 0
+2026-11-02T21:32:34.404551264Z 	
+2026-11-02T21:32:34.425624347Z 2026-11-02T21:32:34.425305Z	info	request request.id=1 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.25:35066 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/CreateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=748409c41d1666db53cef38c559296ae span.id=d7966770faa077c0 protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent duration=107ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:32:34.451706764Z 2026-11-02T21:32:34.451530Z	info	request request.id=2 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.25:35066 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=748409c41d1666db53cef38c559296ae span.id=9282648c845ee178 protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent duration=16ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:32:34.485869930Z ; query
+2026-11-02T21:32:34.485871139Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.485871639Z 
+2026-11-02T21:32:34.486437639Z ; query
+2026-11-02T21:32:34.486438472Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.486440305Z ; answers 0
+2026-11-02T21:32:34.486440722Z ; authorities 1
+2026-11-02T21:32:34.486441222Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.486441639Z ; additionals 0
+2026-11-02T21:32:34.486442972Z 	
+2026-11-02T21:32:34.486449222Z ; query
+2026-11-02T21:32:34.486449639Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.486450055Z 
+2026-11-02T21:32:34.487252097Z ; query
+2026-11-02T21:32:34.487294139Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.487297472Z ; answers 0
+2026-11-02T21:32:34.487298847Z ; authorities 1
+2026-11-02T21:32:34.487301972Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.487303972Z ; additionals 0
+2026-11-02T21:32:34.487304639Z 	
+2026-11-02T21:32:34.487330014Z ; query
+2026-11-02T21:32:34.487331055Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:32:34.487331472Z 
+2026-11-02T21:32:34.488157180Z ; query
+2026-11-02T21:32:34.488158014Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:32:34.488158597Z ; answers 0
+2026-11-02T21:32:34.488159097Z ; authorities 1
+2026-11-02T21:32:34.488159555Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.488160097Z ; additionals 0
+2026-11-02T21:32:34.488160514Z 	
+2026-11-02T21:32:34.488179472Z ; query
+2026-11-02T21:32:34.488180014Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.488180430Z 
+2026-11-02T21:32:34.488716264Z ; query
+2026-11-02T21:32:34.488719847Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.488720847Z ; answers 0
+2026-11-02T21:32:34.488721389Z ; authorities 1
+2026-11-02T21:32:34.488722055Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.488722639Z ; additionals 0
+2026-11-02T21:32:34.488723055Z 	
+2026-11-02T21:32:34.488937305Z ; query
+2026-11-02T21:32:34.488938180Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:32:34.488938597Z 
+2026-11-02T21:32:34.489284347Z ; query
+2026-11-02T21:32:34.489285597Z ;; k8s-credential-provider.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.489286097Z 
+2026-11-02T21:32:34.490219722Z ; query
+2026-11-02T21:32:34.490220847Z ;; k8s-credential-provider.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.490221347Z ; answers 0
+2026-11-02T21:32:34.490221972Z ; authorities 1
+2026-11-02T21:32:34.490222472Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.490223180Z ; additionals 0
+2026-11-02T21:32:34.490223680Z 	
+2026-11-02T21:32:34.490232180Z ; query
+2026-11-02T21:32:34.490232722Z ;; k8s-credential-provider.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.490233139Z 
+2026-11-02T21:32:34.490244139Z ; query
+2026-11-02T21:32:34.490246972Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:32:34.490257014Z ; answers 0
+2026-11-02T21:32:34.490258305Z ; authorities 1
+2026-11-02T21:32:34.490259180Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.490262097Z ; additionals 0
+2026-11-02T21:32:34.490262514Z 	
+2026-11-02T21:32:34.490277764Z ; query
+2026-11-02T21:32:34.490278305Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:32:34.490278889Z 
+2026-11-02T21:32:34.490574139Z ; query
+2026-11-02T21:32:34.490575347Z ;; k8s-credential-provider.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.490575930Z ; answers 0
+2026-11-02T21:32:34.490576389Z ; authorities 1
+2026-11-02T21:32:34.490576805Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.490577222Z ; additionals 0
+2026-11-02T21:32:34.490577597Z 	
+2026-11-02T21:32:34.490582014Z ; query
+2026-11-02T21:32:34.490582430Z ;; k8s-credential-provider.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:32:34.490582847Z 
+2026-11-02T21:32:34.490749972Z ; query
+2026-11-02T21:32:34.490750805Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:32:34.490751264Z ; answers 0
+2026-11-02T21:32:34.490751680Z ; authorities 1
+2026-11-02T21:32:34.490752180Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.490752805Z ; additionals 0
+2026-11-02T21:32:34.490753180Z 	
+2026-11-02T21:32:34.490757055Z ; query
+2026-11-02T21:32:34.490758014Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:32:34.490758389Z 
+2026-11-02T21:32:34.491135639Z ; query
+2026-11-02T21:32:34.491136847Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:32:34.491137347Z ; answers 1
+2026-11-02T21:32:34.491138014Z e2e-otlp.kagent.svc.cluster.local. 30 IN A 10.96.32.107
+2026-11-02T21:32:34.491138597Z ; authorities 0
+2026-11-02T21:32:34.491139055Z ; additionals 0
+2026-11-02T21:32:34.491139472Z 	
+2026-11-02T21:32:34.491140514Z ; query
+2026-11-02T21:32:34.491140972Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:32:34.491141430Z ; answers 1
+2026-11-02T21:32:34.491141972Z e2e-otlp.kagent.svc.cluster.local. 30 IN A 10.96.32.107
+2026-11-02T21:32:34.491142389Z ; authorities 0
+2026-11-02T21:32:34.491142805Z ; additionals 0
+2026-11-02T21:32:34.491143222Z 	
+2026-11-02T21:32:34.491144555Z ; query
+2026-11-02T21:32:34.491145222Z ;; k8s-credential-provider.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:32:34.491145680Z ; answers 0
+2026-11-02T21:32:34.491154972Z ; authorities 1
+2026-11-02T21:32:34.491155597Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.491156305Z ; additionals 0
+2026-11-02T21:32:34.491156680Z 	
+2026-11-02T21:32:34.491177014Z ; query
+2026-11-02T21:32:34.491177555Z ;; k8s-credential-provider.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.491177972Z 
+2026-11-02T21:32:34.491495305Z ; query
+2026-11-02T21:32:34.491495972Z ;; k8s-credential-provider.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.491496430Z ; answers 0
+2026-11-02T21:32:34.491496889Z ; authorities 1
+2026-11-02T21:32:34.491497389Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.491497764Z ; additionals 0
+2026-11-02T21:32:34.491498180Z 	
+2026-11-02T21:32:34.491506139Z ; query
+2026-11-02T21:32:34.491506680Z ;; k8s-credential-provider.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.491507055Z 
+2026-11-02T21:32:34.492054472Z ; query
+2026-11-02T21:32:34.492055597Z ;; k8s-credential-provider.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.492056055Z ; answers 1
+2026-11-02T21:32:34.492057139Z k8s-credential-provider.ate-system.svc.cluster.local. 30 IN A 10.96.229.110
+2026-11-02T21:32:34.492057597Z ; authorities 0
+2026-11-02T21:32:34.492058139Z ; additionals 0
+2026-11-02T21:32:34.492058597Z 	
+2026-11-02T21:32:34.492061680Z ; query
+2026-11-02T21:32:34.492062139Z ;; k8s-credential-provider.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.492062597Z ; answers 1
+2026-11-02T21:32:34.492063097Z k8s-credential-provider.ate-system.svc.cluster.local. 30 IN A 10.96.229.110
+2026-11-02T21:32:34.492063639Z ; authorities 0
+2026-11-02T21:32:34.492064097Z ; additionals 0
+2026-11-02T21:32:34.492064514Z 	
+2026-11-02T21:32:34.493221805Z 2026-11-02T21:32:34.492928Z	info	request request.id=4 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.25:35066 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=0 trace.id=748409c41d1666db53cef38c559296ae span.id=3e914321faa0ac9b protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent duration=36ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:32:34.496222597Z 2026-11-02T21:32:34.495978Z	info	request request.id=3 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.25:35066 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent duration=42ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:32:34.506311805Z 2026-11-02T21:32:34.505908Z	info	request request.id=6 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.25:35066 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent duration=5ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:32:34.516821222Z ; query
+2026-11-02T21:32:34.516822014Z ;; host.docker.internal.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.516822472Z 
+2026-11-02T21:32:34.517368014Z ; query
+2026-11-02T21:32:34.517371972Z ;; host.docker.internal.ate-system.svc.cluster.local. IN A
+2026-11-02T21:32:34.517372430Z ; answers 0
+2026-11-02T21:32:34.517372889Z ; authorities 1
+2026-11-02T21:32:34.517373305Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.517373722Z ; additionals 0
+2026-11-02T21:32:34.517374430Z 	
+2026-11-02T21:32:34.517438430Z ; query
+2026-11-02T21:32:34.517439222Z ;; host.docker.internal.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.517439680Z 
+2026-11-02T21:32:34.517737014Z ; query
+2026-11-02T21:32:34.517737639Z ;; host.docker.internal.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.517738055Z ; answers 0
+2026-11-02T21:32:34.517738555Z ; authorities 1
+2026-11-02T21:32:34.517739097Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.517739472Z ; additionals 0
+2026-11-02T21:32:34.517739889Z 	
+2026-11-02T21:32:34.517893722Z ; query
+2026-11-02T21:32:34.517895722Z ;; host.docker.internal.svc.cluster.local. IN A
+2026-11-02T21:32:34.517897555Z 
+2026-11-02T21:32:34.518306639Z ; query
+2026-11-02T21:32:34.518307680Z ;; host.docker.internal.svc.cluster.local. IN A
+2026-11-02T21:32:34.518308222Z ; answers 0
+2026-11-02T21:32:34.518308722Z ; authorities 1
+2026-11-02T21:32:34.518309139Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.518309597Z ; additionals 0
+2026-11-02T21:32:34.518310014Z 	
+2026-11-02T21:32:34.518315222Z ; query
+2026-11-02T21:32:34.518316180Z ;; host.docker.internal.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.518319055Z 
+2026-11-02T21:32:34.518560597Z ; query
+2026-11-02T21:32:34.518561264Z ;; host.docker.internal.svc.cluster.local. IN AAAA
+2026-11-02T21:32:34.518561722Z ; answers 0
+2026-11-02T21:32:34.518562139Z ; authorities 1
+2026-11-02T21:32:34.518562555Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.518572180Z ; additionals 0
+2026-11-02T21:32:34.518573014Z 	
+2026-11-02T21:32:34.518580597Z ; query
+2026-11-02T21:32:34.518581430Z ;; host.docker.internal.cluster.local. IN A
+2026-11-02T21:32:34.518581847Z 
+2026-11-02T21:32:34.518751555Z ; query
+2026-11-02T21:32:34.518752347Z ;; host.docker.internal.cluster.local. IN A
+2026-11-02T21:32:34.518752805Z ; answers 0
+2026-11-02T21:32:34.518753222Z ; authorities 1
+2026-11-02T21:32:34.518753639Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.518754014Z ; additionals 0
+2026-11-02T21:32:34.518754389Z 	
+2026-11-02T21:32:34.518768180Z ; query
+2026-11-02T21:32:34.518768680Z ;; host.docker.internal.cluster.local. IN AAAA
+2026-11-02T21:32:34.518769055Z 
+2026-11-02T21:32:34.519033555Z ; query
+2026-11-02T21:32:34.519034139Z ;; host.docker.internal.cluster.local. IN AAAA
+2026-11-02T21:32:34.519034680Z ; answers 0
+2026-11-02T21:32:34.519035139Z ; authorities 1
+2026-11-02T21:32:34.519035722Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793654866 7200 1800 86400 30
+2026-11-02T21:32:34.519036139Z ; additionals 0
+2026-11-02T21:32:34.519036555Z 	
+2026-11-02T21:32:34.519121639Z ; query
+2026-11-02T21:32:34.519129305Z ;; host.docker.internal. IN A
+2026-11-02T21:32:34.519131722Z 
+2026-11-02T21:32:34.519390222Z ; query
+2026-11-02T21:32:34.519391264Z ;; host.docker.internal. IN A
+2026-11-02T21:32:34.519391722Z ; answers 1
+2026-11-02T21:32:34.519392389Z host.docker.internal. 30 IN A 192.168.65.254
+2026-11-02T21:32:34.519392805Z ; authorities 0
+2026-11-02T21:32:34.519393264Z ; additionals 0
+2026-11-02T21:32:34.519393639Z 	
+2026-11-02T21:32:34.519396430Z ; query
+2026-11-02T21:32:34.519396847Z ;; host.docker.internal. IN A
+2026-11-02T21:32:34.519397264Z ; answers 1
+2026-11-02T21:32:34.519397680Z host.docker.internal. 30 IN A 192.168.65.254
+2026-11-02T21:32:34.519398097Z ; authorities 0
+2026-11-02T21:32:34.519398639Z ; additionals 0
+2026-11-02T21:32:34.519399014Z 	
+2026-11-02T21:32:37.036961042Z 2026-11-02T21:32:37.036835Z	info	request request.id=5 gateway=default/default listener=listener1 route=default/route0 endpoint=host.docker.internal:52307 src.addr=10.244.0.25:35066 http.method=POST http.host=host.docker.internal http.path=/v1/chat/completions http.version=HTTP/1.1 http.status=200 trace.id=748409c41d1666db53cef38c559296ae span.id=ff7c6ca681433d98 protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent duration=2550ms substrate.connect.authority="192.168.65.254:52307"
+2026-11-02T21:32:37.044366667Z 2026-11-02T21:32:37.044185Z	error	request request.id=7 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.25:35066 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=748409c41d1666db53cef38c559296ae span.id=79b55fdb5072dcbf protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=4ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:32:37.046212126Z 2026-11-02T21:32:37.046164Z	info	request request.id=8 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.25:35066 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent duration=4ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:32:37.149687626Z 2026-11-02T21:32:37.149556Z	error	request request.id=9 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.25:35066 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=748409c41d1666db53cef38c559296ae span.id=dca322fbd08e2144 protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=3ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:32:37.355228542Z 2026-11-02T21:32:37.355130Z	error	request request.id=10 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.25:35066 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=748409c41d1666db53cef38c559296ae span.id=4eb5d668bfd59248 protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=3ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:32:37.759272168Z 2026-11-02T21:32:37.759209Z	error	request request.id=11 gateway=default/default listener=listener1 route=default/route0 endpoint=kagent-controller.kagent.svc.cluster.local:8083 src.addr=10.244.0.25:35066 http.method=POST http.host=kagent-controller.kagent.svc.cluster.local http.path=/kagent.runtime.v1.TaskStoreService/UpdateTask http.version=HTTP/2.0 http.status=200 grpc.status=14 trace.id=748409c41d1666db53cef38c559296ae span.id=3de655eb39de0ab7 protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent error="upstream call failed: Connect: Connection refused (os error 111)" reason=UpstreamFailure duration=2ms substrate.connect.authority="10.96.217.66:8083"
+2026-11-02T21:32:42.049821628Z 2026-11-02T21:32:42.049347Z	info	request request.id=12 gateway=default/default listener=listener1 route=default/route0 endpoint=e2e-otlp.kagent.svc.cluster.local:14317 src.addr=10.244.0.25:35066 http.method=POST http.host=e2e-otlp.kagent.svc.cluster.local http.path=/opentelemetry.proto.collector.trace.v1.TraceService/Export http.version=HTTP/2.0 http.status=200 grpc.status=0 protocol=http ate.actor.name=session-01a19e2d-a2bb-7c17-b575-17a7110fe642 ate.actor.uid=fb24523f-17de-4027-aa00-77e549038c0d ate.atespace=kagent duration=5ms substrate.connect.authority="10.96.32.107:14317"
+2026-11-02T21:33:04.311097097Z ; query
+2026-11-02T21:33:04.311098014Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:33:04.311098430Z 
+2026-11-02T21:33:04.311827722Z ; query
+2026-11-02T21:33:04.311828305Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN A
+2026-11-02T21:33:04.311828972Z ; answers 0
+2026-11-02T21:33:04.311829430Z ; authorities 1
+2026-11-02T21:33:04.311829847Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.311830264Z ; additionals 0
+2026-11-02T21:33:04.311830680Z 	
+2026-11-02T21:33:04.311930805Z ; query
+2026-11-02T21:33:04.311932889Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.311933347Z 
+2026-11-02T21:33:04.312204847Z ; query
+2026-11-02T21:33:04.312205430Z ;; api.ate-system.svc.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.312206055Z ; answers 0
+2026-11-02T21:33:04.312206472Z ; authorities 1
+2026-11-02T21:33:04.312206889Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.312207305Z ; additionals 0
+2026-11-02T21:33:04.312207722Z 	
+2026-11-02T21:33:04.312228847Z ; query
+2026-11-02T21:33:04.312229847Z ;; api.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:33:04.312230222Z 
+2026-11-02T21:33:04.312595805Z ; query
+2026-11-02T21:33:04.312596347Z ;; api.ate-system.svc.svc.cluster.local. IN A
+2026-11-02T21:33:04.312596805Z ; answers 0
+2026-11-02T21:33:04.312597222Z ; authorities 1
+2026-11-02T21:33:04.312597680Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.312599680Z ; additionals 0
+2026-11-02T21:33:04.312600305Z 	
+2026-11-02T21:33:04.312647139Z ; query
+2026-11-02T21:33:04.312647722Z ;; api.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.312648139Z 
+2026-11-02T21:33:04.312976639Z ; query
+2026-11-02T21:33:04.312977472Z ;; api.ate-system.svc.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.312977930Z ; answers 0
+2026-11-02T21:33:04.312978472Z ; authorities 1
+2026-11-02T21:33:04.312983264Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.312983805Z ; additionals 0
+2026-11-02T21:33:04.312984264Z 	
+2026-11-02T21:33:04.312989805Z ; query
+2026-11-02T21:33:04.312990222Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:33:04.312990597Z 
+2026-11-02T21:33:04.313292264Z ; query
+2026-11-02T21:33:04.313292930Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:33:04.313293389Z ; answers 2
+2026-11-02T21:33:04.313293847Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.21
+2026-11-02T21:33:04.313294347Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.20
+2026-11-02T21:33:04.313294805Z ; authorities 0
+2026-11-02T21:33:04.313295222Z ; additionals 0
+2026-11-02T21:33:04.313295639Z 	
+2026-11-02T21:33:04.313296514Z ; query
+2026-11-02T21:33:04.313296972Z ;; api.ate-system.svc.cluster.local. IN A
+2026-11-02T21:33:04.313297389Z ; answers 2
+2026-11-02T21:33:04.313297764Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.21
+2026-11-02T21:33:04.313298139Z api.ate-system.svc.cluster.local. 30 IN A 10.244.0.20
+2026-11-02T21:33:04.313298555Z ; authorities 0
+2026-11-02T21:33:04.313298930Z ; additionals 0
+2026-11-02T21:33:04.313299347Z 	
+2026-11-02T21:33:04.406284472Z ; query
+2026-11-02T21:33:04.406286305Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:33:04.406288222Z 
+2026-11-02T21:33:04.406830014Z ; query
+2026-11-02T21:33:04.406830930Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:33:04.406831430Z ; answers 0
+2026-11-02T21:33:04.406831847Z ; authorities 1
+2026-11-02T21:33:04.406832264Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.406832680Z ; additionals 0
+2026-11-02T21:33:04.406833097Z 	
+2026-11-02T21:33:04.407309472Z ; query
+2026-11-02T21:33:04.407310055Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.407310514Z 
+2026-11-02T21:33:04.407720597Z ; query
+2026-11-02T21:33:04.407721180Z ;; kagent-controller.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.407721722Z ; answers 0
+2026-11-02T21:33:04.407722139Z ; authorities 1
+2026-11-02T21:33:04.407722555Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.407723014Z ; additionals 0
+2026-11-02T21:33:04.407724514Z 	
+2026-11-02T21:33:04.407737222Z ; query
+2026-11-02T21:33:04.407737889Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:33:04.407738305Z 
+2026-11-02T21:33:04.408046722Z ; query
+2026-11-02T21:33:04.408047514Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:33:04.408047930Z ; answers 0
+2026-11-02T21:33:04.408048680Z ; authorities 1
+2026-11-02T21:33:04.408050430Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.408050847Z ; additionals 0
+2026-11-02T21:33:04.408051264Z 	
+2026-11-02T21:33:04.408117389Z ; query
+2026-11-02T21:33:04.408117972Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.408118347Z 
+2026-11-02T21:33:04.408370472Z ; query
+2026-11-02T21:33:04.408371097Z ;; kagent-controller.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.408376805Z ; answers 0
+2026-11-02T21:33:04.408378014Z ; authorities 1
+2026-11-02T21:33:04.408378680Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.408379097Z ; additionals 0
+2026-11-02T21:33:04.408379597Z 	
+2026-11-02T21:33:04.408386764Z ; query
+2026-11-02T21:33:04.408387347Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:33:04.408387722Z 
+2026-11-02T21:33:04.408605472Z ; query
+2026-11-02T21:33:04.408606055Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:33:04.408606555Z ; answers 0
+2026-11-02T21:33:04.408607014Z ; authorities 1
+2026-11-02T21:33:04.408607430Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.408607930Z ; additionals 0
+2026-11-02T21:33:04.408608347Z 	
+2026-11-02T21:33:04.408686639Z ; query
+2026-11-02T21:33:04.408687180Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:33:04.408687597Z 
+2026-11-02T21:33:04.408937555Z ; query
+2026-11-02T21:33:04.408938139Z ;; kagent-controller.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:33:04.408938597Z ; answers 0
+2026-11-02T21:33:04.408939014Z ; authorities 1
+2026-11-02T21:33:04.408939430Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.408939847Z ; additionals 0
+2026-11-02T21:33:04.408940264Z 	
+2026-11-02T21:33:04.408987514Z ; query
+2026-11-02T21:33:04.408988472Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:33:04.408988847Z 
+2026-11-02T21:33:04.409234680Z ; query
+2026-11-02T21:33:04.409235555Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:33:04.409236014Z ; answers 1
+2026-11-02T21:33:04.409236389Z kagent-controller.kagent.svc.cluster.local. 30 IN A 10.96.217.66
+2026-11-02T21:33:04.409236805Z ; authorities 0
+2026-11-02T21:33:04.409237222Z ; additionals 0
+2026-11-02T21:33:04.409237597Z 	
+2026-11-02T21:33:04.409238430Z ; query
+2026-11-02T21:33:04.409238805Z ;; kagent-controller.kagent.svc.cluster.local. IN A
+2026-11-02T21:33:04.409239222Z ; answers 1
+2026-11-02T21:33:04.409239597Z kagent-controller.kagent.svc.cluster.local. 30 IN A 10.96.217.66
+2026-11-02T21:33:04.409239972Z ; authorities 0
+2026-11-02T21:33:04.409240472Z ; additionals 0
+2026-11-02T21:33:04.409240847Z 	
+2026-11-02T21:33:04.494003764Z ; query
+2026-11-02T21:33:04.494011472Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:33:04.494014139Z 
+2026-11-02T21:33:04.494684222Z ; query
+2026-11-02T21:33:04.494685389Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN A
+2026-11-02T21:33:04.494685847Z ; answers 0
+2026-11-02T21:33:04.494686264Z ; authorities 1
+2026-11-02T21:33:04.494726055Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.494729847Z ; additionals 0
+2026-11-02T21:33:04.494730555Z 	
+2026-11-02T21:33:04.494880722Z ; query
+2026-11-02T21:33:04.494883472Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.494885180Z 
+2026-11-02T21:33:04.495462305Z ; query
+2026-11-02T21:33:04.495465055Z ;; e2e-otlp.kagent.svc.cluster.local.ate-system.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.495465597Z ; answers 0
+2026-11-02T21:33:04.495466055Z ; authorities 1
+2026-11-02T21:33:04.495481097Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.495484639Z ; additionals 0
+2026-11-02T21:33:04.495485972Z 	
+2026-11-02T21:33:04.495818722Z ; query
+2026-11-02T21:33:04.495821472Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:33:04.495823222Z 
+2026-11-02T21:33:04.496164639Z ; query
+2026-11-02T21:33:04.496165555Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN A
+2026-11-02T21:33:04.496165972Z ; answers 0
+2026-11-02T21:33:04.496166430Z ; authorities 1
+2026-11-02T21:33:04.496166847Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.496167264Z ; additionals 0
+2026-11-02T21:33:04.496167972Z 	
+2026-11-02T21:33:04.496324347Z ; query
+2026-11-02T21:33:04.496326139Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.496326597Z 
+2026-11-02T21:33:04.497213930Z ; query
+2026-11-02T21:33:04.497215597Z ;; e2e-otlp.kagent.svc.cluster.local.svc.cluster.local. IN AAAA
+2026-11-02T21:33:04.497217805Z ; answers 0
+2026-11-02T21:33:04.497220222Z ; authorities 1
+2026-11-02T21:33:04.497221014Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.497221472Z ; additionals 0
+2026-11-02T21:33:04.497221930Z 	
+2026-11-02T21:33:04.497626722Z ; query
+2026-11-02T21:33:04.497627764Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:33:04.497630847Z 
+2026-11-02T21:33:04.498063180Z ; query
+2026-11-02T21:33:04.498063805Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN A
+2026-11-02T21:33:04.498064389Z ; answers 0
+2026-11-02T21:33:04.498064847Z ; authorities 1
+2026-11-02T21:33:04.498065264Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.498065722Z ; additionals 0
+2026-11-02T21:33:04.498066139Z 	
+2026-11-02T21:33:04.498090930Z ; query
+2026-11-02T21:33:04.498092014Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:33:04.498094430Z 
+2026-11-02T21:33:04.498718055Z ; query
+2026-11-02T21:33:04.498719222Z ;; e2e-otlp.kagent.svc.cluster.local.cluster.local. IN AAAA
+2026-11-02T21:33:04.498721014Z ; answers 0
+2026-11-02T21:33:04.498721555Z ; authorities 1
+2026-11-02T21:33:04.498722180Z cluster.local. 30 IN SOA ns.dns.cluster.local. hostmaster.cluster.local. 1793655155 7200 1800 86400 30
+2026-11-02T21:33:04.498722597Z ; additionals 0
+2026-11-02T21:33:04.498723014Z 	
+2026-11-02T21:33:04.498873930Z ; query
+2026-11-02T21:33:04.498875389Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:33:04.498875847Z 
+2026-11-02T21:33:04.499556472Z ; query
+2026-11-02T21:33:04.499557680Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:33:04.499558180Z ; answers 1
+2026-11-02T21:33:04.499559014Z e2e-otlp.kagent.svc.cluster.local. 30 IN A 10.96.32.107
+2026-11-02T21:33:04.499559597Z ; authorities 0
+2026-11-02T21:33:04.499560055Z ; additionals 0
+2026-11-02T21:33:04.499560472Z 	
+2026-11-02T21:33:04.499561514Z ; query
+2026-11-02T21:33:04.499561972Z ;; e2e-otlp.kagent.svc.cluster.local. IN A
+2026-11-02T21:33:04.499566680Z ; answers 1
+2026-11-02T21:33:04.499569972Z e2e-otlp.kagent.svc.cluster.local. 30 IN A 10.96.32.107
+2026-11-02T21:33:04.499571305Z ; authorities 0
+2026-11-02T21:33:04.499571764Z ; additionals 0
+2026-11-02T21:33:04.499572180Z 	

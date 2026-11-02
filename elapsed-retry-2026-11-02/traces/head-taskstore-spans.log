@@ -1,0 +1,9 @@
+# 8 spans for session 01a19e2d-a2bb-7c17-b575-17a7110fe642: runtime TaskStore client calls and the turn's invoke_agent span
+21:32:34.258 interaction-gvg9f CreateTask        168.1ms status=OK trace=748409c41d1666db
+21:32:34.433 interaction-gvg9f UpdateTask         19.8ms status=OK trace=748409c41d1666db
+21:32:34.445 interaction-gvg9f invoke_agent interaction_gvg9f   2595.2ms status= trace=748409c41d1666db
+21:32:34.455 interaction-gvg9f UpdateTask         38.3ms status=OK trace=748409c41d1666db
+21:32:37.039 interaction-gvg9f UpdateTask          6.4ms status=UNAVAILABLE trace=748409c41d1666db connection refused
+21:32:37.145 interaction-gvg9f UpdateTask          4.5ms status=UNAVAILABLE trace=748409c41d1666db connection refused
+21:32:37.351 interaction-gvg9f UpdateTask          4.4ms status=UNAVAILABLE trace=748409c41d1666db connection refused
+21:32:37.756 interaction-gvg9f UpdateTask          3.1ms status=UNAVAILABLE trace=748409c41d1666db connection refused

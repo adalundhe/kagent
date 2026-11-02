@@ -1,0 +1,56 @@
+# 55 spans for session 01a19e32-0189-7978-a3c8-1efd5273fb46: runtime TaskStore client calls and the turn's invoke_agent span
+21:37:20.562 interaction-h7dkn CreateTask        240.4ms status=OK trace=ff80d22e22358662
+21:37:20.812 interaction-h7dkn UpdateTask         16.6ms status=OK trace=ff80d22e22358662
+21:37:20.826 interaction-h7dkn invoke_agent interaction_h7dkn   2258.9ms status= trace=ff80d22e22358662
+21:37:20.829 interaction-h7dkn UpdateTask         73.0ms status=OK trace=ff80d22e22358662
+21:37:23.072 interaction-h7dkn UpdateTask         19.3ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:23.171 interaction-h7dkn UpdateTask         10.6ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:23.336 interaction-h7dkn UpdateTask          4.5ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:23.550 interaction-h7dkn UpdateTask          4.3ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:24.181 interaction-h7dkn UpdateTask          7.2ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:24.989 interaction-h7dkn UpdateTask          5.9ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:25.685 interaction-h7dkn UpdateTask          3.8ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:26.376 interaction-h7dkn UpdateTask          4.3ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:27.138 interaction-h7dkn UpdateTask          4.6ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:27.805 interaction-h7dkn UpdateTask          4.1ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:28.449 interaction-h7dkn UpdateTask          3.8ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:29.407 interaction-h7dkn UpdateTask          9.6ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:30.010 interaction-h7dkn UpdateTask       1017.6ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:31.575 interaction-h7dkn UpdateTask         11.7ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:32.182 interaction-h7dkn UpdateTask          6.9ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:32.753 interaction-h7dkn UpdateTask       1025.8ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:34.522 interaction-h7dkn UpdateTask          6.6ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:35.183 interaction-h7dkn UpdateTask          7.4ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:35.794 interaction-h7dkn UpdateTask       1057.5ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:37.587 interaction-h7dkn UpdateTask         93.9ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:38.211 interaction-h7dkn UpdateTask          4.1ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:38.723 interaction-h7dkn UpdateTask       1010.5ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:40.672 interaction-h7dkn UpdateTask          9.2ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:41.605 interaction-h7dkn UpdateTask         13.9ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:42.465 interaction-h7dkn UpdateTask          5.2ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:43.138 interaction-h7dkn UpdateTask         16.8ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:43.761 interaction-h7dkn UpdateTask       1026.9ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:45.382 interaction-h7dkn UpdateTask         10.1ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:46.312 interaction-h7dkn UpdateTask         29.3ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:47.057 interaction-h7dkn UpdateTask       1058.7ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:48.871 interaction-h7dkn UpdateTask          8.8ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:49.782 interaction-h7dkn UpdateTask          5.2ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:50.624 interaction-h7dkn UpdateTask          8.8ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:51.546 interaction-h7dkn UpdateTask          8.0ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:52.406 interaction-h7dkn UpdateTask         48.7ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:52.993 interaction-h7dkn UpdateTask       1074.9ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:54.829 interaction-h7dkn UpdateTask         12.0ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:55.434 interaction-h7dkn UpdateTask          5.6ms status=UNAVAILABLE trace=ff80d22e22358662 connection refused
+21:37:56.311 interaction-h7dkn UpdateTask         13.8ms status=OK trace=ff80d22e22358662
+21:37:56.329 interaction-h7dkn UpdateTask         12.5ms status=OK trace=ff80d22e22358662
+21:37:56.342 interaction-h7dkn UpdateTask          8.4ms status=OK trace=ff80d22e22358662
+21:37:56.357 interaction-h7dkn SettleTask          7.0ms status=OK trace=ff80d22e22358662
+21:37:58.470 interaction-h7dkn CreateTask         29.8ms status=OK trace=d59c4ba380a2cd1c
+21:37:58.506 interaction-h7dkn UpdateTask         23.6ms status=OK trace=d59c4ba380a2cd1c
+21:37:58.539 interaction-h7dkn UpdateTask          9.0ms status=OK trace=d59c4ba380a2cd1c
+21:37:58.539 interaction-h7dkn invoke_agent interaction_h7dkn     22.4ms status= trace=d59c4ba380a2cd1c
+21:37:58.559 interaction-h7dkn UpdateTask          6.1ms status=OK trace=d59c4ba380a2cd1c
+21:37:58.566 interaction-h7dkn UpdateTask          9.0ms status=OK trace=d59c4ba380a2cd1c
+21:37:58.575 interaction-h7dkn UpdateTask          5.4ms status=OK trace=d59c4ba380a2cd1c
+21:37:58.581 interaction-h7dkn GetTask            16.6ms status=OK trace=d59c4ba380a2cd1c
+21:37:58.585 interaction-h7dkn SettleTask          9.9ms status=OK trace=d59c4ba380a2cd1c
