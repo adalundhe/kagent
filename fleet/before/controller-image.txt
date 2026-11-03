@@ -1,0 +1,2 @@
+localhost:5001/kagent-dev/kagent/controller:v0.0.1-rv3397-before
+localhost:5001/kagent-dev/kagent/controller@sha256:b95e11c5d200b7da106a16cb99abf490671d2d1449f407ae665d9d9b92f77892 localhost:5001/kagent-dev/kagent/controller@sha256:5fafe2ee75435ce80b78f1d94cdc9cf776dea4ae89f082c1bfdca90bf376f716

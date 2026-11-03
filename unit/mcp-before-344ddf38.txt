@@ -1,0 +1,10 @@
+# 344ddf38 with fakeSessionWorkflow.Recovery panicking
+--- FAIL: TestTaskUpdateContinuesA2ATask (0.00s)
+panic: MCP must not observe Session recovery [recovered, repanicked]
+	/home/adalundhe/rv3397/wt/go/core/internal/mcp/tasks_test.go:566 +0x25
+	/home/adalundhe/rv3397/wt/go/core/internal/service/session/service.go:152 +0xa6
+	/home/adalundhe/rv3397/wt/go/core/internal/mcp/tasks.go:227 +0x11a
+	/home/adalundhe/rv3397/wt/go/core/internal/mcp/tasks.go:165 +0xc6
+	/home/adalundhe/rv3397/wt/go/core/internal/mcp/tasks_test.go:118 +0x669
+FAIL	github.com/kagent-dev/kagent/go/core/internal/mcp	0.254s
+FAIL

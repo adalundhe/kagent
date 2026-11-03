@@ -1,0 +1,54 @@
+# controller server spans from the e2e-otlp sink; the before arm ran 20:08:07-20:08:53Z, the after arm 20:09:17-20:09:56Z
+# start(UTC)               duration_ms  span                                            trace
+19:56:56.963         0.5  POST /mcp                                       1a978166878feb72206a34b1e5e9a86c
+19:56:56.964         0.1  POST /mcp                                       849e579d95420ceeed31d2b84b03f12a
+19:56:56.964         2.1  POST /mcp                                       d64dc89b17fd0bed7a09cd8cd4436291
+20:01:56.991         0.5  POST /mcp                                       08216154ce6ba2fa8fbe72c288ca376d
+20:01:56.992         3.0  POST /mcp                                       f9069d74c42f26e049cee1570ed6bca1
+20:06:57.005         0.3  POST /mcp                                       68a0a386c98cb5fd79f9e1e62f2ff130
+20:06:57.006         2.2  POST /mcp                                       c53b423e3efa2933946205f0aabc7acd
+20:08:03.709         0.5  POST /mcp                                       10f1a34649eec34bb0fed0de078c0ccd
+20:08:03.710         1.9  POST /mcp                                       7430c431d2c9b8825567b6d348520c1c
+20:08:18.657         6.7  kagent.api.v1.SessionService/GetSession         8910a88843a740d2409996dbf9962e57
+20:08:18.665         2.8  kagent.api.v1.SessionService/GetSession         02e93bd3777e798d59862a1cb2cb6c43
+20:08:18.995         2.6  kagent.api.v1.SessionService/GetSession         189fc01cdcf8dd857ee77fcd15e712ae
+20:08:18.997         2.4  kagent.api.v1.SessionService/RevertSession      8f5f690980c29b7d8c9b9c6c472d22ce
+20:08:19.120         3.1  kagent.api.v1.SessionService/GetSession         8c0351cc2c99b9225e5a5a146f064805
+20:08:19.123         1.5  kagent.api.v1.SessionService/ListSessions       2b7d37733b17790a5d3cddb6344f4621
+20:08:19.125        40.9  kagent.api.v1.SessionService/RevertSession      79ec4a723df0a7a07987f386feb89f34
+20:08:19.166         3.4  kagent.api.v1.SessionService/GetSession         eecda4803aed5ca15514a8160e75fe39
+20:08:19.170         1.0  kagent.api.v1.SessionService/ListSessions       8275defb6768d83ecef8c1c7f5c847ac
+20:08:31.124         2.4  kagent.api.v1.SessionService/GetSession         fe3fefdc9134437c3a5e674231fe310d
+20:08:32.713       313.4  POST /mcp                                       c305bbad81d533c13ca6b0d232d0a87a
+20:08:33.027         6.6  POST /mcp                                       6f56409238169409997c8c349f4032bc
+20:08:33.285         4.6  POST /mcp                                       e58c233260e886d89466cd812a460ecb
+20:08:33.291         2.5  POST /mcp                                       378907af24ac2635a7bec0f473937004
+20:08:33.294         2.8  POST /mcp                                       0d857e964ef96ba9371d9afe3c806a92
+20:08:33.297         2.6  POST /mcp                                       705e2b2c67945bbba7839a2e3ad1554d
+20:08:33.300         1.6  kagent.api.v1.SessionService/GetSession         229a08dec06226a38ab7abf56e531a6b
+20:08:33.446      5002.8  POST /mcp                                       6c16fa2e92748abe0293ed27e3dbb9de
+20:08:38.449      5003.0  POST /mcp                                       b583db9ccb1659ba6033994815ada501
+20:08:43.453      5007.9  POST /mcp                                       7d8b4539476b43bc073693b700832734
+20:08:48.461      5001.1  kagent.api.v1.SessionService/GetSession         6f5cd1194e530b09ca96ec461a409689
+20:09:33.181         0.6  POST /mcp                                       0067fe5c9b4a124cd97ad4afe8a1eb1e
+20:09:33.182         2.4  POST /mcp                                       09ff8593fa4596212f1759838438dc77
+20:09:35.407         4.3  kagent.api.v1.SessionService/GetSession         e6a4cd9c9ef29f48b038147bc67c4a9e
+20:09:35.412         3.9  kagent.api.v1.SessionService/GetSession         a6a014222acb85f3a334702a3ec72f91
+20:09:35.734         3.1  kagent.api.v1.SessionService/GetSession         631e97c507c746935e9b1a33046eea74
+20:09:35.738         3.0  kagent.api.v1.SessionService/RevertSession      9341e815fae1bd2384e8f75932a12246
+20:09:35.870         3.0  kagent.api.v1.SessionService/GetSession         3d1dfac78f2c9129b7b49aefd354e168
+20:09:35.873         1.5  kagent.api.v1.SessionService/ListSessions       865a2a678ae37bcbbe18ade618cf006e
+20:09:35.875        31.7  kagent.api.v1.SessionService/RevertSession      c56aeaebfc8ec85fe816a91e458c2b15
+20:09:35.907         3.1  kagent.api.v1.SessionService/GetSession         2568b305fa2b631baf52bdf04160c84f
+20:09:35.911         0.7  kagent.api.v1.SessionService/ListSessions       edcc05e5396f227b228bf4ed8c7c10a4
+20:09:47.677         2.4  kagent.api.v1.SessionService/GetSession         497318d5dfa5b98e3b3d482c2a05bf66
+20:09:49.041       213.6  POST /mcp                                       b39f2e96eccba64d9f0438fb21742a84
+20:09:49.255         2.8  POST /mcp                                       888c91ca081805f62df279a0a2b39818
+20:09:49.508         2.6  POST /mcp                                       71b530619e74ddffb2350c3b7ba57844
+20:09:50.513         2.1  POST /mcp                                       237a6fdf375c838f0281c9b39c0437ee
+20:09:50.516         2.0  POST /mcp                                       a97d33bbbf80a86dcf52742076612446
+20:09:50.518         2.0  POST /mcp                                       49e829c86398e591e3200aa2f96408ef
+20:09:50.520         2.6  kagent.api.v1.SessionService/GetSession         39e6a09887eba3b7781740f050cbcb39
+20:09:50.644         1.9  POST /mcp                                       9f5bc3575062304b73a9791624f701bc
+20:09:50.646         1.6  POST /mcp                                       d5ad4956f6fc9ab59adb0636755357a3
+20:09:50.648         1.5  POST /mcp                                       df9efb667481339073d7bddaa6820dad

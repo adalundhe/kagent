@@ -1,0 +1,45 @@
+# fc28268a: go test -v (PostgreSQL via testcontainers)
+=== RUN   TestCrashedRecoveryMarksOnlyDiscardedMessagesInOneTask
+--- PASS: TestCrashedRecoveryMarksOnlyDiscardedMessagesInOneTask (7.36s)
+=== RUN   TestCrashedRecoveryScopesMessageFailuresToTheirTask
+--- PASS: TestCrashedRecoveryScopesMessageFailuresToTheirTask (2.03s)
+=== RUN   TestCrashedRecoveryWithoutSnapshotMarksAllInputs
+--- PASS: TestCrashedRecoveryWithoutSnapshotMarksAllInputs (4.54s)
+=== RUN   TestSessionRecoveryObservation
+=== RUN   TestSessionRecoveryObservation/healthy
+=== RUN   TestSessionRecoveryObservation/crashed
+=== RUN   TestSessionRecoveryObservation/missing
+=== RUN   TestSessionRecoveryObservation/replaced
+=== RUN   TestSessionRecoveryObservation/unavailable
+--- PASS: TestSessionRecoveryObservation (30.25s)
+    --- PASS: TestSessionRecoveryObservation/healthy (4.75s)
+    --- PASS: TestSessionRecoveryObservation/crashed (5.41s)
+    --- PASS: TestSessionRecoveryObservation/missing (7.29s)
+    --- PASS: TestSessionRecoveryObservation/replaced (7.71s)
+    --- PASS: TestSessionRecoveryObservation/unavailable (5.09s)
+=== RUN   TestSessionObservePreservesHistoryWhenRecoveryObservationFails
+--- PASS: TestSessionObservePreservesHistoryWhenRecoveryObservationFails (0.00s)
+=== RUN   TestSessionRecoveryOnlyInGetSession
+--- PASS: TestSessionRecoveryOnlyInGetSession (0.00s)
+PASS
+ok  	github.com/kagent-dev/kagent/go/core/internal/service/session	44.365s
+--- PASS: TestCrashedRecoveryRejectsMalformedMessageHistory (0.19s)
+    --- PASS: TestCrashedRecoveryRejectsMalformedMessageHistory/invalid_protobuf (0.04s)
+    --- PASS: TestCrashedRecoveryRejectsMalformedMessageHistory/not_a_message (0.03s)
+    --- PASS: TestCrashedRecoveryRejectsMalformedMessageHistory/message_identity (0.04s)
+    --- PASS: TestCrashedRecoveryRejectsMalformedMessageHistory/task_identity (0.04s)
+    --- PASS: TestCrashedRecoveryRejectsMalformedMessageHistory/context_identity (0.04s)
+--- PASS: TestCrashedRecoveryRollsBackAnnotationsWhenSettlementFails (0.03s)
+--- PASS: TestCrashedRecoveryWithUnrecordedSnapshotAddsNoAnnotations (0.04s)
+PASS
+ok  	github.com/kagent-dev/kagent/go/core/internal/database	4.893s
+--- PASS: TestRevertSessionThroughGRPC (5.94s)
+    --- PASS: TestRevertSessionThroughGRPC/interrupted_turn (0.05s)
+    --- PASS: TestRevertSessionThroughGRPC/completed_turn (0.02s)
+    --- PASS: TestRevertSessionThroughGRPC/idle_session (0.02s)
+    --- PASS: TestRevertSessionThroughGRPC/published_input_wait (0.02s)
+    --- PASS: TestRevertSessionThroughGRPC/published_auth_wait (0.02s)
+    --- PASS: TestRevertSessionThroughGRPC/first-turn_crash (0.02s)
+    --- PASS: TestRevertSessionThroughGRPC/revert_response_lost (0.02s)
+PASS
+ok  	github.com/kagent-dev/kagent/go/core/internal/grpcserver	6.067s

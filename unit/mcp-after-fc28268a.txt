@@ -1,0 +1,6 @@
+# fc28268a, fakeSessionWorkflow.Recovery panics as committed
+=== RUN   TestTaskUpdateContinuesA2ATask
+--- PASS: TestTaskUpdateContinuesA2ATask (0.00s)
+PASS
+ok  	github.com/kagent-dev/kagent/go/core/internal/mcp	0.022s
+ok  	github.com/kagent-dev/kagent/go/core/internal/mcp	0.248s

@@ -1,0 +1,29 @@
+=== RUN   TestRV3397CrashRevert
+zz_rv3397_test.go:95: RV3397 first turn task=01a1a308-0512-7bca-b612-20c1e6555d56 message=01a1a308-0471-7ce9-8148-391703ba743e (completed, then quiesced into a tagged snapshot)
+zz_rv3397_test.go:97: RV3397 GetSession healthy state=RUNTIME_STATE_READY operation=RUNTIME_OPERATION_NONE recovery={"needed":false}
+zz_rv3397_test.go:99: RV3397 GetSession before second turn state=RUNTIME_STATE_READY operation=RUNTIME_OPERATION_NONE recovery={"needed":false}
+zz_rv3397_test.go:104: RV3397 second turn message=01a1a308-09b9-71b9-ba02-d38f2811e641 (held at the model, then its worker is deleted)
+zz_rv3397_test.go:117: RV3397 actor snapshot=gs://ate-snapshots/kagent/atespaces/kagent/actors/823e3071-2a55-4916-aa8e-ae00bcaf7229/snapshots/46782397-e872-4600-bf53-6f52ab0e657b
+zz_rv3397_test.go:118: RV3397 GetSession running state=RUNTIME_STATE_READY operation=RUNTIME_OPERATION_NONE recovery={"needed":false}
+zz_rv3397_test.go:120: RV3397 RevertSession on running actor: rpc error: code = FailedPrecondition desc = runtime is not crashed: precondition failed
+zz_rv3397_test.go:130: RV3397 deleted worker pod kagent/kagent-default-5cf894f566-p7srv
+zz_rv3397_test.go:135: RV3397 GetSession crashed state=RUNTIME_STATE_READY operation=RUNTIME_OPERATION_NONE recovery={"needed":true}
+zz_rv3397_test.go:137: RV3397 ListSessions crashed state=RUNTIME_STATE_READY operation=RUNTIME_OPERATION_NONE recovery={}
+zz_rv3397_test.go:141: RV3397 RevertSession response state=RUNTIME_STATE_READY operation=RUNTIME_OPERATION_NONE recovery={}
+zz_rv3397_test.go:142: RV3397 GetSession after revert state=RUNTIME_STATE_READY operation=RUNTIME_OPERATION_NONE recovery={"needed":false, "failedMessages":[{"taskId":"01a1a308-0ace-7cb8-b84a-cba10f8438c7", "messageId":"01a1a308-09b9-71b9-ba02-d38f2811e641"}]}
+zz_rv3397_test.go:144: RV3397 ListSessions after revert state=RUNTIME_STATE_READY operation=RUNTIME_OPERATION_NONE recovery={}
+zz_rv3397_test.go:163: RV3397 next turn task=01a1a308-390b-74c2-8876-ddca8c7d810f completed after recovery
+zz_rv3397_test.go:164: RV3397 GetSession after next turn state=RUNTIME_STATE_READY operation=RUNTIME_OPERATION_NONE recovery={"needed":false, "failedMessages":[{"taskId":"01a1a308-0ace-7cb8-b84a-cba10f8438c7", "messageId":"01a1a308-09b9-71b9-ba02-d38f2811e641"}]}
+--- PASS: TestRV3397CrashRevert (26.99s)
+=== RUN   TestRV3397MCPLatency
+zz_rv3397_test.go:187: RV3397 latency phase=substrate-api-up call=mcp:tasks/get attempt=1 duration_ms=2 status=completed
+zz_rv3397_test.go:187: RV3397 latency phase=substrate-api-up call=mcp:tasks/get attempt=2 duration_ms=2 status=completed
+zz_rv3397_test.go:187: RV3397 latency phase=substrate-api-up call=mcp:tasks/get attempt=3 duration_ms=2 status=completed
+zz_rv3397_test.go:193: RV3397 latency phase=substrate-api-up call=GetSession duration_ms=2 recovery={"needed":false}
+zz_rv3397_test.go:196: RV3397 RV_PAUSE: 1e6123f90e7676bf5f32248b5e709c26edb8475f81032efe082ff96e340e3c8b    10687    PAUSED
+zz_rv3397_test.go:187: RV3397 latency phase=substrate-api-paused call=mcp:tasks/get attempt=1 duration_ms=2 status=completed
+zz_rv3397_test.go:187: RV3397 latency phase=substrate-api-paused call=mcp:tasks/get attempt=2 duration_ms=1 status=completed
+zz_rv3397_test.go:187: RV3397 latency phase=substrate-api-paused call=mcp:tasks/get attempt=3 duration_ms=1 status=completed
+zz_rv3397_test.go:193: RV3397 latency phase=substrate-api-paused call=GetSession duration_ms=5000 recovery={}
+zz_rv3397_test.go:204: RV3397 RV_RESUME: 0
+--- PASS: TestRV3397MCPLatency (7.89s)
