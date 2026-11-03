@@ -1,0 +1,5 @@
+{"time":"2026-11-03T19:14:15.690103158Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"02d16df56e35b792b61638465f289441"}
+{"time":"2026-11-03T19:14:15.871827799Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"OK","trace_id":"db9cf60cc5886d8182067e528e488f36"}
+{"time":"2026-11-03T19:14:15.876440296Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"f1aded567176ce5477264762a8a57c54"}
+{"time":"2026-11-03T19:14:37.626560462Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"Unavailable","trace_id":"47e43d1af4d60b38cf13cdb8d2315126"}
+{"time":"2026-11-03T19:14:40.865487751Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"Unavailable","trace_id":"8844105d7eef10d2c5c50e241dfdac1f"}

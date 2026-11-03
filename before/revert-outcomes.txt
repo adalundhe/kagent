@@ -1,0 +1,7 @@
+2026-11-03T19:14:15.69048324Z EVIDENCE step=healthy-running-actor session=01a1a2d5-5ccc-7955-830c-0a3d92314120 code=FailedPrecondition reasons=[] message="runtime is not crashed: precondition failed"
+2026-11-03T19:14:15.872272372Z EVIDENCE step=crashed-actor session=01a1a2d5-5ccc-7955-830c-0a3d92314120 code=OK state=RUNTIME_STATE_READY
+2026-11-03T19:14:15.876739039Z EVIDENCE step=retry-after-recovery session=01a1a2d5-5ccc-7955-830c-0a3d92314120 code=FailedPrecondition reasons=[] message="runtime is not crashed: precondition failed"
+2026-11-03T19:14:37.623364207Z EVIDENCE note actor kagent/session-01a1a2d5-a6ff-70d9-bf13-8d2228d68620 delete: before uid=4ef83d94-0201-4743-b847-f7bff05c863f state=ACTOR_STATE_SUSPENDED template=kagent/interaction-7z7bx-2cbd92356829; deleted: GetActor returns NotFound
+2026-11-03T19:14:37.626820585Z EVIDENCE step=actor-deleted session=01a1a2d5-a6ff-70d9-bf13-8d2228d68620 code=Unavailable reasons=[] message="Failed to revert Session"
+2026-11-03T19:14:40.861156525Z EVIDENCE note actor kagent/session-01a1a2d5-bbfa-7ba9-b904-0e32f53b7029 replace: before uid=7c33ba87-3688-4f42-9694-ba910adc2f91 state=ACTOR_STATE_SUSPENDED template=kagent/interaction-9p4jk-b66812b2e21e; deleted: GetActor returns NotFound; replaced uid=87eafd9f-9660-4adb-8d6a-ae2a8230fc1e state=ACTOR_STATE_SUSPENDED
+2026-11-03T19:14:40.865775697Z EVIDENCE step=actor-replaced session=01a1a2d5-bbfa-7ba9-b904-0e32f53b7029 code=Unavailable reasons=[] message="Failed to revert Session"

@@ -1,0 +1,17 @@
+{"traceId":"14e09a6596da60ab9a79d3899dfaa369","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733485180572676","status":"FAILED_PRECONDITION"}
+{"traceId":"206675aaa0271ffcbc789244d54a0116","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733541651615428","status":"FAILED_PRECONDITION"}
+{"traceId":"23336f2588289ba75b7042d2f96975b7","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733412334781601","status":"OK"}
+{"traceId":"384f588130d0ae5c36d5605b3794c199","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733412375762147","status":"FAILED_PRECONDITION"}
+{"traceId":"4b21354ee4f418f77e8b4291cba6f429","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733466627607865","status":"FAILED_PRECONDITION"}
+{"traceId":"7ecfdf5eaa5958f365a9ff7b5729c349","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733485338987382","status":"FAILED_PRECONDITION"}
+{"traceId":"8aed9e1231b598e0980da4868f07e1c2","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733485307319001","status":"OK"}
+{"traceId":"932682b9f51520f9d1f0ccb6fc3be609","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733466797414425","status":"FAILED_PRECONDITION"}
+{"traceId":"9ecaf9906a57f8142f67fd7e8d867ae7","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733445465632906","status":"FAILED_PRECONDITION"}
+{"traceId":"9fa1ed9a6f36000fe342dad97da31f21","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733537604543484","status":"FAILED_PRECONDITION"}
+{"traceId":"a10abf026a39a60c21df712460dcdfb8","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733513759034589","status":"FAILED_PRECONDITION"}
+{"traceId":"a7de16030dd92a4c1ff0a63899d9970f","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733445583839803","status":"OK"}
+{"traceId":"aef27e8b551f7bfb77d7d86db898c078","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733466760984308","status":"OK"}
+{"traceId":"c056fafcde4538a28ba6bb12ff8fbb60","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733513592536685","status":"FAILED_PRECONDITION"}
+{"traceId":"c126908685f64cfc0b5811ef6c64b54a","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733412206284728","status":"FAILED_PRECONDITION"}
+{"traceId":"e1fdcec42a43351573ecb8448e2fdf9e","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733513721266616","status":"OK"}
+{"traceId":"f4cfe85a33f5ac6ad8a322d537b26a47","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733445621122399","status":"FAILED_PRECONDITION"}

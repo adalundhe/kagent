@@ -1,0 +1,19 @@
+--- PASS: TestSessionRevertCrashedRuntime (89.75s)
+    --- PASS: TestSessionRevertCrashedRuntime/kagent (23.78s)
+    --- PASS: TestSessionRevertCrashedRuntime/codex (26.63s)
+    --- PASS: TestSessionRevertCrashedRuntime/claude (21.71s)
+    --- PASS: TestSessionRevertCrashedRuntime/byo-adk (17.64s)
+    zz_rv3396_evidence_test.go:98: EVIDENCE step=healthy-running-actor session=01a1a2d9-1d3d-7d49-b353-e4d35e75cdea code=FailedPrecondition reasons=[kagent.dev/KAGENT_SESSION_RUNTIME_NOT_CRASHED] message="runtime is not crashed: precondition failed"
+    zz_rv3396_evidence_test.go:135: EVIDENCE step=crashed-actor session=01a1a2d9-1d3d-7d49-b353-e4d35e75cdea code=OK state=RUNTIME_STATE_READY
+    zz_rv3396_evidence_test.go:141: EVIDENCE step=retry-after-recovery session=01a1a2d9-1d3d-7d49-b353-e4d35e75cdea code=FailedPrecondition reasons=[kagent.dev/KAGENT_SESSION_RUNTIME_NOT_CRASHED] message="runtime is not crashed: precondition failed"
+--- PASS: TestRV3396RevertEvidence (34.13s)
+    zz_rv3396_evidence_test.go:208: EVIDENCE note actor kagent/session-01a1a2d9-a293-73f7-b640-1557d88bb1e9 delete: before uid=707f52b4-91c9-45ac-b883-2ab26cb3f560 state=ACTOR_STATE_SUSPENDED template=kagent/interaction-x4c2v-c961cf842da2; deleted: GetActor returns NotFound
+    zz_rv3396_evidence_test.go:210: EVIDENCE step=actor-deleted session=01a1a2d9-a293-73f7-b640-1557d88bb1e9 code=FailedPrecondition reasons=[kagent.dev/KAGENT_SESSION_RUNTIME_UNRECOVERABLE] message="runtime Actor is missing: runtime cannot be recovered: precondition failed"
+    zz_rv3396_evidence_test.go:208: EVIDENCE note actor kagent/session-01a1a2d9-b768-7c12-b53f-307cb2900eca replace: before uid=1298dbc9-9f3d-4895-8e45-ba1a0183d8c4 state=ACTOR_STATE_SUSPENDED template=kagent/interaction-k6rfx-39723a5f0af1; deleted: GetActor returns NotFound; replaced uid=fd4b5f35-40d6-4482-b90b-7a247474783c state=ACTOR_STATE_SUSPENDED
+    zz_rv3396_evidence_test.go:210: EVIDENCE step=actor-replaced session=01a1a2d9-b768-7c12-b53f-307cb2900eca code=FailedPrecondition reasons=[kagent.dev/KAGENT_SESSION_RUNTIME_UNRECOVERABLE] message="runtime Actor was replaced: runtime cannot be recovered: precondition failed"
+--- FAIL: TestRV3396ActorGoneEvidence (8.38s)
+    --- PASS: TestRV3396ActorGoneEvidence/delete (4.33s)
+    --- FAIL: TestRV3396ActorGoneEvidence/replace (4.04s)
+FAIL
+FAIL	github.com/kagent-dev/kagent/go/core/test/e2e	132.296s
+FAIL

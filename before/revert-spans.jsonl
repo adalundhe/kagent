@@ -1,0 +1,5 @@
+{"traceId":"02d16df56e35b792b61638465f289441","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733255687043243","status":"FAILED_PRECONDITION"}
+{"traceId":"47e43d1af4d60b38cf13cdb8d2315126","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733277623691422","status":"UNAVAILABLE"}
+{"traceId":"8844105d7eef10d2c5c50e241dfdac1f","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733280861467832","status":"UNAVAILABLE"}
+{"traceId":"db9cf60cc5886d8182067e528e488f36","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733255836369415","status":"OK"}
+{"traceId":"f1aded567176ce5477264762a8a57c54","name":"kagent.api.v1.SessionService/RevertSession","startTimeUnixNano":"1793733255872482122","status":"FAILED_PRECONDITION"}

@@ -1,0 +1,17 @@
+{"time":"2026-11-03T19:16:52.208685928Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"c126908685f64cfc0b5811ef6c64b54a"}
+{"time":"2026-11-03T19:16:52.375193447Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"OK","trace_id":"23336f2588289ba75b7042d2f96975b7"}
+{"time":"2026-11-03T19:16:52.378269092Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"384f588130d0ae5c36d5605b3794c199"}
+{"time":"2026-11-03T19:17:25.467969045Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"9ecaf9906a57f8142f67fd7e8d867ae7"}
+{"time":"2026-11-03T19:17:25.620707375Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"OK","trace_id":"a7de16030dd92a4c1ff0a63899d9970f"}
+{"time":"2026-11-03T19:17:25.623646687Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"f4cfe85a33f5ac6ad8a322d537b26a47"}
+{"time":"2026-11-03T19:17:46.631228856Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"4b21354ee4f418f77e8b4291cba6f429"}
+{"time":"2026-11-03T19:17:46.796835747Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"OK","trace_id":"aef27e8b551f7bfb77d7d86db898c078"}
+{"time":"2026-11-03T19:17:46.800772872Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"932682b9f51520f9d1f0ccb6fc3be609"}
+{"time":"2026-11-03T19:18:05.18243843Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"14e09a6596da60ab9a79d3899dfaa369"}
+{"time":"2026-11-03T19:18:05.338567972Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"OK","trace_id":"8aed9e1231b598e0980da4868f07e1c2"}
+{"time":"2026-11-03T19:18:05.341072566Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"7ecfdf5eaa5958f365a9ff7b5729c349"}
+{"time":"2026-11-03T19:18:33.595032875Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"c056fafcde4538a28ba6bb12ff8fbb60"}
+{"time":"2026-11-03T19:18:33.758483028Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"OK","trace_id":"e1fdcec42a43351573ecb8448e2fdf9e"}
+{"time":"2026-11-03T19:18:33.761543848Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"a10abf026a39a60c21df712460dcdfb8"}
+{"time":"2026-11-03T19:18:57.607365907Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"9fa1ed9a6f36000fe342dad97da31f21"}
+{"time":"2026-11-03T19:19:01.654375968Z","grpc_method":"/kagent.api.v1.SessionService/RevertSession","grpc_code":"FailedPrecondition","trace_id":"206675aaa0271ffcbc789244d54a0116"}
