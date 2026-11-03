@@ -1,0 +1,11 @@
+=== RUN   TestSessionRevertCrashedRuntime
+=== RUN   TestSessionRevertCrashedRuntime/kagent
+--- PASS: TestSessionRevertCrashedRuntime (10.06s)
+=== RUN   TestRV3395StartScanRevertsAdmittedCrash
+[rv3395 20:11:15.146] deleted worker Pod kagent/kagent-default-5cf894f566-vmqw6 under running Actor 1a627ce8-682d-49f1-93fa-4ff73e62f61e
+[rv3395 20:11:16.716] admit for Session 01a1a309-8872-75fc-b16f-44af1d12f956 (Actor uid 1a627ce8-682d-49f1-93fa-4ff73e62f61e, state ACTOR_STATE_CRASHED): admitted operation fd58c3d5-2994-495a-bc0e-aa7ce3e3b988: state=RUNTIME_STATE_FAILED operation=RUNTIME_OPERATION_RESUME executor=00000000-0000-0000-0000-000000000000
+[rv3395 20:11:19.472] background scan recovered the Session 2.8s after admission, with no RevertSession call: state=RUNTIME_STATE_READY; Actor uid 1a627ce8-682d-49f1-93fa-4ff73e62f61e state ACTOR_STATE_SUSPENDED
+[rv3395 20:11:30.907] next turn after recovery: TASK_STATE_COMPLETED "The answer is 4."
+--- PASS: TestRV3395StartScanRevertsAdmittedCrash (18.73s)
+PASS
+ok  	github.com/kagent-dev/kagent/go/core/test/e2e	28.844s

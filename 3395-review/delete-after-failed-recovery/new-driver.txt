@@ -1,0 +1,12 @@
+=== RUN   TestRV3395DeleteAfterFailedRecoveryAttempt
+[rv3395 19:50:05.101] Session 01a1a2f6-287c-76ed-9807-4fc584f7fc25 READY with Actor ACTOR_STATE_SUSPENDED
+[rv3395 19:50:29.118] ate-api scaled to 0
+[rv3395 19:50:31.710] admit for Session 01a1a2f6-287c-76ed-9807-4fc584f7fc25 (Actor uid b9d5e5c6-37f5-47bd-880a-5573a6df2a56, state ACTOR_STATE_SUSPENDED): admitted operation c6a97f3d-c14e-46b3-8ef4-3bfc20f32043: state=RUNTIME_STATE_FAILED operation=RUNTIME_OPERATION_RESUME executor=00000000-0000-0000-0000-000000000000
+[rv3395 19:50:43.720] after failed recovery scans: state=RUNTIME_STATE_FAILED operation=RUNTIME_OPERATION_RESUME failure="RuntimeCrashed"
+[rv3395 19:50:43.732] DeleteSession while Substrate is down: code=Unavailable err=rpc error: code = Unavailable desc = Failed to delete Session
+[rv3395 19:50:54.744] ate-api scaled to 2
+[rv3395 19:50:54.754] DeleteSession attempt 1 after Substrate returns: code=Unavailable
+[rv3395 19:50:56.763] DeleteSession attempt 2 after Substrate returns: code=Unavailable
+[rv3395 19:50:58.850] DeleteSession after Substrate returns: attempts=3 code=OK err=<nil>
+[rv3395 19:50:58.851] final GetSession: code=NotFound state=RUNTIME_STATE_UNSPECIFIED operation=RUNTIME_OPERATION_UNSPECIFIED
+--- PASS: TestRV3395DeleteAfterFailedRecoveryAttempt (56.29s)

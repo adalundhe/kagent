@@ -1,0 +1,67 @@
+# Scratch trace sink for the dev fleet. Not part of any PR.
+# It takes the Service name CI's tracing manifest uses, so runtimes and the
+# controller export spans to it, and writes them as OTLP JSON lines that a
+# reader sidecar can print (the collector image has no shell).
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: e2e-otlp
+  namespace: kagent
+data:
+  config.yaml: |
+    receivers:
+      otlp:
+        protocols:
+          grpc:
+            endpoint: 0.0.0.0:14317
+    exporters:
+      file:
+        path: /data/traces.jsonl
+        flush_interval: 1s
+    service:
+      pipelines:
+        traces:
+          receivers: [otlp]
+          exporters: [file]
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: e2e-otlp
+  namespace: kagent
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: e2e-otlp}
+  template:
+    metadata:
+      labels: {app: e2e-otlp}
+    spec:
+      containers:
+      - name: collector
+        image: otel/opentelemetry-collector-contrib:0.139.0
+        args: [--config=/etc/otel/config.yaml]
+        ports: [{containerPort: 14317, name: otlp}]
+        volumeMounts:
+        - {name: config, mountPath: /etc/otel}
+        - {name: data, mountPath: /data}
+      - name: reader
+        image: busybox:1.37
+        command: [sh, -c, "sleep infinity"]
+        volumeMounts:
+        - {name: data, mountPath: /data}
+      volumes:
+      - name: config
+        configMap: {name: e2e-otlp}
+      - name: data
+        emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: e2e-otlp
+  namespace: kagent
+spec:
+  selector: {app: e2e-otlp}
+  ports:
+  - {name: otlp, port: 14317, targetPort: 14317}

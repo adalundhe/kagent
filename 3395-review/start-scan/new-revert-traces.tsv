@@ -1,0 +1,2 @@
+20:11:06	e8aa2127cc903432c45d29fc88264419	kagent.api.v1.SessionService/RevertSession	rpc.response.status_code=FAILED_PRECONDITION	
+20:11:06	e970eeeaca0a414b7bcafdfdbae086ec	kagent.api.v1.SessionService/RevertSession	rpc.response.status_code=OK	

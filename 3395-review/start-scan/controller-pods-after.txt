@@ -1,0 +1,1 @@
+kagent-controller-76f457b7d4-88xnb   1/1   Running   0     3m38s

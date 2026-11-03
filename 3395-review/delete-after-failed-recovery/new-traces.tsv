@@ -1,0 +1,5 @@
+19:50:43	8afdf3f1dff29f4e7b0ba1503ea5ae48	kagent.api.v1.SessionService/DeleteSession	rpc.response.status_code=UNAVAILABLE	Failed to delete Session
+19:50:54	6844feb8ceafc547d1b3e8f3d5d1cd9a	kagent.api.v1.SessionService/DeleteSession	rpc.response.status_code=UNAVAILABLE	Failed to delete Session
+19:50:56	eabd72d19bfa02991284845501cbdff1	kagent.api.v1.SessionService/DeleteSession	rpc.response.status_code=UNAVAILABLE	Failed to delete Session
+19:50:58	1c8447b9895fb239ad0d952cad35b1d8	kagent.api.v1.SessionService/DeleteSession	rpc.response.status_code=OK	
+19:50:58	27a87772e113c5a1cb78c404d6af52a3	kagent.api.v1.SessionService/DeleteSession	rpc.response.status_code=NOT_FOUND	

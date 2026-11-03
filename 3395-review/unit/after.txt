@@ -1,0 +1,29 @@
+# this change (05cfb0cc)
+=== RUN   TestStartRetriesAdmittedRecoveryWhileIdleWorkBlocks
+--- PASS: TestStartRetriesAdmittedRecoveryWhileIdleWorkBlocks (5.19s)
+=== RUN   TestDeleteSupersedesUnissuedCrashRecovery
+=== RUN   TestDeleteSupersedesUnissuedCrashRecovery/actor_read_fails
+=== RUN   TestDeleteSupersedesUnissuedCrashRecovery/actor_is_gone
+--- PASS: TestDeleteSupersedesUnissuedCrashRecovery (9.96s)
+    --- PASS: TestDeleteSupersedesUnissuedCrashRecovery/actor_read_fails (4.82s)
+    --- PASS: TestDeleteSupersedesUnissuedCrashRecovery/actor_is_gone (5.13s)
+PASS
+ok  	github.com/kagent-dev/kagent/go/core/internal/service/session	15.272s
+=== RUN   TestActorRevertRestoresTheObservedSnapshotInPlace
+=== RUN   TestActorRevertRestoresTheObservedSnapshotInPlace/crashed
+=== RUN   TestActorRevertRestoresTheObservedSnapshotInPlace/revert_in_progress
+=== RUN   TestActorRevertRestoresTheObservedSnapshotInPlace/earlier_revert_response_lost
+=== RUN   TestActorRevertRestoresTheObservedSnapshotInPlace/running_actor
+=== RUN   TestActorRevertRestoresTheObservedSnapshotInPlace/actor_gone
+=== RUN   TestActorRevertRestoresTheObservedSnapshotInPlace/replaced_actor
+=== RUN   TestActorRevertRestoresTheObservedSnapshotInPlace/different_snapshot
+--- PASS: TestActorRevertRestoresTheObservedSnapshotInPlace (0.00s)
+    --- PASS: TestActorRevertRestoresTheObservedSnapshotInPlace/crashed (0.00s)
+    --- PASS: TestActorRevertRestoresTheObservedSnapshotInPlace/revert_in_progress (0.00s)
+    --- PASS: TestActorRevertRestoresTheObservedSnapshotInPlace/earlier_revert_response_lost (0.00s)
+    --- PASS: TestActorRevertRestoresTheObservedSnapshotInPlace/running_actor (0.00s)
+    --- PASS: TestActorRevertRestoresTheObservedSnapshotInPlace/actor_gone (0.00s)
+    --- PASS: TestActorRevertRestoresTheObservedSnapshotInPlace/replaced_actor (0.00s)
+    --- PASS: TestActorRevertRestoresTheObservedSnapshotInPlace/different_snapshot (0.00s)
+PASS
+ok  	github.com/kagent-dev/kagent/go/core/internal/substrate	0.028s

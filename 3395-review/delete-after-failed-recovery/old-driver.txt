@@ -1,0 +1,70 @@
+=== RUN   TestRV3395DeleteAfterFailedRecoveryAttempt
+[rv3395 20:01:54.455] Session 01a1a300-fb26-7aea-81dd-d6d708353806 READY with Actor ACTOR_STATE_SUSPENDED
+[rv3395 20:02:34.470] ate-api scaled to 0
+[rv3395 20:02:35.960] admit for Session 01a1a300-fb26-7aea-81dd-d6d708353806 (Actor uid 60de1306-7c76-4dd7-8e27-28002d90cad2, state ACTOR_STATE_SUSPENDED): admitted operation 8b786c3c-596b-4923-832a-e8dcfafb02f2: state=RUNTIME_STATE_FAILED operation=RUNTIME_OPERATION_RESUME executor=00000000-0000-0000-0000-000000000000
+[rv3395 20:02:47.965] after failed recovery scans: state=RUNTIME_STATE_FAILED operation=RUNTIME_OPERATION_RESUME failure="RuntimeCrashed"
+[rv3395 20:02:47.967] DeleteSession while Substrate is down: code=Aborted err=rpc error: code = Aborted desc = begin Session operation: resource conflict
+[rv3395 20:02:58.979] ate-api scaled to 2
+[rv3395 20:02:58.982] DeleteSession attempt 1 after Substrate returns: code=Aborted
+[rv3395 20:03:00.984] DeleteSession attempt 2 after Substrate returns: code=Aborted
+[rv3395 20:03:02.987] DeleteSession attempt 3 after Substrate returns: code=Aborted
+[rv3395 20:03:04.990] DeleteSession attempt 4 after Substrate returns: code=Aborted
+[rv3395 20:03:06.992] DeleteSession attempt 5 after Substrate returns: code=Aborted
+[rv3395 20:03:08.997] DeleteSession attempt 6 after Substrate returns: code=Aborted
+[rv3395 20:03:10.999] DeleteSession attempt 7 after Substrate returns: code=Aborted
+[rv3395 20:03:13.002] DeleteSession attempt 8 after Substrate returns: code=Aborted
+[rv3395 20:03:15.006] DeleteSession attempt 9 after Substrate returns: code=Aborted
+[rv3395 20:03:17.009] DeleteSession attempt 10 after Substrate returns: code=Aborted
+[rv3395 20:03:19.012] DeleteSession attempt 11 after Substrate returns: code=Aborted
+[rv3395 20:03:21.015] DeleteSession attempt 12 after Substrate returns: code=Aborted
+[rv3395 20:03:23.017] DeleteSession attempt 13 after Substrate returns: code=Aborted
+[rv3395 20:03:25.020] DeleteSession attempt 14 after Substrate returns: code=Aborted
+[rv3395 20:03:27.023] DeleteSession attempt 15 after Substrate returns: code=Aborted
+[rv3395 20:03:29.026] DeleteSession attempt 16 after Substrate returns: code=Aborted
+[rv3395 20:03:31.030] DeleteSession attempt 17 after Substrate returns: code=Aborted
+[rv3395 20:03:33.032] DeleteSession attempt 18 after Substrate returns: code=Aborted
+[rv3395 20:03:35.035] DeleteSession attempt 19 after Substrate returns: code=Aborted
+[rv3395 20:03:37.037] DeleteSession attempt 20 after Substrate returns: code=Aborted
+[rv3395 20:03:39.040] DeleteSession attempt 21 after Substrate returns: code=Aborted
+[rv3395 20:03:41.042] DeleteSession attempt 22 after Substrate returns: code=Aborted
+[rv3395 20:03:43.045] DeleteSession attempt 23 after Substrate returns: code=Aborted
+[rv3395 20:03:45.049] DeleteSession attempt 24 after Substrate returns: code=Aborted
+[rv3395 20:03:47.051] DeleteSession attempt 25 after Substrate returns: code=Aborted
+[rv3395 20:03:49.054] DeleteSession attempt 26 after Substrate returns: code=Aborted
+[rv3395 20:03:51.056] DeleteSession attempt 27 after Substrate returns: code=Aborted
+[rv3395 20:03:53.060] DeleteSession attempt 28 after Substrate returns: code=Aborted
+[rv3395 20:03:55.063] DeleteSession attempt 29 after Substrate returns: code=Aborted
+[rv3395 20:03:57.066] DeleteSession attempt 30 after Substrate returns: code=Aborted
+[rv3395 20:03:59.068] DeleteSession attempt 31 after Substrate returns: code=Aborted
+[rv3395 20:04:01.071] DeleteSession attempt 32 after Substrate returns: code=Aborted
+[rv3395 20:04:03.074] DeleteSession attempt 33 after Substrate returns: code=Aborted
+[rv3395 20:04:05.076] DeleteSession attempt 34 after Substrate returns: code=Aborted
+[rv3395 20:04:07.080] DeleteSession attempt 35 after Substrate returns: code=Aborted
+[rv3395 20:04:09.082] DeleteSession attempt 36 after Substrate returns: code=Aborted
+[rv3395 20:04:11.085] DeleteSession attempt 37 after Substrate returns: code=Aborted
+[rv3395 20:04:13.087] DeleteSession attempt 38 after Substrate returns: code=Aborted
+[rv3395 20:04:15.092] DeleteSession attempt 39 after Substrate returns: code=Aborted
+[rv3395 20:04:17.094] DeleteSession attempt 40 after Substrate returns: code=Aborted
+[rv3395 20:04:19.097] DeleteSession attempt 41 after Substrate returns: code=Aborted
+[rv3395 20:04:21.100] DeleteSession attempt 42 after Substrate returns: code=Aborted
+[rv3395 20:04:23.103] DeleteSession attempt 43 after Substrate returns: code=Aborted
+[rv3395 20:04:25.106] DeleteSession attempt 44 after Substrate returns: code=Aborted
+[rv3395 20:04:27.109] DeleteSession attempt 45 after Substrate returns: code=Aborted
+[rv3395 20:04:29.112] DeleteSession attempt 46 after Substrate returns: code=Aborted
+[rv3395 20:04:31.115] DeleteSession attempt 47 after Substrate returns: code=Aborted
+[rv3395 20:04:33.118] DeleteSession attempt 48 after Substrate returns: code=Aborted
+[rv3395 20:04:35.121] DeleteSession attempt 49 after Substrate returns: code=Aborted
+[rv3395 20:04:37.124] DeleteSession attempt 50 after Substrate returns: code=Aborted
+[rv3395 20:04:39.127] DeleteSession attempt 51 after Substrate returns: code=Aborted
+[rv3395 20:04:41.129] DeleteSession attempt 52 after Substrate returns: code=Aborted
+[rv3395 20:04:43.132] DeleteSession attempt 53 after Substrate returns: code=Aborted
+[rv3395 20:04:45.134] DeleteSession attempt 54 after Substrate returns: code=Aborted
+[rv3395 20:04:47.136] DeleteSession attempt 55 after Substrate returns: code=Aborted
+[rv3395 20:04:49.139] DeleteSession attempt 56 after Substrate returns: code=Aborted
+[rv3395 20:04:51.141] DeleteSession attempt 57 after Substrate returns: code=Aborted
+[rv3395 20:04:53.144] DeleteSession attempt 58 after Substrate returns: code=Aborted
+[rv3395 20:04:55.146] DeleteSession attempt 59 after Substrate returns: code=Aborted
+[rv3395 20:04:57.149] DeleteSession attempt 60 after Substrate returns: code=Aborted
+[rv3395 20:04:59.153] DeleteSession after Substrate returns: attempts=61 code=Aborted err=rpc error: code = Aborted desc = begin Session operation: resource conflict
+[rv3395 20:04:59.155] final GetSession: code=OK state=RUNTIME_STATE_FAILED operation=RUNTIME_OPERATION_RESUME
+--- FAIL: TestRV3395DeleteAfterFailedRecoveryAttempt (196.30s)

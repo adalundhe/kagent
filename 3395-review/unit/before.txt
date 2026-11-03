@@ -1,0 +1,17 @@
+# previous recovery code (dfc3bcf2 with only the new tests applied)
+=== RUN   TestStartRetriesAdmittedRecoveryWhileIdleWorkBlocks
+        	Error:      	Condition never satisfied
+--- FAIL: TestStartRetriesAdmittedRecoveryWhileIdleWorkBlocks (10.56s)
+=== RUN   TestDeleteSupersedesUnissuedCrashRecovery
+=== RUN   TestDeleteSupersedesUnissuedCrashRecovery/actor_read_fails
+        	Error:      	Received unexpected error:
+        	            	begin Session operation: resource conflict
+=== RUN   TestDeleteSupersedesUnissuedCrashRecovery/actor_is_gone
+        	Error:      	Received unexpected error:
+        	            	begin Session operation: resource conflict
+--- FAIL: TestDeleteSupersedesUnissuedCrashRecovery (10.59s)
+    --- FAIL: TestDeleteSupersedesUnissuedCrashRecovery/actor_read_fails (5.24s)
+    --- FAIL: TestDeleteSupersedesUnissuedCrashRecovery/actor_is_gone (5.35s)
+FAIL
+FAIL	github.com/kagent-dev/kagent/go/core/internal/service/session	21.237s
+FAIL
