@@ -1,0 +1,6 @@
+[20:08:04.071] created 1 Sessions in 0s; target 01a1a306-a4c8-7d8c-bf7e-c23ea847c491 is the newest, and Session IDs are time-ordered, so it sorts after every READY Session
+[20:08:05.518] checkpoint 01a1a306-aa5c-7c71-82a7-20de4cf4d1a5 ready
+[20:08:05.908] deleted worker kagent-default-5cf894f566-bvrfv running session-01a1a306-a4c8-7d8c-bf7e-c23ea847c491 (task 01a1a306-ab9e-7213-a90b-af10a6b0b15f); 20s since the recovery policy rollout
+[20:08:06.133] Substrate reports session-01a1a306-a4c8-7d8c-bf7e-c23ea847c491 CRASHED 200ms after the worker deletion
+[20:08:06.140] recovery pending: needed=true automatic=true state=RUNTIME_STATE_READY
+[20:08:18.151] after UI step: recovered=true state=RUNTIME_STATE_READY needed=false failed_messages=1

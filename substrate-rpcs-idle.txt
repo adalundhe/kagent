@@ -1,0 +1,23 @@
+# ate-api RPCs from an idle controller over 60s, sessions.quiescenceRecoveryInterval=10s
+
+== before-idle
+kagent-controller-66c76c4db6-z5mnt localhost:5001/kagent-dev/kagent/controller@sha256:28b94f6c8144578821efd3520a12078dff7f3bc10e7dfbb2fc1892135ab6361b
+sessions:
+  automaticRecovery: true
+  idleTtl: 604800s
+  quiescenceRecoveryInterval: 10s
+  shareMaxTtl: 0s
+sessions by state: RUNTIME_STATE_DELETED=7, RUNTIME_STATE_READY=507
+ate-api RPCs in 60s:
+    507 "method":"/substrate.ateapi.v1.Control/GetActor"
+
+== after-idle
+kagent-controller-6cf8df5949-fj7zm localhost:5001/kagent-dev/kagent/controller@sha256:5a363f3165a9fddce9e6a9e0afc8fb7eac7f09cee88f01820557cce470d90c67
+sessions:
+  automaticRecovery: true
+  idleTtl: 604800s
+  quiescenceRecoveryInterval: 10s
+  shareMaxTtl: 0s
+sessions by state: RUNTIME_STATE_DELETED=7, RUNTIME_STATE_READY=507
+ate-api RPCs in 60s:
+      6 "method":"/substrate.ateapi.v1.Control/ListActors"

@@ -1,0 +1,60 @@
+# Crash detection with ~505 READY Sessions, sessions.quiescenceRecoveryInterval=15s
+# Each arm creates one new Session (time-ordered IDs, so it sorts after every other),
+# runs one turn, blocks the next turn in the model, deletes its worker Pod, and polls
+# until the interrupted task is FAILED and the Session is READY again.
+
+== before-detect
+controller/ui image: localhost:5001/kagent-dev/kagent/controller@sha256:28b94f6c8144578821efd3520a12078dff7f3bc10e7dfbb2fc1892135ab6361b
+controller/ui image: localhost:5001/kagent-dev/kagent/ui@sha256:df61561396a550045af0657d3cc85249b8e17a9962dc30b435739c2ae2b458c1
+[19:48:24.027] deleted worker kagent-default-5cf894f566-lf224 running session-01a1a2f4-9a85-7ac1-a4a9-6ca70d6ff48e (task 01a1a2f4-a29a-7991-8872-f98851b6afb3); 21s since the recovery policy rollout
+[19:48:24.050] Substrate reports session-01a1a2f4-9a85-7ac1-a4a9-6ca70d6ff48e CRASHED 0s after the worker deletion
+[19:49:36.756] RESULT sessions=1 interval=15s recovered 1m12.7s after the worker deletion (4.8 intervals)
+
+== before-detect-2
+controller/ui image: localhost:5001/kagent-dev/kagent/controller@sha256:28b94f6c8144578821efd3520a12078dff7f3bc10e7dfbb2fc1892135ab6361b
+controller/ui image: localhost:5001/kagent-dev/kagent/controller@sha256:5a363f3165a9fddce9e6a9e0afc8fb7eac7f09cee88f01820557cce470d90c67
+controller/ui image: localhost:5001/kagent-dev/kagent/ui@sha256:cbe7b8b4f6ae466fae3d6177fb4e2c3ccd9a3cc486484ef01a996a1a1e00c218
+controller/ui image: localhost:5001/kagent-dev/kagent/ui@sha256:df61561396a550045af0657d3cc85249b8e17a9962dc30b435739c2ae2b458c1
+sessions by state: RUNTIME_STATE_DELETED=4, RUNTIME_STATE_READY=504
+[19:57:27.219] deleted worker kagent-default-5cf894f566-6jgfw running session-01a1a2fc-e653-7475-bec9-e6fa0d22d9f9 (task 01a1a2fc-ecca-75c3-ba2f-8c594e1ba4d4); 20s since the recovery policy rollout
+[19:57:27.247] Substrate reports session-01a1a2fc-e653-7475-bec9-e6fa0d22d9f9 CRASHED 0s after the worker deletion
+[19:58:36.653] RESULT sessions=1 interval=15s recovered 1m9.4s after the worker deletion (4.6 intervals)
+
+== before-detect-3
+controller/ui image: localhost:5001/kagent-dev/kagent/controller@sha256:28b94f6c8144578821efd3520a12078dff7f3bc10e7dfbb2fc1892135ab6361b
+controller/ui image: localhost:5001/kagent-dev/kagent/ui@sha256:cbe7b8b4f6ae466fae3d6177fb4e2c3ccd9a3cc486484ef01a996a1a1e00c218
+controller/ui image: localhost:5001/kagent-dev/kagent/ui@sha256:df61561396a550045af0657d3cc85249b8e17a9962dc30b435739c2ae2b458c1
+sessions by state: RUNTIME_STATE_DELETED=6, RUNTIME_STATE_READY=506
+[19:59:54.098] deleted worker kagent-default-5cf894f566-d66r2 running session-01a1a2ff-2415-79c8-a10f-758b2c260b55 (task 01a1a2ff-2a9b-7e21-a463-5959d57dc146); 18s since the recovery policy rollout
+[19:59:54.124] Substrate reports session-01a1a2ff-2415-79c8-a10f-758b2c260b55 CRASHED 0s after the worker deletion
+[20:01:07.230] RESULT sessions=1 interval=15s recovered 1m13.1s after the worker deletion (4.9 intervals)
+
+== after-detect
+controller/ui image: localhost:5001/kagent-dev/kagent/controller@sha256:28b94f6c8144578821efd3520a12078dff7f3bc10e7dfbb2fc1892135ab6361b
+controller/ui image: localhost:5001/kagent-dev/kagent/controller@sha256:5a363f3165a9fddce9e6a9e0afc8fb7eac7f09cee88f01820557cce470d90c67
+controller/ui image: localhost:5001/kagent-dev/kagent/ui@sha256:cbe7b8b4f6ae466fae3d6177fb4e2c3ccd9a3cc486484ef01a996a1a1e00c218
+controller/ui image: localhost:5001/kagent-dev/kagent/ui@sha256:df61561396a550045af0657d3cc85249b8e17a9962dc30b435739c2ae2b458c1
+sessions by state: RUNTIME_STATE_DELETED=3, RUNTIME_STATE_READY=503
+[19:54:13.895] deleted worker kagent-default-5cf894f566-4jwfh running session-01a1a2f9-e38f-7dd4-ba0d-092356b4afa5 (task 01a1a2f9-f983-7db8-8b20-c90184fd5aa0); 24s since the recovery policy rollout
+[19:54:13.925] Substrate reports session-01a1a2f9-e38f-7dd4-ba0d-092356b4afa5 CRASHED 0s after the worker deletion
+[19:54:17.133] RESULT sessions=1 interval=15s recovered 3.2s after the worker deletion (0.2 intervals)
+
+== after-detect-2
+controller/ui image: localhost:5001/kagent-dev/kagent/controller@sha256:28b94f6c8144578821efd3520a12078dff7f3bc10e7dfbb2fc1892135ab6361b
+controller/ui image: localhost:5001/kagent-dev/kagent/controller@sha256:5a363f3165a9fddce9e6a9e0afc8fb7eac7f09cee88f01820557cce470d90c67
+controller/ui image: localhost:5001/kagent-dev/kagent/ui@sha256:cbe7b8b4f6ae466fae3d6177fb4e2c3ccd9a3cc486484ef01a996a1a1e00c218
+controller/ui image: localhost:5001/kagent-dev/kagent/ui@sha256:df61561396a550045af0657d3cc85249b8e17a9962dc30b435739c2ae2b458c1
+sessions by state: RUNTIME_STATE_DELETED=5, RUNTIME_STATE_READY=505
+[19:59:20.044] deleted worker kagent-default-5cf894f566-xxk99 running session-01a1a2fe-80d4-78c0-b183-89644ccb29cd (task 01a1a2fe-a594-7ccf-ba38-558f5f2a4063); 28s since the recovery policy rollout
+[19:59:20.068] Substrate reports session-01a1a2fe-80d4-78c0-b183-89644ccb29cd CRASHED 0s after the worker deletion
+[19:59:20.475] RESULT sessions=1 interval=15s recovered 400ms after the worker deletion (0.0 intervals)
+
+== after-detect-3
+controller/ui image: localhost:5001/kagent-dev/kagent/controller@sha256:28b94f6c8144578821efd3520a12078dff7f3bc10e7dfbb2fc1892135ab6361b
+controller/ui image: localhost:5001/kagent-dev/kagent/controller@sha256:5a363f3165a9fddce9e6a9e0afc8fb7eac7f09cee88f01820557cce470d90c67
+controller/ui image: localhost:5001/kagent-dev/kagent/ui@sha256:cbe7b8b4f6ae466fae3d6177fb4e2c3ccd9a3cc486484ef01a996a1a1e00c218
+controller/ui image: localhost:5001/kagent-dev/kagent/ui@sha256:df61561396a550045af0657d3cc85249b8e17a9962dc30b435739c2ae2b458c1
+sessions by state: RUNTIME_STATE_DELETED=7, RUNTIME_STATE_READY=507
+[20:01:38.097] deleted worker kagent-default-5cf894f566-mvpg8 running session-01a1a300-bdd7-7373-aca7-f1620eb34455 (task 01a1a300-c0bf-7100-890b-649973aed493); 17s since the recovery policy rollout
+[20:01:38.319] Substrate reports session-01a1a300-bdd7-7373-aca7-f1620eb34455 CRASHED 200ms after the worker deletion
+[20:01:49.125] RESULT sessions=1 interval=15s recovered 11s after the worker deletion (0.7 intervals)

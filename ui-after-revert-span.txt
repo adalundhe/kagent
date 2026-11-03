@@ -1,0 +1,1 @@
+{"service": "kagent-controller", "span": "kagent.api.v1.SessionService/RevertSession", "trace_id": "34f3c0f5a54f447f201bbb323cca2e30", "duration_ms": 35, "rpc.response.status_code": "OK"}

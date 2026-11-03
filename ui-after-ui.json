@@ -1,0 +1,7 @@
+{
+  "url": "http://127.0.0.1:28398/agents/01a1a306-a4c8-7d8c-bf7e-c23ea847c491/chat",
+  "alert": "Recovering this conversation\nAutomatic recovery will restore the last saved runtime state. If it does not finish, revert now or start a new conversation from a saved snapshot. Messages the recovered agent did not retain are marked as failed.\nRevert to last snapshot\nChoose a saved snapshot\nFork snapshot",
+  "revertButton": 1,
+  "forkButton": 1,
+  "alertAfterRevert": 0
+}

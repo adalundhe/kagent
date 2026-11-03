@@ -1,0 +1,4 @@
+    session_recovery_test.go:142: deleting worker kagent/kagent-default-5cf894f566-m65ng uid=fd9795cc-7dc4-4f14-8b2e-536c2f7aba2f for accepted task 01a1a307-fc0c-7da5-9d2f-faedddd5b60d
+--- PASS: TestSessionWorkerLossRecovery (47.13s)
+    --- PASS: TestSessionWorkerLossRecovery/kagent (40.03s)
+ok  	github.com/kagent-dev/kagent/go/core/test/e2e	47.162s
