@@ -1,0 +1,25 @@
+Dashboard
+Agents
+Schedules
+Models
+MCP Servers
+Prompts
+Substrate
+Documentation
+Dark theme
+Collapse
+ST
+story
+kagent
+Agent Details
+New chat
+Select all
+CHATS
+short hello · 1 minute ago
+short hello · 4 minutes ago
+short hello · 4 minutes ago
+You
+short hello
+Agent
+Short answer.
+Send

@@ -1,0 +1,51 @@
+apiVersion: v1
+kind: Service
+metadata: {name: mock-llm, namespace: kagent}
+spec:
+  ports: [{name: http, port: 18398}]
+---
+apiVersion: discovery.k8s.io/v1
+kind: EndpointSlice
+metadata:
+  name: mock-llm
+  namespace: kagent
+  labels: {kubernetes.io/service-name: mock-llm, endpointslice.kubernetes.io/managed-by: rv3398}
+addressType: IPv4
+ports: [{name: http, port: 18398, protocol: TCP}]
+endpoints: [{addresses: ["172.17.0.1"], conditions: {ready: true}}]
+---
+apiVersion: api.kagent.dev/v1alpha3
+kind: ModelConfig
+metadata: {name: story-model, namespace: kagent}
+spec:
+  provider: OpenAI
+  model: gpt-4.1-mini
+  apiKeySecret: kagent-openai
+  apiKeySecretKey: OPENAI_API_KEY
+  stream: true
+  openAI: {baseUrl: "http://mock-llm.kagent.svc.cluster.local:18398/v1"}
+---
+apiVersion: api.kagent.dev/v1alpha3
+kind: Harness
+metadata: {name: kagent, namespace: kagent}
+spec:
+  kagent: {}
+  workload: {image: localhost:5001/kagent-dev/kagent/golang-adk@sha256:6028e3cd107862ba350bf9731c22024699a5d53d19d174321d753502a6ec17fa}
+  substrate:
+    workerPoolRef: {name: kagent-default}
+    snapshotPolicy: {location: gs://ate-snapshots/kagent/}
+---
+apiVersion: api.kagent.dev/v1alpha3
+kind: AgentTemplate
+metadata: {name: story, namespace: kagent}
+spec:
+  description: Tells long stories, for crash recovery review
+  modelConfig: {name: story-model}
+  systemPrompt: Tell stories.
+---
+apiVersion: api.kagent.dev/v1alpha3
+kind: Agent
+metadata: {name: story, namespace: kagent}
+spec:
+  template: {ref: {name: story}}
+  harnessRef: {name: kagent}

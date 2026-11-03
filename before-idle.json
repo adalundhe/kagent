@@ -1,0 +1,47 @@
+{
+  "label": "before",
+  "scenario": "idle",
+  "events": [
+    {
+      "t": "0.5",
+      "event": "sent",
+      "text": "short hello"
+    },
+    {
+      "t": "0.5",
+      "event": "conversation",
+      "id": "01a1a2ee-8fc5-7c4e-8672-3e92bcfebecf"
+    },
+    {
+      "t": "1.3",
+      "event": "first turn complete"
+    },
+    {
+      "t": "1.5",
+      "event": "workers killed",
+      "output": "pod \"kagent-default-5cf894f566-9svrc\" force deleted from kagent namespace\npod \"kagent-default-5cf894f566-mpkpb\" force deleted from kagent namespace"
+    },
+    {
+      "t": "91.5",
+      "event": "no banner within 90s of the crash"
+    },
+    {
+      "t": "91.5",
+      "event": "composer",
+      "disabled": false
+    },
+    {
+      "t": "91.7",
+      "event": "screenshot",
+      "file": "before-idle.png"
+    }
+  ],
+  "session": "01a1a2ee-8fc5-7c4e-8672-3e92bcfebecf",
+  "bannerAfterSeconds": null,
+  "composerDisabled": false,
+  "sessionReadsAfterKill": 0,
+  "sessionReadTimes": [
+    "0.6",
+    "1.2"
+  ]
+}

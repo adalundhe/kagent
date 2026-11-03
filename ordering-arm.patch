@@ -1,0 +1,20 @@
+diff --git a/go/core/internal/database/session_recovery.go b/go/core/internal/database/session_recovery.go
+index 2305f08a..2debc0bf 100644
+--- a/go/core/internal/database/session_recovery.go
++++ b/go/core/internal/database/session_recovery.go
+@@ -10,6 +10,7 @@ import (
+ 	"github.com/jackc/pgx/v5"
+ 	"google.golang.org/protobuf/types/known/timestamppb"
+ 
++	apia2a "github.com/kagent-dev/kagent/go/api/a2a"
+ 	apiv1 "github.com/kagent-dev/kagent/go/api/gen/kagent/api/v1"
+ )
+ 
+@@ -242,6 +243,7 @@ func settleCrashedSessionTask(ctx context.Context, tx pgx.Tx, session sessionRow
+ 		if !task.Status.State.Terminal() {
+ 			task.Status = a2a.TaskStatus{State: a2a.TaskStateFailed, Timestamp: new(time.Now().UTC()),
+ 				Message: a2a.NewMessage(a2a.MessageRoleAgent, a2a.NewTextPart("The runtime crashed before this turn completed. Send a new message to continue."))}
++			apia2a.SetTimelinePosition(task.Status.Message, *task.Status.Timestamp)
+ 			event := &a2a.TaskStatusUpdateEvent{TaskID: task.ID, ContextID: task.ContextID, Status: task.Status}
+ 			if err := storeSessionTaskEvent(ctx, tx, session, task, event, false); err != nil {
+ 				return err

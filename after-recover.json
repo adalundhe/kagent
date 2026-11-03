@@ -1,0 +1,183 @@
+{
+  "label": "after",
+  "scenario": "recover",
+  "events": [
+    {
+      "t": "0.4",
+      "event": "sent",
+      "text": "short hello"
+    },
+    {
+      "t": "0.5",
+      "event": "conversation",
+      "id": "01a1a2ec-68bb-7f13-a5c1-516daa145f23"
+    },
+    {
+      "t": "1.3",
+      "event": "first turn complete"
+    },
+    {
+      "t": "2.6",
+      "event": "snapshot saved"
+    },
+    {
+      "t": "2.7",
+      "event": "sent",
+      "text": "Tell me a long story"
+    },
+    {
+      "t": "19.4",
+      "event": "long reply streaming"
+    },
+    {
+      "t": "19.5",
+      "event": "workers killed",
+      "output": "pod \"kagent-default-5cf894f566-fwjcz\" force deleted from kagent namespace\npod \"kagent-default-5cf894f566-wggjq\" force deleted from kagent namespace"
+    },
+    {
+      "t": "19.6",
+      "event": "banner shown"
+    },
+    {
+      "t": "42.6",
+      "event": "Session reads in 20s while crashed",
+      "reads": 5
+    },
+    {
+      "t": "42.6",
+      "event": "banner",
+      "buttons": [
+        "Revert to last snapshot"
+      ],
+      "pickers": 0,
+      "text": "The agent runtime crashed\nRevert to the last runtime snapshot to continue this conversation. To start a new conversation instead, fork a saved snapshot from the transcript. The reverted agent does not remember messages sent after that snapshot.\nRevert to last snapshot",
+      "dividerForks": 1
+    },
+    {
+      "t": "42.8",
+      "event": "screenshot",
+      "file": "after-crashed.png"
+    },
+    {
+      "t": "42.9",
+      "event": "revert clicked"
+    },
+    {
+      "t": "43.0",
+      "event": "composer enabled after revert"
+    },
+    {
+      "t": "48.0",
+      "event": "transcript",
+      "messages": [
+        {
+          "role": "user",
+          "discarded": null,
+          "liveRegions": 0,
+          "text": "Youshort hello"
+        },
+        {
+          "role": "agent",
+          "discarded": null,
+          "liveRegions": 0,
+          "text": "AgentShort answer."
+        },
+        {
+          "role": "user",
+          "discarded": "message",
+          "liveRegions": 0,
+          "text": "YouTell me a long storyThe runtime crashed during this turn. After recovery, the agent does not remember this message or the replies after it."
+        },
+        {
+          "role": "agent",
+          "discarded": "reply",
+          "liveRegions": 0,
+          "text": "Agent· Not remembered after recoveryThe runtime crashed before this turn completed. Send a new message to continue."
+        },
+        {
+          "role": "agent",
+          "discarded": "reply",
+          "liveRegions": 0,
+          "text": "Agent· Not remembered after recoveryOnce upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse keeper counted the ships t"
+        }
+      ]
+    },
+    {
+      "t": "48.2",
+      "event": "screenshot",
+      "file": "after-reverted.png"
+    }
+  ],
+  "session": "01a1a2ec-68bb-7f13-a5c1-516daa145f23",
+  "sessionReadsIn20sWhileCrashed": 5,
+  "banner": {
+    "buttons": [
+      "Revert to last snapshot"
+    ],
+    "pickers": 0,
+    "text": "The agent runtime crashed\nRevert to the last runtime snapshot to continue this conversation. To start a new conversation instead, fork a saved snapshot from the transcript. The reverted agent does not remember messages sent after that snapshot.\nRevert to last snapshot",
+    "dividerForks": 1
+  },
+  "transcript": [
+    {
+      "role": "user",
+      "discarded": null,
+      "liveRegions": 0,
+      "text": "Youshort hello"
+    },
+    {
+      "role": "agent",
+      "discarded": null,
+      "liveRegions": 0,
+      "text": "AgentShort answer."
+    },
+    {
+      "role": "user",
+      "discarded": "message",
+      "liveRegions": 0,
+      "text": "YouTell me a long storyThe runtime crashed during this turn. After recovery, the agent does not remember this message or the replies after it."
+    },
+    {
+      "role": "agent",
+      "discarded": "reply",
+      "liveRegions": 0,
+      "text": "Agent· Not remembered after recoveryThe runtime crashed before this turn completed. Send a new message to continue."
+    },
+    {
+      "role": "agent",
+      "discarded": "reply",
+      "liveRegions": 0,
+      "text": "Agent· Not remembered after recoveryOnce upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse keeper counted the ships t"
+    }
+  ],
+  "sessionReadTimes": [
+    "0.5",
+    "1.0",
+    "3.7",
+    "4.7",
+    "5.7",
+    "6.7",
+    "7.7",
+    "8.7",
+    "9.7",
+    "10.7",
+    "11.7",
+    "12.7",
+    "13.7",
+    "14.7",
+    "15.7",
+    "16.7",
+    "17.7",
+    "18.7",
+    "19.6",
+    "23.6",
+    "27.6",
+    "31.6",
+    "35.6",
+    "39.6",
+    "42.9",
+    "43.0",
+    "43.6",
+    "47.6"
+  ]
+}

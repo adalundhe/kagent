@@ -1,0 +1,7 @@
+{"t":"0.7","event":"sent","text":"short hello"}
+{"t":"0.9","event":"conversation","id":"01a1a2ec-49cd-77e1-9a78-62040c387128"}
+{"t":"2.7","event":"first turn complete"}
+{"t":"2.8","event":"workers killed","output":"pod \"kagent-default-5cf894f566-7n9j2\" force deleted from kagent namespace\npod \"kagent-default-5cf894f566-9xh7x\" force deleted from kagent namespace"}
+{"t":"6.6","event":"banner shown without reload","seconds":3.807}
+{"t":"6.6","event":"composer","disabled":true}
+{"t":"6.8","event":"screenshot","file":"after-idle.png"}

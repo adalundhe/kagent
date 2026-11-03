@@ -1,0 +1,40 @@
+Dashboard
+Agents
+Schedules
+Models
+MCP Servers
+Prompts
+Substrate
+Documentation
+Dark theme
+Collapse
+ST
+story
+kagent
+Agent Details
+New chat
+Select all
+CHATS
+short hello · 1 minute ago
+short hello · 1 minute ago
+You
+short hello
+Agent
+Short answer.
+Snapshot “01a1a2ec-68bb-7f13-a5c1-516daa145f23-01a1a2ec-6a87-7560-9a21-a0378de81da7”
+Fork
+Rename
+Delete
+You
+Tell me a long story
+The runtime crashed during this turn. After recovery, the agent does not remember this message or the replies after it.
+Agent
+· Not remembered after recovery
+The runtime crashed before this turn completed. Send a new message to continue.
+Agent
+· Not remembered after recovery
+Once upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse
+The agent could not finish this turn
+server closed the stream without sending trailers
+Retry
+Send

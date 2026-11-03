@@ -1,0 +1,42 @@
+Dashboard
+Agents
+Schedules
+Models
+MCP Servers
+Prompts
+Substrate
+Documentation
+Dark theme
+Collapse
+ST
+story
+kagent
+Agent Details
+New chat
+Select all
+CHATS
+short hello · 1 minute ago
+short hello · 2 minutes ago
+short hello · 5 minutes ago
+short hello · 5 minutes ago
+The agent runtime crashed
+Revert to the last runtime snapshot, or start a new conversation from a saved snapshot. Recovery does not replay messages it did not retain.
+Revert to last snapshot
+Choose a saved snapshot
+Fork snapshot
+You
+short hello
+Agent
+Short answer.
+Snapshot “01a1a2ef-fc5e-7d4b-a405-b9c6799bf7b2-01a1a2ef-fdfa-7dcf-8144-2178f6c0428f”
+Fork
+Rename
+Delete
+You
+Tell me a long story
+Agent
+Once upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse
+The agent could not finish this turn
+server closed the stream without sending trailers
+Send
+Take a snapshot. You can fork the chat from one later.

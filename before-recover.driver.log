@@ -1,0 +1,15 @@
+{"t":"0.5","event":"sent","text":"short hello"}
+{"t":"0.6","event":"conversation","id":"01a1a2ef-fc5e-7d4b-a405-b9c6799bf7b2"}
+{"t":"1.4","event":"first turn complete"}
+{"t":"1.5","event":"snapshot saved"}
+{"t":"1.6","event":"sent","text":"Tell me a long story"}
+{"t":"18.1","event":"long reply streaming"}
+{"t":"18.3","event":"workers killed","output":"pod \"kagent-default-5cf894f566-l6k5k\" force deleted from kagent namespace\npod \"kagent-default-5cf894f566-qvsjh\" force deleted from kagent namespace"}
+{"t":"18.4","event":"banner shown"}
+{"t":"41.4","event":"Session reads in 20s while crashed","reads":20}
+{"t":"41.4","event":"banner","buttons":["Revert to last snapshot","Fork snapshot"],"pickers":1,"text":"The agent runtime crashed\nRevert to the last runtime snapshot, or start a new conversation from a saved snapshot. Recovery does not replay messages it did not retain.\nRevert to last snapshot\nChoose a saved snapshot\nFork snapshot","dividerForks":1}
+{"t":"41.5","event":"screenshot","file":"before-crashed.png"}
+{"t":"41.6","event":"revert clicked"}
+{"t":"41.6","event":"composer enabled after revert"}
+{"t":"46.6","event":"transcript","messages":[{"role":"user","discarded":null,"liveRegions":0,"text":"Youshort hello"},{"role":"agent","discarded":null,"liveRegions":0,"text":"AgentShort answer."},{"role":"user","discarded":null,"liveRegions":1,"text":"YouTell me a long storyFailed to send — the recovered agent did not retain this message."},{"role":"agent","discarded":null,"liveRegions":0,"text":"AgentThe runtime crashed before this turn completed. Send a new message to continue."},{"role":"agent","discarded":null,"liveRegions":0,"text":"AgentOnce upon a time a lighthouse keeper counted the ships that passed. Once upon a time a lighthouse keeper counted the ships that passed. Once upon a time a "}]}
+{"t":"46.8","event":"screenshot","file":"before-reverted.png"}

@@ -1,0 +1,26 @@
+Dashboard
+Agents
+Schedules
+Models
+MCP Servers
+Prompts
+Substrate
+Documentation
+Dark theme
+Collapse
+ST
+story
+kagent
+Agent Details
+New chat
+Select all
+CHATS
+short hello · less than a minute ago
+The agent runtime crashed
+Revert to the last runtime snapshot to continue this conversation. The reverted agent does not remember messages sent after that snapshot.
+Revert to last snapshot
+You
+short hello
+Agent
+Short answer.
+Send
