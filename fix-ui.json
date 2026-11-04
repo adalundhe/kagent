@@ -1,0 +1,67 @@
+{
+  "url": "http://127.0.0.1:28498/agents/01a1a4e6-407c-71b6-a4e1-063e9aebda4a/chat",
+  "steps": [
+    {
+      "at": "04:56:01.870",
+      "step": "pending",
+      "alert": "Recovering this conversation\nAutomatic recovery will restore the last runtime snapshot. If it does not finish, revert now to continue this conversation. To start a new conversation instead, fork a saved snapshot from the transcript. The reverted agent does not remember messages sent after that snapshot.\nRevert to last snapshot",
+      "revertButtons": 1,
+      "revertEnabled": true,
+      "alertForkButtons": 0,
+      "snapshotForkButtons": 1,
+      "alertInView": true,
+      "forkInView": true
+    },
+    {
+      "at": "04:56:02.020",
+      "step": "screenshot ui-fixed3-pending.png"
+    },
+    {
+      "at": "04:56:16.715",
+      "step": "after atelet restore",
+      "alerts": 1
+    },
+    {
+      "at": "04:56:24.920",
+      "step": "forked",
+      "url": "http://127.0.0.1:28498/agents/01a1a4ea-3cbb-7692-88c1-4f74081c468e/chat",
+      "opened": true
+    },
+    {
+      "at": "04:56:25.028",
+      "step": "screenshot ui-fixed3-forked.png"
+    },
+    {
+      "at": "04:56:27.199",
+      "step": "clicked Revert"
+    },
+    {
+      "at": "04:56:31.314",
+      "step": "reverted",
+      "alertAfterRevert": 0,
+      "notRememberedLabels": 1
+    },
+    {
+      "at": "04:56:31.440",
+      "step": "screenshot ui-fixed3-after-revert.png"
+    }
+  ],
+  "pending": {
+    "alert": "Recovering this conversation\nAutomatic recovery will restore the last runtime snapshot. If it does not finish, revert now to continue this conversation. To start a new conversation instead, fork a saved snapshot from the transcript. The reverted agent does not remember messages sent after that snapshot.\nRevert to last snapshot",
+    "revertButtons": 1,
+    "revertEnabled": true,
+    "alertForkButtons": 0,
+    "snapshotForkButtons": 1,
+    "alertInView": true,
+    "forkInView": true
+  },
+  "stillPendingAfterRestore": 1,
+  "fork": {
+    "url": "http://127.0.0.1:28498/agents/01a1a4ea-3cbb-7692-88c1-4f74081c468e/chat",
+    "opened": true,
+    "text": "IN\ninteraction-xvnhn\nkagent\nAgent Details\nNew chat\nSelect all\nCHATS\n01a1a4e6-407c-71b6-a4e1-063e9aebda4a-01a1a4e6-41bc-7ead-b1e3-64605756f8e6 · less than a minute ago\nWhat is 2+2? · 4 minutes ago\nYou\nWhat is 2+2?\nAgent\n\nThe answer is 4.\n\nSend"
+  },
+  "alertsBeforeRevert": 1,
+  "alertAfterRevert": 0,
+  "notRememberedLabels": 1
+}

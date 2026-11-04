@@ -1,0 +1,10 @@
+[01:35:05.565] created 1 Sessions in 0s; target 01a1a432-0b17-7228-9801-c2e2a8578989 is the newest, and Session IDs are time-ordered, so it sorts after every READY Session
+[01:35:08.013] checkpoint 01a1a432-13ce-7ccd-a7e1-b09aaab7c975 ready
+[01:35:08.518] deleted worker kagent-default-5cf894f566-wl8p2 running session-01a1a432-0b17-7228-9801-c2e2a8578989 (task 01a1a432-1652-7eac-afa1-a67cb2f02b46); 23s since the recovery policy rollout
+[01:35:08.729] Substrate reports session-01a1a432-0b17-7228-9801-c2e2a8578989 CRASHED 200ms after the worker deletion
+[01:35:08.740] recovery needed: needed=true automatic=true state=RUNTIME_STATE_READY operation=RUNTIME_OPERATION_NONE
+[01:38:43.742] automatic recovery admitted 3m35s after the worker deletion
+[01:39:03.755] automatic recovery pending 20s after admission: needed=true automatic=true state=RUNTIME_STATE_FAILED operation=RUNTIME_OPERATION_RESUME failure="RuntimeCrashed"
+[01:40:13.763] after UI step: recovered=false state=RUNTIME_STATE_FAILED needed=true failed_messages=1
+--- PASS: TestRV3399Evidence (336.21s)
+ok  	github.com/kagent-dev/kagent/go/core/test/e2e	336.268s

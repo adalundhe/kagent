@@ -1,0 +1,2 @@
+{"service": "kagent-controller", "span": "kagent.api.v1.CheckpointService/ForkSession", "trace_id": "34982c71428b2aef4a9bca1c8266e8be", "duration_ms": 46, "rpc.response.status_code": "OK"}
+{"service": "kagent-controller", "span": "kagent.api.v1.SessionService/RevertSession", "trace_id": "58ddf85b5377b507c1b7658227a969c2", "duration_ms": 52, "rpc.response.status_code": "OK"}

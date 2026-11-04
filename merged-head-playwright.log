@@ -1,0 +1,49 @@
+01:39:14.721 pending {"alert":"Recovering this conversation\nAutomatic recovery will restore the last runtime snapshot. If it does not finish, revert now to continue this conversation. To start a new conversation instead, fork a saved snapshot from the transcript. The reverted agent does not remember messages sent after that snapshot.\nRevert to last snapshot","revertButtons":1,"alertForkButtons":0,"snapshotForkButtons":1,"alertInView":true,"forkInView":true}
+01:39:15.095 screenshot ui-merged-pending.png {}
+01:39:30.530 after atelet restore {"alerts":1}
+01:39:38.904 forked {"url":"http://127.0.0.1:28498/agents/01a1a436-1711-7463-913e-24449394e51b/chat","opened":true}
+01:39:39.098 screenshot ui-merged-forked.png {}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: 'Revert to last snapshot' }).first()
+    - locator resolved to <button disabled type="button" class="ant-btn css-eofgey css-var-_r_0_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-loading">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    56 × waiting for element to be visible, enabled and stable
+       - element is not enabled
+     - retrying click action
+       - waiting 500ms
+
+    at /tmp/ui.mjs:72:24 {
+  log: [
+    "  - waiting for getByRole('button', { name: 'Revert to last snapshot' }).first()",
+    '    - locator resolved to <button disabled type="button" class="ant-btn css-eofgey css-var-_r_0_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-loading">…</button>',
+    '  - attempting click action',
+    '    2 × waiting for element to be visible, enabled and stable',
+    '      - element is not enabled',
+    '    - retrying click action',
+    '    - waiting 20ms',
+    '    2 × waiting for element to be visible, enabled and stable',
+    '      - element is not enabled',
+    '    - retrying click action',
+    '      - waiting 100ms',
+    '    56 × waiting for element to be visible, enabled and stable',
+    '       - element is not enabled',
+    '     - retrying click action',
+    '       - waiting 500ms'
+  ],
+  name: 'TimeoutError'
+}
+
+Node.js v24.21.0

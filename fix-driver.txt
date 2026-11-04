@@ -1,0 +1,19 @@
+# Driver log at 5ae5c00a: automatic recovery on, interval 4m, atelet held off the nodes after the crash
+[04:51:55.681] created 1 Sessions in 0s; target 01a1a4e6-407c-71b6-a4e1-063e9aebda4a is the newest, and Session IDs are time-ordered, so it sorts after every READY Session
+[04:51:57.215] checkpoint 01a1a4e6-4665-7072-9ed9-74e4facb3f0b ready
+[04:51:57.529] deleted worker kagent-default-5cf894f566-9q8lx running session-01a1a4e6-407c-71b6-a4e1-063e9aebda4a (task 01a1a4e6-4793-713e-9f73-5141fe76b8c2); 21s since the recovery policy rollout
+[04:51:57.737] Substrate reports session-01a1a4e6-407c-71b6-a4e1-063e9aebda4a CRASHED 200ms after the worker deletion
+[04:51:57.744] recovery needed: needed=true automatic=true state=RUNTIME_STATE_READY operation=RUNTIME_OPERATION_NONE
+[04:55:34.746] automatic recovery admitted 3m37s after the worker deletion
+[04:55:54.766] automatic recovery pending 20s after admission: needed=true automatic=true state=RUNTIME_STATE_FAILED operation=RUNTIME_OPERATION_RESUME failure="RuntimeCrashed"
+[04:56:32.777] after UI step: recovered=true state=RUNTIME_STATE_READY needed=false failed_messages=1
+--- PASS: TestRV3399Evidence (302.82s)
+ok  	github.com/kagent-dev/kagent/go/core/test/e2e	302.857s
+
+# Hold steps
+[04:51:58] atelet held off every node
+[04:55:55] pending state reached; running Playwright
+[04:56:16] atelet restored: 1 running
+[04:56:31] shots exit 0
+NAME                                 READY   STATUS    RESTARTS   AGE   IP            NODE                    NOMINATED NODE   READINESS GATES
+[04:56:36] driver exit 0; evidence in /home/adalundhe/rv3399b/evidence/ui-fixed3
